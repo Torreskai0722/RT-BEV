@@ -10,24 +10,50 @@
 - Integration with ROS for seamless camera synchronization and data publishing.
 - Pre-trained models for fast and efficient inference.
 
+### End-to-End BEV Perception Pipeline
+
+The following figure illustrates the end-to-end BEV perception pipeline used in RT-BEV:
+
+![E2E BEV Perception Pipeline](./doc/figures/e2e_bev_pipeline.png)
+
 ## System Design
 
-The system is designed with a multi-module approach that enables efficient data processing, real-time synchronization, and seamless integration with autonomous vehicle systems. The core modules of the RT-BEV system include:
+The system is designed with a modular architecture, allowing efficient data processing, real-time synchronization, and seamless integration with autonomous vehicle systems. The core modules of RT-BEV include:
 
 1. **Camera Synchronization**: A multi-camera synchronization node ensures that all camera feeds are aligned before processing.
 2. **Inference Engine**: The BEV inference module processes the synchronized images to generate a bird's eye view.
 3. **Data Publishing**: The camera images are published via ROS to allow real-time processing by other modules.
 
-The system leverages state-of-the-art BEV perception algorithms, such as BEVFormer and others, to transform camera images into an accurate overhead view, capturing critical details for navigation and obstacle avoidance.
+The design architecture is shown in the following figure:
+
+![System Design](./doc/figures/system_design.png)
+
+The system leverages state-of-the-art BEV perception algorithms to transform camera images into accurate overhead views, capturing critical details for navigation and obstacle avoidance.
 
 ## Implementation
 
-The RT-BEV system is implemented in Python, using **PyTorch** as the deep learning framework and **ROS** for real-time data processing and synchronization. Key implementation details include:
+The RT-BEV system is implemented using **Python** with **PyTorch** as the deep learning framework and **ROS** for real-time data processing and synchronization. Key components include:
 
-- **Torch Inference**: PyTorch-based models are used to process the images and generate BEV outputs.
-- **ROS Integration**: ROS nodes manage camera synchronization, image publishing, and BEV processing, ensuring smooth communication between the different components.
+- **Torch Inference**: PyTorch models are used to process the images and generate BEV outputs.
+- **ROS Integration**: ROS nodes manage camera synchronization, image publishing, and BEV processing.
 
-The Docker image for RT-BEV already includes all necessary dependencies and pre-trained models, simplifying the setup process.
+## Installation and Setup
+
+To set up the environment, prepare the datasets, and run the system, please refer to the following guides:
+
+- [Installation Guide](./doc/INSTALL.md)
+- [Dataset Preparation Guide](./doc/DATA_PREP.md)
+- [Running RT-BEV](./doc/RUN.md)
+
+The **nuScenes V1.0 mini** dataset is already included in the Docker container, so no additional setup is required for testing.
+
+### Installation Overview
+
+Follow the steps in the [Installation Guide](./doc/INSTALL.md) to install all necessary dependencies. The guide will walk you through the environment setup using either a Docker container or a non-Docker approach.
+
+A brief visualization of the installation and dataset preparation process:
+
+![Installation and Dataset Preparation](./doc/figures/installation_dataset_prep.png)
 
 ## Usage Instructions
 
@@ -61,19 +87,7 @@ The Docker image for RT-BEV already includes all necessary dependencies and pre-
    rosrun video_stream_opencv ros_publish_multi_cameras.py
    ```
 
-The **nuScenes V1.0 mini** dataset is pre-installed in the Docker container for testing purposes, and you can use it directly without additional setup.
-
-### nuScenes V1.0 Full Dataset Setup (Optional):
-
-If you wish to use the **nuScenes V1.0 full** dataset, follow these steps:
-
-1. Download the dataset from [nuScenes](https://www.nuscenes.org/download) and place it in the `RT-BEV/nuscenes-full` directory.
-2. Generate or download the necessary data information files:
-   ```bash
-   cd RT-BEV/nuscenes-full
-   ./tools/uniad_create_data.sh
-   ```
-3. Place the pre-trained weights and motion anchors in the appropriate directories.
+For a more detailed explanation, refer to the [Running RT-BEV](./doc/RUN.md) guide.
 
 ## Results
 
@@ -82,8 +96,6 @@ RT-BEV has been evaluated on the **nuScenes V1.0** dataset, achieving real-time 
 - **Accurate BEV representations** with minimal latency.
 - **Efficient multi-camera synchronization** ensuring smooth image processing.
 - Robust handling of complex driving scenarios with multiple dynamic and static objects.
-
-Detailed evaluation results can be found in our publication.
 
 ## Citation
 
@@ -97,3 +109,19 @@ If you use this work, please cite it using the following reference:
   year={2024}
 }
 ```
+
+---
+
+### Additional Documentation:
+- [Installation Guide](./doc/INSTALL.md)
+- [Dataset Preparation Guide](./doc/DATA_PREP.md)
+- [Running RT-BEV](./doc/RUN.md)
+
+---
+
+### Figures and Illustrations
+
+Ensure that the following images are placed in the `doc/figures/` directory:
+1. `e2e_bev_pipeline.png`: End-to-end BEV perception pipeline.
+2. `system_design.png`: RT-BEV system design.
+3. `installation_dataset_prep.png`: Illustration of the installation and dataset preparation process.
