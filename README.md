@@ -14,7 +14,7 @@
 
 The following figure illustrates the end-to-end BEV perception pipeline used in RT-BEV:
 
-![E2E BEV Perception Pipeline](./doc/figures/e2e_bev_pipeline.png)
+![E2E BEV Perception Pipeline](./doc/figures/BEV-e2e-pipeline.pdf)
 
 ## System Design
 
@@ -26,7 +26,7 @@ The system is designed with a modular architecture, allowing efficient data proc
 
 The design architecture is shown in the following figure:
 
-![System Design](./doc/figures/system_design.png)
+![System Design](./doc/figures/RT-BEV-Design.pdf)
 
 The system leverages state-of-the-art BEV perception algorithms to transform camera images into accurate overhead views, capturing critical details for navigation and obstacle avoidance.
 
