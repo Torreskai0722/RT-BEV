@@ -64,6 +64,3 @@ UniAD
 │   │   ├── motion_anchor_infos_mode6.pkl
 ```
 ---
-<- Last Page:  [Installation](./INSTALL.md)
-
--> Next Page: [Train/Eval UniAD](./TRAIN_EVAL.md)
