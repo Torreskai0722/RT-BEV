@@ -88,4 +88,4 @@ wget https://github.com/OpenDriveLab/UniAD/releases/download/v1.0/uniad_base_e2e
 
 ---
 
-**Next Page**: [Prepare The Dataset](./UniAD/docs/DATA_PREP.md)
+**Next Page**: [Prepare The Dataset](/UniAD/docs/DATA_PREP.md)
