@@ -1,8 +1,0 @@
-prefix=/home/mobilitylab/catkin_ws/install
-
-Name: vision_msgs
-Description: Description of vision_msgs
-Version: 0.0.1
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime std_msgs sensor_msgs geometry_msgs

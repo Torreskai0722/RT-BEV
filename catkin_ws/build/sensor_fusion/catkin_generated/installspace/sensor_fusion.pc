@@ -1,8 +1,0 @@
-prefix=/home/mobilitylab/catkin_ws/install
-
-Name: sensor_fusion
-Description: Description of sensor_fusion
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

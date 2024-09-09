@@ -1,8 +1,0 @@
-prefix=/home/mobilitylab/catkin_ws/install
-
-Name: object_msgs
-Description: Description of object_msgs
-Version: 0.3.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: std_msgs sensor_msgs message_runtime
