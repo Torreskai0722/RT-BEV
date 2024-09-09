@@ -1,5 +1,3 @@
-Here is the updated section for Docker users, along with the installation instructions for non-Docker users:
-
 ### For Docker Users (recommended)
 
 If you're using Docker, simply run the script to set everything up:
@@ -91,7 +89,3 @@ wget https://github.com/OpenDriveLab/UniAD/releases/download/v1.0/uniad_base_e2e
 ---
 
 **Next Page**: [Prepare The Dataset](./DATA_PREP.md)
-
----
-
-This provides clear instructions for both Docker and non-Docker users to set up their environment. Let me know if you need any further modifications!
