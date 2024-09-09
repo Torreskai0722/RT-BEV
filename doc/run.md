@@ -10,6 +10,12 @@ This guide explains how to run the **RT-BEV** system for both Docker and non-Doc
 
 ### For Docker Users:
 
+Launch RT-BEV docker image:
+
+```bash
+./docker/rt-bev.sh
+```
+
 #### Step 1: Open Four Terminals
 
 To begin, open **four** separate terminals and connect them to the same running Docker container by using the following command in each terminal:
