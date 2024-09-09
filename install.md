@@ -1,19 +1,32 @@
-# Installation (for non-docker user)
+Here is the updated section for Docker users, along with the installation instructions for non-Docker users:
+
+### For Docker Users (recommended)
+
+If you're using Docker, simply run the script to set everything up:
+
+```bash
+./docker/rt-bev.sh
+```
+
+---
+
+### Installation (For Non-Docker Users)
+
 > Modified from UniAD and mmdetection3d.
 
-**a. Env: Create a conda virtual environment and activate it.**
+#### a. **Env: Create a conda virtual environment and activate it.**
 ```shell
 conda create -n uniad python=3.8 -y
 conda activate uniad
 ```
 
-**b. Torch: Install PyTorch and torchvision following the [official instructions](https://pytorch.org/).**
+#### b. **Torch: Install PyTorch and torchvision following the [official instructions](https://pytorch.org/).**
 ```shell
 pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
 # Recommended torch>=1.9
 ```
 
-**c. GCC: Make sure gcc>=5 in conda env.**
+#### c. **GCC: Make sure gcc>=5 in conda env.**
 ```shell
 # If gcc is not installed:
 # conda install -c omgarcia gcc-6 # gcc-6.2
@@ -22,27 +35,26 @@ export PATH=YOUR_GCC_PATH/bin:$PATH
 # Eg: export PATH=/mnt/gcc-5.4/bin:$PATH
 ```
 
-**d. CUDA: Before installing MMCV family, you need to set up the CUDA_HOME (for compiling some operators on the gpu).**
+#### d. **CUDA: Before installing MMCV family, you need to set up the CUDA_HOME (for compiling some operators on the GPU).**
 ```shell
 export CUDA_HOME=YOUR_CUDA_PATH/
 # Eg: export CUDA_HOME=/mnt/cuda-11.1/
 ```
 
-
-**e. Install mmcv-full.**
+#### e. **Install mmcv-full.**
 ```shell
 pip install mmcv-full==1.4.0
 # If it's not working, try:
 # pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.0/index.html
 ```
 
-**f. Install mmdet and mmseg.**
+#### f. **Install mmdet and mmseg.**
 ```shell
 pip install mmdet==2.14.0
 pip install mmsegmentation==0.14.1
 ```
 
-**g. Install mmdet3d from source code.**
+#### g. **Install mmdet3d from source code.**
 ```shell
 cd ~
 git clone https://github.com/open-mmlab/mmdetection3d.git
@@ -52,7 +64,7 @@ python setup.py install
 pip install -r requirements.txt  # Install packages for mmdet3d
 ```
 
-**h. Install UniAD.**
+#### h. **Install UniAD.**
 ```shell
 cd ~
 git clone https://github.com/OpenDriveLab/UniAD.git
@@ -60,8 +72,7 @@ cd UniAD
 pip install -r requirements.txt
 ```
 
-
-**i. Prepare pretrained weights.**
+#### i. **Prepare pretrained weights.**
 ```shell
 cd UniAD
 mkdir ckpts && cd ckpts
@@ -78,4 +89,9 @@ wget https://github.com/OpenDriveLab/UniAD/releases/download/v1.0/uniad_base_e2e
 ```
 
 ---
--> Next Page: [Prepare The Dataset](./DATA_PREP.md)
+
+**Next Page**: [Prepare The Dataset](./DATA_PREP.md)
+
+---
+
+This provides clear instructions for both Docker and non-Docker users to set up their environment. Let me know if you need any further modifications!
