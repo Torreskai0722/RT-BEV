@@ -1,7 +1,3 @@
-Here’s a detailed `run.md` file describing how to run **RT-BEV** for both Docker and non-Docker users:
-
----
-
 # RT-BEV: How to Run
 
 This guide explains how to run the **RT-BEV** system for both Docker and non-Docker users. For Docker users, you'll need to open four terminals connected to the same Docker container and run the corresponding commands in each terminal.
@@ -86,7 +82,3 @@ If you are not using Docker, make sure to follow the **installation steps** outl
 
 - Ensure that all the ROS nodes are communicating correctly by verifying that no errors appear in any of the terminals.
 - The system processes camera images in real-time, so make sure the camera streams are active and correctly configured before running the inference.
-  
----
-
-This guide should get **RT-BEV** up and running for both Docker and non-Docker users. Let me know if you need further details!
