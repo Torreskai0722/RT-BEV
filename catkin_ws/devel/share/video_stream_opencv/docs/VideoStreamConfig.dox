@@ -1,0 +1,26 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~camera_name" : \b [str] Camera name min: , default: camera, max: 
+- \b "~set_camera_fps" : \b [double] Image Publish Rate min: 0.0, default: 30.0, max: 1000.0
+- \b "~buffer_queue_size" : \b [int] Buffer size for capturing frames min: 1, default: 100, max: 1000
+- \b "~fps" : \b [double] Image Publish Rate min: 0.0, default: 240.0, max: 1000.0
+- \b "~frame_id" : \b [str] Camera FrameID min: , default: camera, max: 
+- \b "~camera_info_url" : \b [str] Camera info URL min: , default: , max: 
+- \b "~flip_horizontal" : \b [bool] Flip image horizontally min: False, default: False, max: True
+- \b "~flip_vertical" : \b [bool] Flip image vertically min: False, default: False, max: True
+- \b "~width" : \b [int] Target width min: 0, default: 0, max: 10000
+- \b "~height" : \b [int] Target height min: 0, default: 0, max: 10000
+- \b "~brightness" : \b [double] Target brightness min: 0.0, default: 0.5019607843137255, max: 1.0
+- \b "~contrast" : \b [double] Target contrast min: 0.0, default: 0.12549019607843137, max: 1.0
+- \b "~hue" : \b [double] Target hue min: 0.0, default: 0.5, max: 1.0
+- \b "~saturation" : \b [double] Target saturation min: 0.0, default: 0.64, max: 1.0
+- \b "~auto_exposure" : \b [bool] Target auto exposure min: False, default: True, max: True
+- \b "~exposure" : \b [double] Target exposure min: 0.0, default: 0.5, max: 1.0
+- \b "~loop_videofile" : \b [bool] Loop videofile min: False, default: False, max: True
+- \b "~reopen_on_read_failure" : \b [bool] Re-open camera device on read failure min: False, default: False, max: True
+- \b "~output_encoding" : \b [str] Output encoding min: , default: bgr8, max: 
+- \b "~start_frame" : \b [int] Start frame of the video  min: 0, default: 0, max: 2147483647
+- \b "~stop_frame" : \b [int] Stop frame of the video min: -1, default: -1, max: 2147483647
+

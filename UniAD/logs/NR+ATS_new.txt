@@ -1,0 +1,2800 @@
+projects.mmdet3d_plugin
+======
+Loading NuScenes tables for version v1.0-mini...
+23 category,
+8 attribute,
+4 visibility,
+911 instance,
+12 sensor,
+120 calibrated_sensor,
+31206 ego_pose,
+8 log,
+10 scene,
+404 sample,
+31206 sample_data,
+18538 sample_annotation,
+4 map,
+Done loading in 0.288 seconds.
+======
+Reverse indexing ...
+Done reverse indexing in 0.0 seconds.
+======
+WARNING!!!!, Only can be used for obtain inference speed!!!!
+======
+Loading NuScenes tables for version v1.0-mini...
+23 category,
+8 attribute,
+4 visibility,
+911 instance,
+12 sensor,
+120 calibrated_sensor,
+31206 ego_pose,
+8 log,
+10 scene,
+404 sample,
+31206 sample_data,
+18538 sample_annotation,
+4 map,
+Done loading in 0.290 seconds.
+======
+Reverse indexing ...
+Done reverse indexing in 0.0 seconds.
+======
+load checkpoint from local path: /home/mobilitylab/UniAD/ckpts/uniad_base_track_map.pth
+The model and loaded state dict do not match exactly
+
+unexpected key in source state_dict: bbox_size_fc.weight, bbox_size_fc.bias, occ_head.bev_light_proj.conv_layers.0.conv.weight, occ_head.bev_light_proj.conv_layers.0.bn.weight, occ_head.bev_light_proj.conv_layers.0.bn.bias, occ_head.bev_light_proj.conv_layers.0.bn.running_mean, occ_head.bev_light_proj.conv_layers.0.bn.running_var, occ_head.bev_light_proj.conv_layers.0.bn.num_batches_tracked, occ_head.bev_light_proj.conv_layers.1.conv.weight, occ_head.bev_light_proj.conv_layers.1.bn.weight, occ_head.bev_light_proj.conv_layers.1.bn.bias, occ_head.bev_light_proj.conv_layers.1.bn.running_mean, occ_head.bev_light_proj.conv_layers.1.bn.running_var, occ_head.bev_light_proj.conv_layers.1.bn.num_batches_tracked, occ_head.bev_light_proj.conv_layers.2.conv.weight, occ_head.bev_light_proj.conv_layers.2.bn.weight, occ_head.bev_light_proj.conv_layers.2.bn.bias, occ_head.bev_light_proj.conv_layers.2.bn.running_mean, occ_head.bev_light_proj.conv_layers.2.bn.running_var, occ_head.bev_light_proj.conv_layers.2.bn.num_batches_tracked, occ_head.bev_light_proj.conv_layers.3.weight, occ_head.bev_light_proj.conv_layers.3.bias, occ_head.base_downscale.0.layers.conv_down_project.weight, occ_head.base_downscale.0.layers.abn_down_project.0.weight, occ_head.base_downscale.0.layers.abn_down_project.0.bias, occ_head.base_downscale.0.layers.abn_down_project.0.running_mean, occ_head.base_downscale.0.layers.abn_down_project.0.running_var, occ_head.base_downscale.0.layers.abn_down_project.0.num_batches_tracked, occ_head.base_downscale.0.layers.conv.weight, occ_head.base_downscale.0.layers.abn.0.weight, occ_head.base_downscale.0.layers.abn.0.bias, occ_head.base_downscale.0.layers.abn.0.running_mean, occ_head.base_downscale.0.layers.abn.0.running_var, occ_head.base_downscale.0.layers.abn.0.num_batches_tracked, occ_head.base_downscale.0.layers.conv_up_project.weight, occ_head.base_downscale.0.layers.abn_up_project.0.weight, occ_head.base_downscale.0.layers.abn_up_project.0.bias, occ_head.base_downscale.0.layers.abn_up_project.0.running_mean, occ_head.base_downscale.0.layers.abn_up_project.0.running_var, occ_head.base_downscale.0.layers.abn_up_project.0.num_batches_tracked, occ_head.base_downscale.0.projection.conv_skip_proj.weight, occ_head.base_downscale.0.projection.bn_skip_proj.weight, occ_head.base_downscale.0.projection.bn_skip_proj.bias, occ_head.base_downscale.0.projection.bn_skip_proj.running_mean, occ_head.base_downscale.0.projection.bn_skip_proj.running_var, occ_head.base_downscale.0.projection.bn_skip_proj.num_batches_tracked, occ_head.base_downscale.1.layers.conv_down_project.weight, occ_head.base_downscale.1.layers.abn_down_project.0.weight, occ_head.base_downscale.1.layers.abn_down_project.0.bias, occ_head.base_downscale.1.layers.abn_down_project.0.running_mean, occ_head.base_downscale.1.layers.abn_down_project.0.running_var, occ_head.base_downscale.1.layers.abn_down_project.0.num_batches_tracked, occ_head.base_downscale.1.layers.conv.weight, occ_head.base_downscale.1.layers.abn.0.weight, occ_head.base_downscale.1.layers.abn.0.bias, occ_head.base_downscale.1.layers.abn.0.running_mean, occ_head.base_downscale.1.layers.abn.0.running_var, occ_head.base_downscale.1.layers.abn.0.num_batches_tracked, occ_head.base_downscale.1.layers.conv_up_project.weight, occ_head.base_downscale.1.layers.abn_up_project.0.weight, occ_head.base_downscale.1.layers.abn_up_project.0.bias, occ_head.base_downscale.1.layers.abn_up_project.0.running_mean, occ_head.base_downscale.1.layers.abn_up_project.0.running_var, occ_head.base_downscale.1.layers.abn_up_project.0.num_batches_tracked, occ_head.base_downscale.1.projection.conv_skip_proj.weight, occ_head.base_downscale.1.projection.bn_skip_proj.weight, occ_head.base_downscale.1.projection.bn_skip_proj.bias, occ_head.base_downscale.1.projection.bn_skip_proj.running_mean, occ_head.base_downscale.1.projection.bn_skip_proj.running_var, occ_head.base_downscale.1.projection.bn_skip_proj.num_batches_tracked, occ_head.transformer_decoder.layers.0.attentions.0.attn.in_proj_weight, occ_head.transformer_decoder.layers.0.attentions.0.attn.in_proj_bias, occ_head.transformer_decoder.layers.0.attentions.0.attn.out_proj.weight, occ_head.transformer_decoder.layers.0.attentions.0.attn.out_proj.bias, occ_head.transformer_decoder.layers.0.attentions.1.attn.in_proj_weight, occ_head.transformer_decoder.layers.0.attentions.1.attn.in_proj_bias, occ_head.transformer_decoder.layers.0.attentions.1.attn.out_proj.weight, occ_head.transformer_decoder.layers.0.attentions.1.attn.out_proj.bias, occ_head.transformer_decoder.layers.0.ffns.0.layers.0.0.weight, occ_head.transformer_decoder.layers.0.ffns.0.layers.0.0.bias, occ_head.transformer_decoder.layers.0.ffns.0.layers.1.weight, occ_head.transformer_decoder.layers.0.ffns.0.layers.1.bias, occ_head.transformer_decoder.layers.0.norms.0.weight, occ_head.transformer_decoder.layers.0.norms.0.bias, occ_head.transformer_decoder.layers.0.norms.1.weight, occ_head.transformer_decoder.layers.0.norms.1.bias, occ_head.transformer_decoder.layers.0.norms.2.weight, occ_head.transformer_decoder.layers.0.norms.2.bias, occ_head.transformer_decoder.layers.1.attentions.0.attn.in_proj_weight, occ_head.transformer_decoder.layers.1.attentions.0.attn.in_proj_bias, occ_head.transformer_decoder.layers.1.attentions.0.attn.out_proj.weight, occ_head.transformer_decoder.layers.1.attentions.0.attn.out_proj.bias, occ_head.transformer_decoder.layers.1.attentions.1.attn.in_proj_weight, occ_head.transformer_decoder.layers.1.attentions.1.attn.in_proj_bias, occ_head.transformer_decoder.layers.1.attentions.1.attn.out_proj.weight, occ_head.transformer_decoder.layers.1.attentions.1.attn.out_proj.bias, occ_head.transformer_decoder.layers.1.ffns.0.layers.0.0.weight, occ_head.transformer_decoder.layers.1.ffns.0.layers.0.0.bias, occ_head.transformer_decoder.layers.1.ffns.0.layers.1.weight, occ_head.transformer_decoder.layers.1.ffns.0.layers.1.bias, occ_head.transformer_decoder.layers.1.norms.0.weight, occ_head.transformer_decoder.layers.1.norms.0.bias, occ_head.transformer_decoder.layers.1.norms.1.weight, occ_head.transformer_decoder.layers.1.norms.1.bias, occ_head.transformer_decoder.layers.1.norms.2.weight, occ_head.transformer_decoder.layers.1.norms.2.bias, occ_head.transformer_decoder.layers.2.attentions.0.attn.in_proj_weight, occ_head.transformer_decoder.layers.2.attentions.0.attn.in_proj_bias, occ_head.transformer_decoder.layers.2.attentions.0.attn.out_proj.weight, occ_head.transformer_decoder.layers.2.attentions.0.attn.out_proj.bias, occ_head.transformer_decoder.layers.2.attentions.1.attn.in_proj_weight, occ_head.transformer_decoder.layers.2.attentions.1.attn.in_proj_bias, occ_head.transformer_decoder.layers.2.attentions.1.attn.out_proj.weight, occ_head.transformer_decoder.layers.2.attentions.1.attn.out_proj.bias, occ_head.transformer_decoder.layers.2.ffns.0.layers.0.0.weight, occ_head.transformer_decoder.layers.2.ffns.0.layers.0.0.bias, occ_head.transformer_decoder.layers.2.ffns.0.layers.1.weight, occ_head.transformer_decoder.layers.2.ffns.0.layers.1.bias, occ_head.transformer_decoder.layers.2.norms.0.weight, occ_head.transformer_decoder.layers.2.norms.0.bias, occ_head.transformer_decoder.layers.2.norms.1.weight, occ_head.transformer_decoder.layers.2.norms.1.bias, occ_head.transformer_decoder.layers.2.norms.2.weight, occ_head.transformer_decoder.layers.2.norms.2.bias, occ_head.transformer_decoder.layers.3.attentions.0.attn.in_proj_weight, occ_head.transformer_decoder.layers.3.attentions.0.attn.in_proj_bias, occ_head.transformer_decoder.layers.3.attentions.0.attn.out_proj.weight, occ_head.transformer_decoder.layers.3.attentions.0.attn.out_proj.bias, occ_head.transformer_decoder.layers.3.attentions.1.attn.in_proj_weight, occ_head.transformer_decoder.layers.3.attentions.1.attn.in_proj_bias, occ_head.transformer_decoder.layers.3.attentions.1.attn.out_proj.weight, occ_head.transformer_decoder.layers.3.attentions.1.attn.out_proj.bias, occ_head.transformer_decoder.layers.3.ffns.0.layers.0.0.weight, occ_head.transformer_decoder.layers.3.ffns.0.layers.0.0.bias, occ_head.transformer_decoder.layers.3.ffns.0.layers.1.weight, occ_head.transformer_decoder.layers.3.ffns.0.layers.1.bias, occ_head.transformer_decoder.layers.3.norms.0.weight, occ_head.transformer_decoder.layers.3.norms.0.bias, occ_head.transformer_decoder.layers.3.norms.1.weight, occ_head.transformer_decoder.layers.3.norms.1.bias, occ_head.transformer_decoder.layers.3.norms.2.weight, occ_head.transformer_decoder.layers.3.norms.2.bias, occ_head.transformer_decoder.layers.4.attentions.0.attn.in_proj_weight, occ_head.transformer_decoder.layers.4.attentions.0.attn.in_proj_bias, occ_head.transformer_decoder.layers.4.attentions.0.attn.out_proj.weight, occ_head.transformer_decoder.layers.4.attentions.0.attn.out_proj.bias, occ_head.transformer_decoder.layers.4.attentions.1.attn.in_proj_weight, occ_head.transformer_decoder.layers.4.attentions.1.attn.in_proj_bias, occ_head.transformer_decoder.layers.4.attentions.1.attn.out_proj.weight, occ_head.transformer_decoder.layers.4.attentions.1.attn.out_proj.bias, occ_head.transformer_decoder.layers.4.ffns.0.layers.0.0.weight, occ_head.transformer_decoder.layers.4.ffns.0.layers.0.0.bias, occ_head.transformer_decoder.layers.4.ffns.0.layers.1.weight, occ_head.transformer_decoder.layers.4.ffns.0.layers.1.bias, occ_head.transformer_decoder.layers.4.norms.0.weight, occ_head.transformer_decoder.layers.4.norms.0.bias, occ_head.transformer_decoder.layers.4.norms.1.weight, occ_head.transformer_decoder.layers.4.norms.1.bias, occ_head.transformer_decoder.layers.4.norms.2.weight, occ_head.transformer_decoder.layers.4.norms.2.bias, occ_head.transformer_decoder.post_norm.weight, occ_head.transformer_decoder.post_norm.bias, occ_head.temporal_mlps.0.layers.0.weight, occ_head.temporal_mlps.0.layers.0.bias, occ_head.temporal_mlps.0.layers.1.weight, occ_head.temporal_mlps.0.layers.1.bias, occ_head.temporal_mlps.1.layers.0.weight, occ_head.temporal_mlps.1.layers.0.bias, occ_head.temporal_mlps.1.layers.1.weight, occ_head.temporal_mlps.1.layers.1.bias, occ_head.temporal_mlps.2.layers.0.weight, occ_head.temporal_mlps.2.layers.0.bias, occ_head.temporal_mlps.2.layers.1.weight, occ_head.temporal_mlps.2.layers.1.bias, occ_head.temporal_mlps.3.layers.0.weight, occ_head.temporal_mlps.3.layers.0.bias, occ_head.temporal_mlps.3.layers.1.weight, occ_head.temporal_mlps.3.layers.1.bias, occ_head.temporal_mlps.4.layers.0.weight, occ_head.temporal_mlps.4.layers.0.bias, occ_head.temporal_mlps.4.layers.1.weight, occ_head.temporal_mlps.4.layers.1.bias, occ_head.downscale_convs.0.layers.conv_down_project.weight, occ_head.downscale_convs.0.layers.abn_down_project.0.weight, occ_head.downscale_convs.0.layers.abn_down_project.0.bias, occ_head.downscale_convs.0.layers.abn_down_project.0.running_mean, occ_head.downscale_convs.0.layers.abn_down_project.0.running_var, occ_head.downscale_convs.0.layers.abn_down_project.0.num_batches_tracked, occ_head.downscale_convs.0.layers.conv.weight, occ_head.downscale_convs.0.layers.abn.0.weight, occ_head.downscale_convs.0.layers.abn.0.bias, occ_head.downscale_convs.0.layers.abn.0.running_mean, occ_head.downscale_convs.0.layers.abn.0.running_var, occ_head.downscale_convs.0.layers.abn.0.num_batches_tracked, occ_head.downscale_convs.0.layers.conv_up_project.weight, occ_head.downscale_convs.0.layers.abn_up_project.0.weight, occ_head.downscale_convs.0.layers.abn_up_project.0.bias, occ_head.downscale_convs.0.layers.abn_up_project.0.running_mean, occ_head.downscale_convs.0.layers.abn_up_project.0.running_var, occ_head.downscale_convs.0.layers.abn_up_project.0.num_batches_tracked, occ_head.downscale_convs.0.projection.conv_skip_proj.weight, occ_head.downscale_convs.0.projection.bn_skip_proj.weight, occ_head.downscale_convs.0.projection.bn_skip_proj.bias, occ_head.downscale_convs.0.projection.bn_skip_proj.running_mean, occ_head.downscale_convs.0.projection.bn_skip_proj.running_var, occ_head.downscale_convs.0.projection.bn_skip_proj.num_batches_tracked, occ_head.downscale_convs.1.layers.conv_down_project.weight, occ_head.downscale_convs.1.layers.abn_down_project.0.weight, occ_head.downscale_convs.1.layers.abn_down_project.0.bias, occ_head.downscale_convs.1.layers.abn_down_project.0.running_mean, occ_head.downscale_convs.1.layers.abn_down_project.0.running_var, occ_head.downscale_convs.1.layers.abn_down_project.0.num_batches_tracked, occ_head.downscale_convs.1.layers.conv.weight, occ_head.downscale_convs.1.layers.abn.0.weight, occ_head.downscale_convs.1.layers.abn.0.bias, occ_head.downscale_convs.1.layers.abn.0.running_mean, occ_head.downscale_convs.1.layers.abn.0.running_var, occ_head.downscale_convs.1.layers.abn.0.num_batches_tracked, occ_head.downscale_convs.1.layers.conv_up_project.weight, occ_head.downscale_convs.1.layers.abn_up_project.0.weight, occ_head.downscale_convs.1.layers.abn_up_project.0.bias, occ_head.downscale_convs.1.layers.abn_up_project.0.running_mean, occ_head.downscale_convs.1.layers.abn_up_project.0.running_var, occ_head.downscale_convs.1.layers.abn_up_project.0.num_batches_tracked, occ_head.downscale_convs.1.projection.conv_skip_proj.weight, occ_head.downscale_convs.1.projection.bn_skip_proj.weight, occ_head.downscale_convs.1.projection.bn_skip_proj.bias, occ_head.downscale_convs.1.projection.bn_skip_proj.running_mean, occ_head.downscale_convs.1.projection.bn_skip_proj.running_var, occ_head.downscale_convs.1.projection.bn_skip_proj.num_batches_tracked, occ_head.downscale_convs.2.layers.conv_down_project.weight, occ_head.downscale_convs.2.layers.abn_down_project.0.weight, occ_head.downscale_convs.2.layers.abn_down_project.0.bias, occ_head.downscale_convs.2.layers.abn_down_project.0.running_mean, occ_head.downscale_convs.2.layers.abn_down_project.0.running_var, occ_head.downscale_convs.2.layers.abn_down_project.0.num_batches_tracked, occ_head.downscale_convs.2.layers.conv.weight, occ_head.downscale_convs.2.layers.abn.0.weight, occ_head.downscale_convs.2.layers.abn.0.bias, occ_head.downscale_convs.2.layers.abn.0.running_mean, occ_head.downscale_convs.2.layers.abn.0.running_var, occ_head.downscale_convs.2.layers.abn.0.num_batches_tracked, occ_head.downscale_convs.2.layers.conv_up_project.weight, occ_head.downscale_convs.2.layers.abn_up_project.0.weight, occ_head.downscale_convs.2.layers.abn_up_project.0.bias, occ_head.downscale_convs.2.layers.abn_up_project.0.running_mean, occ_head.downscale_convs.2.layers.abn_up_project.0.running_var, occ_head.downscale_convs.2.layers.abn_up_project.0.num_batches_tracked, occ_head.downscale_convs.2.projection.conv_skip_proj.weight, occ_head.downscale_convs.2.projection.bn_skip_proj.weight, occ_head.downscale_convs.2.projection.bn_skip_proj.bias, occ_head.downscale_convs.2.projection.bn_skip_proj.running_mean, occ_head.downscale_convs.2.projection.bn_skip_proj.running_var, occ_head.downscale_convs.2.projection.bn_skip_proj.num_batches_tracked, occ_head.downscale_convs.3.layers.conv_down_project.weight, occ_head.downscale_convs.3.layers.abn_down_project.0.weight, occ_head.downscale_convs.3.layers.abn_down_project.0.bias, occ_head.downscale_convs.3.layers.abn_down_project.0.running_mean, occ_head.downscale_convs.3.layers.abn_down_project.0.running_var, occ_head.downscale_convs.3.layers.abn_down_project.0.num_batches_tracked, occ_head.downscale_convs.3.layers.conv.weight, occ_head.downscale_convs.3.layers.abn.0.weight, occ_head.downscale_convs.3.layers.abn.0.bias, occ_head.downscale_convs.3.layers.abn.0.running_mean, occ_head.downscale_convs.3.layers.abn.0.running_var, occ_head.downscale_convs.3.layers.abn.0.num_batches_tracked, occ_head.downscale_convs.3.layers.conv_up_project.weight, occ_head.downscale_convs.3.layers.abn_up_project.0.weight, occ_head.downscale_convs.3.layers.abn_up_project.0.bias, occ_head.downscale_convs.3.layers.abn_up_project.0.running_mean, occ_head.downscale_convs.3.layers.abn_up_project.0.running_var, occ_head.downscale_convs.3.layers.abn_up_project.0.num_batches_tracked, occ_head.downscale_convs.3.projection.conv_skip_proj.weight, occ_head.downscale_convs.3.projection.bn_skip_proj.weight, occ_head.downscale_convs.3.projection.bn_skip_proj.bias, occ_head.downscale_convs.3.projection.bn_skip_proj.running_mean, occ_head.downscale_convs.3.projection.bn_skip_proj.running_var, occ_head.downscale_convs.3.projection.bn_skip_proj.num_batches_tracked, occ_head.downscale_convs.4.layers.conv_down_project.weight, occ_head.downscale_convs.4.layers.abn_down_project.0.weight, occ_head.downscale_convs.4.layers.abn_down_project.0.bias, occ_head.downscale_convs.4.layers.abn_down_project.0.running_mean, occ_head.downscale_convs.4.layers.abn_down_project.0.running_var, occ_head.downscale_convs.4.layers.abn_down_project.0.num_batches_tracked, occ_head.downscale_convs.4.layers.conv.weight, occ_head.downscale_convs.4.layers.abn.0.weight, occ_head.downscale_convs.4.layers.abn.0.bias, occ_head.downscale_convs.4.layers.abn.0.running_mean, occ_head.downscale_convs.4.layers.abn.0.running_var, occ_head.downscale_convs.4.layers.abn.0.num_batches_tracked, occ_head.downscale_convs.4.layers.conv_up_project.weight, occ_head.downscale_convs.4.layers.abn_up_project.0.weight, occ_head.downscale_convs.4.layers.abn_up_project.0.bias, occ_head.downscale_convs.4.layers.abn_up_project.0.running_mean, occ_head.downscale_convs.4.layers.abn_up_project.0.running_var, occ_head.downscale_convs.4.layers.abn_up_project.0.num_batches_tracked, occ_head.downscale_convs.4.projection.conv_skip_proj.weight, occ_head.downscale_convs.4.projection.bn_skip_proj.weight, occ_head.downscale_convs.4.projection.bn_skip_proj.bias, occ_head.downscale_convs.4.projection.bn_skip_proj.running_mean, occ_head.downscale_convs.4.projection.bn_skip_proj.running_var, occ_head.downscale_convs.4.projection.bn_skip_proj.num_batches_tracked, occ_head.upsample_adds.0.upsample_layer.1.weight, occ_head.upsample_adds.0.upsample_layer.2.weight, occ_head.upsample_adds.0.upsample_layer.2.bias, occ_head.upsample_adds.0.upsample_layer.2.running_mean, occ_head.upsample_adds.0.upsample_layer.2.running_var, occ_head.upsample_adds.0.upsample_layer.2.num_batches_tracked, occ_head.upsample_adds.1.upsample_layer.1.weight, occ_head.upsample_adds.1.upsample_layer.2.weight, occ_head.upsample_adds.1.upsample_layer.2.bias, occ_head.upsample_adds.1.upsample_layer.2.running_mean, occ_head.upsample_adds.1.upsample_layer.2.running_var, occ_head.upsample_adds.1.upsample_layer.2.num_batches_tracked, occ_head.upsample_adds.2.upsample_layer.1.weight, occ_head.upsample_adds.2.upsample_layer.2.weight, occ_head.upsample_adds.2.upsample_layer.2.bias, occ_head.upsample_adds.2.upsample_layer.2.running_mean, occ_head.upsample_adds.2.upsample_layer.2.running_var, occ_head.upsample_adds.2.upsample_layer.2.num_batches_tracked, occ_head.upsample_adds.3.upsample_layer.1.weight, occ_head.upsample_adds.3.upsample_layer.2.weight, occ_head.upsample_adds.3.upsample_layer.2.bias, occ_head.upsample_adds.3.upsample_layer.2.running_mean, occ_head.upsample_adds.3.upsample_layer.2.running_var, occ_head.upsample_adds.3.upsample_layer.2.num_batches_tracked, occ_head.upsample_adds.4.upsample_layer.1.weight, occ_head.upsample_adds.4.upsample_layer.2.weight, occ_head.upsample_adds.4.upsample_layer.2.bias, occ_head.upsample_adds.4.upsample_layer.2.running_mean, occ_head.upsample_adds.4.upsample_layer.2.running_var, occ_head.upsample_adds.4.upsample_layer.2.num_batches_tracked, occ_head.dense_decoder.layers.0.conv.1.weight, occ_head.dense_decoder.layers.0.conv.2.weight, occ_head.dense_decoder.layers.0.conv.2.bias, occ_head.dense_decoder.layers.0.conv.2.running_mean, occ_head.dense_decoder.layers.0.conv.2.running_var, occ_head.dense_decoder.layers.0.conv.2.num_batches_tracked, occ_head.dense_decoder.layers.0.conv.4.weight, occ_head.dense_decoder.layers.0.conv.5.weight, occ_head.dense_decoder.layers.0.conv.5.bias, occ_head.dense_decoder.layers.0.conv.5.running_mean, occ_head.dense_decoder.layers.0.conv.5.running_var, occ_head.dense_decoder.layers.0.conv.5.num_batches_tracked, occ_head.dense_decoder.layers.0.up.weight, occ_head.dense_decoder.layers.0.up.bias, occ_head.dense_decoder.layers.1.conv.1.weight, occ_head.dense_decoder.layers.1.conv.2.weight, occ_head.dense_decoder.layers.1.conv.2.bias, occ_head.dense_decoder.layers.1.conv.2.running_mean, occ_head.dense_decoder.layers.1.conv.2.running_var, occ_head.dense_decoder.layers.1.conv.2.num_batches_tracked, occ_head.dense_decoder.layers.1.conv.4.weight, occ_head.dense_decoder.layers.1.conv.5.weight, occ_head.dense_decoder.layers.1.conv.5.bias, occ_head.dense_decoder.layers.1.conv.5.running_mean, occ_head.dense_decoder.layers.1.conv.5.running_var, occ_head.dense_decoder.layers.1.conv.5.num_batches_tracked, occ_head.dense_decoder.layers.1.up.weight, occ_head.dense_decoder.layers.1.up.bias, occ_head.mode_fuser.0.weight, occ_head.mode_fuser.0.bias, occ_head.mode_fuser.1.weight, occ_head.mode_fuser.1.bias, occ_head.multi_query_fuser.0.weight, occ_head.multi_query_fuser.0.bias, occ_head.multi_query_fuser.1.weight, occ_head.multi_query_fuser.1.bias, occ_head.multi_query_fuser.3.weight, occ_head.multi_query_fuser.3.bias, occ_head.query_to_occ_feat.layers.0.weight, occ_head.query_to_occ_feat.layers.0.bias, occ_head.query_to_occ_feat.layers.1.weight, occ_head.query_to_occ_feat.layers.1.bias, occ_head.query_to_occ_feat.layers.2.weight, occ_head.query_to_occ_feat.layers.2.bias, motion_head.learnable_motion_query_embedding.weight, motion_head.deep_interact.intention_interaction_layers.interaction_transformer.self_attn.in_proj_weight, motion_head.deep_interact.intention_interaction_layers.interaction_transformer.self_attn.in_proj_bias, motion_head.deep_interact.intention_interaction_layers.interaction_transformer.self_attn.out_proj.weight, motion_head.deep_interact.intention_interaction_layers.interaction_transformer.self_attn.out_proj.bias, motion_head.deep_interact.intention_interaction_layers.interaction_transformer.linear1.weight, motion_head.deep_interact.intention_interaction_layers.interaction_transformer.linear1.bias, motion_head.deep_interact.intention_interaction_layers.interaction_transformer.linear2.weight, motion_head.deep_interact.intention_interaction_layers.interaction_transformer.linear2.bias, motion_head.deep_interact.intention_interaction_layers.interaction_transformer.norm1.weight, motion_head.deep_interact.intention_interaction_layers.interaction_transformer.norm1.bias, motion_head.deep_interact.intention_interaction_layers.interaction_transformer.norm2.weight, motion_head.deep_interact.intention_interaction_layers.interaction_transformer.norm2.bias, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.self_attn.in_proj_weight, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.self_attn.in_proj_bias, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.self_attn.out_proj.weight, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.self_attn.out_proj.bias, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.multihead_attn.in_proj_weight, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.multihead_attn.in_proj_bias, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.multihead_attn.out_proj.weight, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.multihead_attn.out_proj.bias, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.linear1.weight, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.linear1.bias, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.linear2.weight, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.linear2.bias, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.norm1.weight, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.norm1.bias, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.norm2.weight, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.norm2.bias, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.norm3.weight, motion_head.deep_interact.track_agent_interaction_layers.0.interaction_transformer.norm3.bias, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.self_attn.in_proj_weight, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.self_attn.in_proj_bias, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.self_attn.out_proj.weight, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.self_attn.out_proj.bias, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.multihead_attn.in_proj_weight, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.multihead_attn.in_proj_bias, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.multihead_attn.out_proj.weight, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.multihead_attn.out_proj.bias, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.linear1.weight, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.linear1.bias, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.linear2.weight, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.linear2.bias, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.norm1.weight, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.norm1.bias, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.norm2.weight, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.norm2.bias, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.norm3.weight, motion_head.deep_interact.track_agent_interaction_layers.1.interaction_transformer.norm3.bias, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.self_attn.in_proj_weight, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.self_attn.in_proj_bias, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.self_attn.out_proj.weight, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.self_attn.out_proj.bias, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.multihead_attn.in_proj_weight, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.multihead_attn.in_proj_bias, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.multihead_attn.out_proj.weight, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.multihead_attn.out_proj.bias, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.linear1.weight, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.linear1.bias, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.linear2.weight, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.linear2.bias, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.norm1.weight, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.norm1.bias, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.norm2.weight, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.norm2.bias, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.norm3.weight, motion_head.deep_interact.track_agent_interaction_layers.2.interaction_transformer.norm3.bias, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.self_attn.in_proj_weight, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.self_attn.in_proj_bias, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.self_attn.out_proj.weight, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.self_attn.out_proj.bias, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.multihead_attn.in_proj_weight, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.multihead_attn.in_proj_bias, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.multihead_attn.out_proj.weight, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.multihead_attn.out_proj.bias, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.linear1.weight, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.linear1.bias, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.linear2.weight, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.linear2.bias, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.norm1.weight, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.norm1.bias, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.norm2.weight, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.norm2.bias, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.norm3.weight, motion_head.deep_interact.map_interaction_layers.0.interaction_transformer.norm3.bias, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.self_attn.in_proj_weight, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.self_attn.in_proj_bias, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.self_attn.out_proj.weight, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.self_attn.out_proj.bias, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.multihead_attn.in_proj_weight, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.multihead_attn.in_proj_bias, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.multihead_attn.out_proj.weight, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.multihead_attn.out_proj.bias, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.linear1.weight, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.linear1.bias, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.linear2.weight, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.linear2.bias, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.norm1.weight, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.norm1.bias, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.norm2.weight, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.norm2.bias, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.norm3.weight, motion_head.deep_interact.map_interaction_layers.1.interaction_transformer.norm3.bias, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.self_attn.in_proj_weight, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.self_attn.in_proj_bias, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.self_attn.out_proj.weight, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.self_attn.out_proj.bias, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.multihead_attn.in_proj_weight, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.multihead_attn.in_proj_bias, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.multihead_attn.out_proj.weight, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.multihead_attn.out_proj.bias, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.linear1.weight, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.linear1.bias, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.linear2.weight, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.linear2.bias, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.norm1.weight, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.norm1.bias, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.norm2.weight, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.norm2.bias, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.norm3.weight, motion_head.deep_interact.map_interaction_layers.2.interaction_transformer.norm3.bias, motion_head.deep_interact.bev_interaction_layers.0.attentions.0.sampling_offsets.weight, motion_head.deep_interact.bev_interaction_layers.0.attentions.0.sampling_offsets.bias, motion_head.deep_interact.bev_interaction_layers.0.attentions.0.attention_weights.weight, motion_head.deep_interact.bev_interaction_layers.0.attentions.0.attention_weights.bias, motion_head.deep_interact.bev_interaction_layers.0.attentions.0.value_proj.weight, motion_head.deep_interact.bev_interaction_layers.0.attentions.0.value_proj.bias, motion_head.deep_interact.bev_interaction_layers.0.attentions.0.output_proj.0.weight, motion_head.deep_interact.bev_interaction_layers.0.attentions.0.output_proj.0.bias, motion_head.deep_interact.bev_interaction_layers.0.attentions.0.output_proj.1.weight, motion_head.deep_interact.bev_interaction_layers.0.attentions.0.output_proj.1.bias, motion_head.deep_interact.bev_interaction_layers.0.ffns.0.layers.0.0.weight, motion_head.deep_interact.bev_interaction_layers.0.ffns.0.layers.0.0.bias, motion_head.deep_interact.bev_interaction_layers.0.ffns.0.layers.1.weight, motion_head.deep_interact.bev_interaction_layers.0.ffns.0.layers.1.bias, motion_head.deep_interact.bev_interaction_layers.0.norms.0.weight, motion_head.deep_interact.bev_interaction_layers.0.norms.0.bias, motion_head.deep_interact.bev_interaction_layers.0.norms.1.weight, motion_head.deep_interact.bev_interaction_layers.0.norms.1.bias, motion_head.deep_interact.bev_interaction_layers.1.attentions.0.sampling_offsets.weight, motion_head.deep_interact.bev_interaction_layers.1.attentions.0.sampling_offsets.bias, motion_head.deep_interact.bev_interaction_layers.1.attentions.0.attention_weights.weight, motion_head.deep_interact.bev_interaction_layers.1.attentions.0.attention_weights.bias, motion_head.deep_interact.bev_interaction_layers.1.attentions.0.value_proj.weight, motion_head.deep_interact.bev_interaction_layers.1.attentions.0.value_proj.bias, motion_head.deep_interact.bev_interaction_layers.1.attentions.0.output_proj.0.weight, motion_head.deep_interact.bev_interaction_layers.1.attentions.0.output_proj.0.bias, motion_head.deep_interact.bev_interaction_layers.1.attentions.0.output_proj.1.weight, motion_head.deep_interact.bev_interaction_layers.1.attentions.0.output_proj.1.bias, motion_head.deep_interact.bev_interaction_layers.1.ffns.0.layers.0.0.weight, motion_head.deep_interact.bev_interaction_layers.1.ffns.0.layers.0.0.bias, motion_head.deep_interact.bev_interaction_layers.1.ffns.0.layers.1.weight, motion_head.deep_interact.bev_interaction_layers.1.ffns.0.layers.1.bias, motion_head.deep_interact.bev_interaction_layers.1.norms.0.weight, motion_head.deep_interact.bev_interaction_layers.1.norms.0.bias, motion_head.deep_interact.bev_interaction_layers.1.norms.1.weight, motion_head.deep_interact.bev_interaction_layers.1.norms.1.bias, motion_head.deep_interact.bev_interaction_layers.2.attentions.0.sampling_offsets.weight, motion_head.deep_interact.bev_interaction_layers.2.attentions.0.sampling_offsets.bias, motion_head.deep_interact.bev_interaction_layers.2.attentions.0.attention_weights.weight, motion_head.deep_interact.bev_interaction_layers.2.attentions.0.attention_weights.bias, motion_head.deep_interact.bev_interaction_layers.2.attentions.0.value_proj.weight, motion_head.deep_interact.bev_interaction_layers.2.attentions.0.value_proj.bias, motion_head.deep_interact.bev_interaction_layers.2.attentions.0.output_proj.0.weight, motion_head.deep_interact.bev_interaction_layers.2.attentions.0.output_proj.0.bias, motion_head.deep_interact.bev_interaction_layers.2.attentions.0.output_proj.1.weight, motion_head.deep_interact.bev_interaction_layers.2.attentions.0.output_proj.1.bias, motion_head.deep_interact.bev_interaction_layers.2.ffns.0.layers.0.0.weight, motion_head.deep_interact.bev_interaction_layers.2.ffns.0.layers.0.0.bias, motion_head.deep_interact.bev_interaction_layers.2.ffns.0.layers.1.weight, motion_head.deep_interact.bev_interaction_layers.2.ffns.0.layers.1.bias, motion_head.deep_interact.bev_interaction_layers.2.norms.0.weight, motion_head.deep_interact.bev_interaction_layers.2.norms.0.bias, motion_head.deep_interact.bev_interaction_layers.2.norms.1.weight, motion_head.deep_interact.bev_interaction_layers.2.norms.1.bias, motion_head.deep_interact.static_dynamic_fuser.0.weight, motion_head.deep_interact.static_dynamic_fuser.0.bias, motion_head.deep_interact.static_dynamic_fuser.2.weight, motion_head.deep_interact.static_dynamic_fuser.2.bias, motion_head.deep_interact.dynamic_embed_fuser.0.weight, motion_head.deep_interact.dynamic_embed_fuser.0.bias, motion_head.deep_interact.dynamic_embed_fuser.2.weight, motion_head.deep_interact.dynamic_embed_fuser.2.bias, motion_head.deep_interact.query_fuser.0.weight, motion_head.deep_interact.query_fuser.0.bias, motion_head.deep_interact.query_fuser.2.weight, motion_head.deep_interact.query_fuser.2.bias, motion_head.traj_cls_branches.0.0.weight, motion_head.traj_cls_branches.0.0.bias, motion_head.traj_cls_branches.0.1.weight, motion_head.traj_cls_branches.0.1.bias, motion_head.traj_cls_branches.0.3.weight, motion_head.traj_cls_branches.0.3.bias, motion_head.traj_cls_branches.0.4.weight, motion_head.traj_cls_branches.0.4.bias, motion_head.traj_cls_branches.0.6.weight, motion_head.traj_cls_branches.0.6.bias, motion_head.traj_cls_branches.1.0.weight, motion_head.traj_cls_branches.1.0.bias, motion_head.traj_cls_branches.1.1.weight, motion_head.traj_cls_branches.1.1.bias, motion_head.traj_cls_branches.1.3.weight, motion_head.traj_cls_branches.1.3.bias, motion_head.traj_cls_branches.1.4.weight, motion_head.traj_cls_branches.1.4.bias, motion_head.traj_cls_branches.1.6.weight, motion_head.traj_cls_branches.1.6.bias, motion_head.traj_cls_branches.2.0.weight, motion_head.traj_cls_branches.2.0.bias, motion_head.traj_cls_branches.2.1.weight, motion_head.traj_cls_branches.2.1.bias, motion_head.traj_cls_branches.2.3.weight, motion_head.traj_cls_branches.2.3.bias, motion_head.traj_cls_branches.2.4.weight, motion_head.traj_cls_branches.2.4.bias, motion_head.traj_cls_branches.2.6.weight, motion_head.traj_cls_branches.2.6.bias, motion_head.traj_reg_branches.0.0.weight, motion_head.traj_reg_branches.0.0.bias, motion_head.traj_reg_branches.0.2.weight, motion_head.traj_reg_branches.0.2.bias, motion_head.traj_reg_branches.0.4.weight, motion_head.traj_reg_branches.0.4.bias, motion_head.traj_reg_branches.1.0.weight, motion_head.traj_reg_branches.1.0.bias, motion_head.traj_reg_branches.1.2.weight, motion_head.traj_reg_branches.1.2.bias, motion_head.traj_reg_branches.1.4.weight, motion_head.traj_reg_branches.1.4.bias, motion_head.traj_reg_branches.2.0.weight, motion_head.traj_reg_branches.2.0.bias, motion_head.traj_reg_branches.2.2.weight, motion_head.traj_reg_branches.2.2.bias, motion_head.traj_reg_branches.2.4.weight, motion_head.traj_reg_branches.2.4.bias, motion_head.intention_ep_embedding_agent.0.weight, motion_head.intention_ep_embedding_agent.0.bias, motion_head.intention_ep_embedding_agent.2.weight, motion_head.intention_ep_embedding_agent.2.bias, motion_head.intention_ep_embedding_offset.0.weight, motion_head.intention_ep_embedding_offset.0.bias, motion_head.intention_ep_embedding_offset.2.weight, motion_head.intention_ep_embedding_offset.2.bias, motion_head.intention_ep_embedding_ego.0.weight, motion_head.intention_ep_embedding_ego.0.bias, motion_head.intention_ep_embedding_ego.2.weight, motion_head.intention_ep_embedding_ego.2.bias, motion_head.query_embedding_box.0.weight, motion_head.query_embedding_box.0.bias, motion_head.query_embedding_box.2.weight, motion_head.query_embedding_box.2.bias, pts_bbox_head.query_embedding.weight, pts_bbox_head.transformer.reference_points.weight, pts_bbox_head.transformer.reference_points.bias
+
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.28536224365234375 0.013995170593261719 0.29935741424560547 6
+[600.12021379] [1647.49077628]
+0.0018036365509033203 0.40286731719970703 0.008314847946166992 0.027711153030395508 0.44069695472717285
+bev_to_uv time: %s 0.015157938003540039
+8.58306884765625e-05 0.4581422805786133 5.7220458984375e-06 0.08834004402160645 8.344650268554688e-06 6.198883056640625e-06 4.76837158203125e-06 2.7179718017578125e-05 0.5466203689575195
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.2783384323120117 0.014092206954956055 0.2924306392669678 6
+[42.0541729] [-31.34640625]
+0.0008740425109863281 0.3968212604522705 0.008687019348144531 0.02766704559326172 0.4340493679046631
+bev_to_uv time: %s 0.021165132522583008
+6.628036499023438e-05 0.45575404167175293 5.9604644775390625e-06 0.09429121017456055 1.3113021850585938e-05 5.9604644775390625e-06 5.9604644775390625e-06 3.3855438232421875e-05 0.5501763820648193
+[INFO] [1716093162.106738]: Inference completed for frame index: 13
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2766580581665039 0.014130830764770508 0.2907888889312744 6
+[4.53784433] [-3.85798847]
+0.0009088516235351562 0.3974301815032959 0.008238077163696289 0.028227567672729492 0.43480467796325684
+bev_to_uv time: %s 0.020604372024536133
+7.510185241699219e-05 0.4560856819152832 6.67572021484375e-06 0.0973978042602539 2.1457672119140625e-05 6.9141387939453125e-06 7.3909759521484375e-06 5.793571472167969e-05 0.5536589622497559
+[INFO] [1716093162.714724]: Inference completed for frame index: 18
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2638676166534424 0.014164447784423828 0.2780320644378662 6
+[4.88095017] [-4.1537686]
+0.0009455680847167969 0.38479018211364746 0.008633852005004883 0.028340816497802734 0.4227104187011719
+bev_to_uv time: %s 0.023576736450195312
+6.103515625e-05 0.4468209743499756 6.198883056640625e-06 0.09699845314025879 1.2636184692382812e-05 6.67572021484375e-06 5.7220458984375e-06 3.647804260253906e-05 0.5439481735229492
+[INFO] [1716093163.298893]: Inference completed for frame index: 23
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2639153003692627 0.014249563217163086 0.2781648635864258 6
+[11.23544293] [-9.62061334]
+0.0008909702301025391 0.38454437255859375 0.008328437805175781 0.028199434280395508 0.4219632148742676
+bev_to_uv time: %s 0.02367401123046875
+8.130073547363281e-05 0.44632649421691895 6.4373016357421875e-06 0.09782814979553223 1.430511474609375e-05 6.198883056640625e-06 6.67572021484375e-06 3.695487976074219e-05 0.5443065166473389
+[INFO] [1716093163.910110]: Inference completed for frame index: 29
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.2679288387298584 0.01432180404663086 0.28225064277648926 6
+[13.34724489] [-11.7918423]
+0.0008783340454101562 0.3883626461029053 0.008597850799560547 0.028339624404907227 0.4261784553527832
+bev_to_uv time: %s 0.021265268325805664
+6.389617919921875e-05 0.4479799270629883 6.4373016357421875e-06 0.0981590747833252 1.3589859008789062e-05 5.7220458984375e-06 5.4836273193359375e-06 3.600120544433594e-05 0.5462701320648193
+[INFO] [1716093164.496075]: Inference completed for frame index: 34
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.26841044425964355 0.014157533645629883 0.28256797790527344 6
+[39.51014347] [223.32714317]
+0.0009770393371582031 0.3863554000854492 0.008636951446533203 0.028214454650878906 0.42418384552001953
+bev_to_uv time: %s 0.009005546569824219
+6.699562072753906e-05 0.4340245723724365 6.198883056640625e-06 0.08685612678527832 1.3589859008789062e-05 5.7220458984375e-06 5.7220458984375e-06 3.409385681152344e-05 0.5210130214691162
+[INFO] [1716093165.081815]: Inference completed for frame index: 40
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.26401352882385254 0.014152765274047852 0.2781662940979004 6
+[-1.37646512] [-9.51941344]
+0.0008993148803710938 0.3839256763458252 0.008472919464111328 0.02855205535888672 0.42184996604919434
+bev_to_uv time: %s 0.025930166244506836
+7.104873657226562e-05 0.44844865798950195 6.9141387939453125e-06 0.08561229705810547 1.3113021850585938e-05 5.9604644775390625e-06 5.7220458984375e-06 4.00543212890625e-05 0.5342037677764893
+[INFO] [1716093165.657981]: Inference completed for frame index: 45
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.26696181297302246 0.013986587524414062 0.2809484004974365 6
+[-8.43843116] [-10.9281693]
+0.0008931159973144531 0.3860921859741211 0.008546113967895508 0.028139352798461914 0.42367076873779297
+bev_to_uv time: %s 0.032878875732421875
+6.985664367675781e-05 0.45716023445129395 5.7220458984375e-06 0.0857391357421875 1.2874603271484375e-05 5.7220458984375e-06 5.7220458984375e-06 3.719329833984375e-05 0.5430364608764648
+[INFO] [1716093166.251991]: Inference completed for frame index: 51
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.26797008514404297 0.014002084732055664 0.28197216987609863 6
+[-8.89242659] [-5.10654958]
+0.0009264945983886719 0.38729095458984375 0.008303642272949219 0.028076887130737305 0.42459797859191895
+bev_to_uv time: %s 0.02807164192199707
+7.367134094238281e-05 0.4533567428588867 6.67572021484375e-06 0.08603262901306152 1.4066696166992188e-05 5.9604644775390625e-06 5.9604644775390625e-06 3.647804260253906e-05 0.5395321846008301
+[INFO] [1716093166.855170]: Inference completed for frame index: 56
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2662312984466553 0.014035224914550781 0.28026652336120605 6
+[-11.29305911] [6.60096498]
+0.0008816719055175781 0.3851799964904785 0.008557319641113281 0.028047561645507812 0.4226665496826172
+bev_to_uv time: %s 0.023653745651245117
+6.67572021484375e-05 0.44686436653137207 6.67572021484375e-06 0.08559608459472656 1.33514404296875e-05 5.9604644775390625e-06 5.9604644775390625e-06 3.62396240234375e-05 0.5325953960418701
+[INFO] [1716093167.430110]: Inference completed for frame index: 62
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2668113708496094 0.01400446891784668 0.28081583976745605 6
+[-10.04658792] [9.57643574]
+0.00102996826171875 0.3863258361816406 0.00845193862915039 0.028002023696899414 0.4238097667694092
+bev_to_uv time: %s 0.025141477584838867
+8.726119995117188e-05 0.4496328830718994 6.9141387939453125e-06 0.0857088565826416 1.3828277587890625e-05 6.4373016357421875e-06 5.9604644775390625e-06 3.695487976074219e-05 0.535499095916748
+[INFO] [1716093168.029211]: Inference completed for frame index: 67
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2676584720611572 0.014081716537475586 0.2817401885986328 6
+[-10.57689376] [10.61580929]
+0.0008807182312011719 0.38721537590026855 0.008437156677246094 0.028443336486816406 0.4249765872955322
+bev_to_uv time: %s 0.025868892669677734
+6.961822509765625e-05 0.45143961906433105 6.198883056640625e-06 0.08505034446716309 1.52587890625e-05 6.198883056640625e-06 5.4836273193359375e-06 4.982948303222656e-05 0.5366425514221191
+[INFO] [1716093168.607184]: Inference completed for frame index: 72
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.2630634307861328 0.014028549194335938 0.27709197998046875 6
+[-11.0761754] [6.82307559]
+0.0008542537689208984 0.38213157653808594 0.008527994155883789 0.027873516082763672 0.4193873405456543
+bev_to_uv time: %s 0.018075227737426758
+5.817413330078125e-05 0.43799352645874023 6.198883056640625e-06 0.08435964584350586 1.3589859008789062e-05 5.7220458984375e-06 5.7220458984375e-06 3.695487976074219e-05 0.5224795341491699
+[INFO] [1716093169.179971]: Inference completed for frame index: 78
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.26337623596191406 0.014040708541870117 0.2774169445037842 6
+[-46.53184728] [-174.89453152]
+0.0010340213775634766 0.381119966506958 0.008408069610595703 0.028074264526367188 0.4186363220214844
+bev_to_uv time: %s 0.01743793487548828
+7.05718994140625e-05 0.43695902824401855 6.198883056640625e-06 0.08974385261535645 1.5020370483398438e-05 6.198883056640625e-06 6.198883056640625e-06 3.886222839355469e-05 0.5268459320068359
+[INFO] [1716093169.770272]: Inference completed for frame index: 2
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.26390838623046875 0.014046669006347656 0.2779550552368164 6
+[17.4491293] [-12.48050741]
+0.0008823871612548828 0.3836250305175781 0.008591413497924805 0.028212785720825195 0.421311616897583
+bev_to_uv time: %s 0.028931379318237305
+6.747245788574219e-05 0.45085668563842773 6.4373016357421875e-06 0.09189748764038086 1.2874603271484375e-05 5.9604644775390625e-06 5.4836273193359375e-06 3.552436828613281e-05 0.5428879261016846
+[INFO] [1716093170.354569]: Inference completed for frame index: 7
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.269817590713501 0.013967037200927734 0.2837846279144287 6
+[15.67575759] [-13.23251633]
+0.0009615421295166016 0.38976120948791504 0.008294820785522461 0.027725696563720703 0.4267432689666748
+bev_to_uv time: %s 0.023468732833862305
+8.320808410644531e-05 0.4509010314941406 6.198883056640625e-06 0.09366011619567871 1.7404556274414062e-05 6.198883056640625e-06 6.9141387939453125e-06 4.410743713378906e-05 0.5447251796722412
+[INFO] [1716093170.950949]: Inference completed for frame index: 12
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.2681007385253906 0.014050006866455078 0.2821507453918457 6
+[32.69694434] [-28.18735068]
+0.0009698867797851562 0.3874685764312744 0.008832454681396484 0.02808976173400879 0.42536067962646484
+bev_to_uv time: %s 0.023985624313354492
+6.389617919921875e-05 0.44988179206848145 5.9604644775390625e-06 0.0956261157989502 1.3113021850585938e-05 5.7220458984375e-06 5.7220458984375e-06 3.743171691894531e-05 0.5456397533416748
+[INFO] [1716093173.136381]: Inference completed for frame index: 33
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.26691174507141113 0.014308691024780273 0.2812204360961914 6
+[15.05416975] [-13.32994347]
+0.0008423328399658203 0.3868284225463867 0.008535385131835938 0.027764558792114258 0.42397069931030273
+bev_to_uv time: %s 0.01962733268737793
+5.340576171875e-05 0.4440934658050537 5.7220458984375e-06 0.09529423713684082 1.239776611328125e-05 5.4836273193359375e-06 5.245208740234375e-06 3.504753112792969e-05 0.5395050048828125
+[INFO] [1716093173.703593]: Inference completed for frame index: 38
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.26296496391296387 0.014600276947021484 0.27756524085998535 6
+[27.47852664] [228.3970087]
+0.0008599758148193359 0.3812141418457031 0.008549213409423828 0.02850174903869629 0.4191250801086426
+bev_to_uv time: %s 0.02037191390991211
+6.508827209472656e-05 0.4403190612792969 5.9604644775390625e-06 0.08542037010192871 1.621246337890625e-05 6.9141387939453125e-06 6.67572021484375e-06 4.9591064453125e-05 0.5258898735046387
+[INFO] [1716093174.303242]: Inference completed for frame index: 43
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2627890110015869 0.014061689376831055 0.27685070037841797 6
+[-6.84317469] [-11.31311728]
+0.0008704662322998047 0.38251805305480957 0.008496522903442383 0.02790212631225586 0.4197871685028076
+bev_to_uv time: %s 0.032950401306152344
+6.365776062011719e-05 0.45327091217041016 5.9604644775390625e-06 0.08504748344421387 1.33514404296875e-05 6.4373016357421875e-06 5.4836273193359375e-06 3.5762786865234375e-05 0.5384490489959717
+[INFO] [1716093174.880627]: Inference completed for frame index: 49
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.26871180534362793 0.014037132263183594 0.2827489376068115 6
+[-8.20876098] [-7.46848876]
+0.0008893013000488281 0.3889122009277344 0.008288860321044922 0.02695012092590332 0.42504048347473145
+bev_to_uv time: %s 0.033432960510253906
+7.653236389160156e-05 0.45917654037475586 8.106231689453125e-06 0.08584141731262207 1.3113021850585938e-05 6.198883056640625e-06 5.0067901611328125e-06 4.00543212890625e-05 0.5451669692993164
+[INFO] [1716093175.476823]: Inference completed for frame index: 54
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.26314759254455566 0.014045238494873047 0.2771928310394287 6
+[-9.62231677] [0.59737955]
+0.000885009765625 0.382641077041626 0.00845479965209961 0.028095722198486328 0.4200766086578369
+bev_to_uv time: %s 0.027929306030273438
+6.389617919921875e-05 0.4485466480255127 5.7220458984375e-06 0.0856170654296875 1.2874603271484375e-05 6.198883056640625e-06 5.9604644775390625e-06 3.528594970703125e-05 0.5342936515808105
+[INFO] [1716093176.061811]: Inference completed for frame index: 59
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.26279211044311523 0.014075040817260742 0.276867151260376 6
+[-11.34641839] [10.49110104]
+0.0008776187896728516 0.3827974796295166 0.00844717025756836 0.027761459350585938 0.41988372802734375
+bev_to_uv time: %s 0.026743412017822266
+6.723403930664062e-05 0.4472386837005615 5.9604644775390625e-06 0.08525419235229492 1.239776611328125e-05 5.4836273193359375e-06 5.4836273193359375e-06 3.457069396972656e-05 0.5326240062713623
+[INFO] [1716093176.634765]: Inference completed for frame index: 65
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2686028480529785 0.01409149169921875 0.28269433975219727 6
+[-10.59679456] [10.42286017]
+0.0008833408355712891 0.38864970207214355 0.008434295654296875 0.02785205841064453 0.42581939697265625
+bev_to_uv time: %s 0.02629232406616211
+7.009506225585938e-05 0.4527726173400879 5.9604644775390625e-06 0.08459854125976562 1.5497207641601562e-05 6.198883056640625e-06 5.4836273193359375e-06 4.291534423828125e-05 0.5375173091888428
+[INFO] [1716093177.237127]: Inference completed for frame index: 70
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.26680803298950195 0.014130353927612305 0.28093838691711426 6
+[-11.49850493] [10.00579106]
+0.000888824462890625 0.3871464729309082 0.008420228958129883 0.02713322639465332 0.42358875274658203
+bev_to_uv time: %s 0.02171802520751953
+6.723403930664062e-05 0.4458503723144531 5.9604644775390625e-06 0.08488845825195312 1.3113021850585938e-05 6.4373016357421875e-06 5.7220458984375e-06 3.5762786865234375e-05 0.5308730602264404
+[INFO] [1716093177.830336]: Inference completed for frame index: 76
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.268355131149292 0.01410675048828125 0.28246188163757324 6
+[-57.57246966] [-169.62636256]
+0.0008480548858642578 0.38701367378234863 0.008465051651000977 0.027759552001953125 0.424086332321167
+bev_to_uv time: %s 0.013474225997924805
+6.890296936035156e-05 0.4383575916290283 6.198883056640625e-06 0.08779001235961914 1.4066696166992188e-05 6.198883056640625e-06 5.245208740234375e-06 3.647804260253906e-05 0.5262846946716309
+[INFO] [1716093178.394835]: Inference completed for frame index: 0
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.26860713958740234 0.014108896255493164 0.2827160358428955 6
+[17.81389812] [-11.33068447]
+0.0008821487426757812 0.38875317573547363 0.008533716201782227 0.029148578643798828 0.42731761932373047
+bev_to_uv time: %s 0.019019365310668945
+6.079673767089844e-05 0.4469795227050781 6.4373016357421875e-06 0.09078526496887207 1.430511474609375e-05 6.4373016357421875e-06 5.9604644775390625e-06 3.838539123535156e-05 0.5378971099853516
+[INFO] [1716093178.985857]: Inference completed for frame index: 5
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.26370859146118164 0.014177560806274414 0.27788615226745605 6
+[20.14497243] [-16.54774523]
+0.0009758472442626953 0.38371801376342773 0.008736610412597656 0.028083086013793945 0.42151355743408203
+bev_to_uv time: %s 0.02338409423828125
+6.67572021484375e-05 0.4455122947692871 6.198883056640625e-06 0.09357476234436035 1.3589859008789062e-05 5.7220458984375e-06 5.7220458984375e-06 3.5762786865234375e-05 0.5392208099365234
+[INFO] [1716093179.565190]: Inference completed for frame index: 11
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.2676198482513428 0.014107227325439453 0.2817270755767822 6
+[7.42556333] [-6.28995374]
+0.0009317398071289062 0.38855433464050293 0.008382797241210938 0.02902078628540039 0.42688965797424316
+bev_to_uv time: %s 0.018172740936279297
+8.368492126464844e-05 0.4458327293395996 7.3909759521484375e-06 0.09515380859375 1.7404556274414062e-05 6.4373016357421875e-06 6.9141387939453125e-06 4.6253204345703125e-05 0.5411546230316162
+[INFO] [1716093180.181523]: Inference completed for frame index: 16
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2680506706237793 0.014115095138549805 0.2821657657623291 6
+[4.82121491] [-4.11725375]
+0.0008695125579833984 0.3890044689178467 0.008591413497924805 0.027840375900268555 0.42630577087402344
+bev_to_uv time: %s 0.022130966186523438
+6.461143493652344e-05 0.44911837577819824 5.9604644775390625e-06 0.09681582450866699 1.430511474609375e-05 5.7220458984375e-06 5.245208740234375e-06 3.695487976074219e-05 0.5460669994354248
+[INFO] [1716093180.780622]: Inference completed for frame index: 22
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.2690403461456299 0.014104127883911133 0.283144474029541 6
+[2.70328824] [-2.29732944]
+0.0009007453918457031 0.3901033401489258 0.008559226989746094 0.02842402458190918 0.42798733711242676
+bev_to_uv time: %s 0.023598670959472656
+6.794929504394531e-05 0.45246362686157227 6.67572021484375e-06 0.09840774536132812 1.5020370483398438e-05 5.7220458984375e-06 6.198883056640625e-06 3.8623809814453125e-05 0.5510115623474121
+[INFO] [1716093181.383637]: Inference completed for frame index: 24
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.26752495765686035 0.014131546020507812 0.28165650367736816 6
+[-641.79370791] [-1616.52842299]
+0.0008559226989746094 0.38500118255615234 0.008606672286987305 0.027785778045654297 0.42224955558776855
+bev_to_uv time: %s 0.013576984405517578
+5.936622619628906e-05 0.4363570213317871 5.7220458984375e-06 0.08976483345031738 1.3828277587890625e-05 5.7220458984375e-06 5.4836273193359375e-06 3.528594970703125e-05 0.5262472629547119
+[INFO] [1716093181.948089]: Inference completed for frame index: 29
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.26426100730895996 0.014226913452148438 0.2784879207611084 6
+[704.82156043] [1815.60341983]
+0.0008499622344970703 0.3824155330657959 0.008550167083740234 0.028033018112182617 0.4198486804962158
+bev_to_uv time: %s 0.01955103874206543
+6.389617919921875e-05 0.4401099681854248 5.9604644775390625e-06 0.08564090728759766 1.3113021850585938e-05 5.7220458984375e-06 5.7220458984375e-06 3.552436828613281e-05 0.5258808135986328
+[INFO] [1716093182.943628]: Inference completed for frame index: 42
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.27151966094970703 0.014121532440185547 0.2856411933898926 6
+[-4.18561485] [-9.19178366]
+0.0009219646453857422 0.3910400867462158 0.008424520492553711 0.028188467025756836 0.4285750389099121
+bev_to_uv time: %s 0.03054356575012207
+7.367134094238281e-05 0.4598104953765869 6.4373016357421875e-06 0.08548808097839355 2.0742416381835938e-05 7.62939453125e-06 6.4373016357421875e-06 5.7220458984375e-05 0.5454707145690918
+[INFO] [1716093183.540918]: Inference completed for frame index: 47
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2687993049621582 0.014114141464233398 0.2829134464263916 6
+[-7.63825456] [-8.75327054]
+0.0008838176727294922 0.38892054557800293 0.008704185485839844 0.027907848358154297 0.42641639709472656
+bev_to_uv time: %s 0.02862834930419922
+6.175041198730469e-05 0.45557212829589844 6.198883056640625e-06 0.08501553535461426 1.2874603271484375e-05 6.198883056640625e-06 5.0067901611328125e-06 3.695487976074219e-05 0.5407166481018066
+[INFO] [1716093184.121751]: Inference completed for frame index: 52
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2693345546722412 0.014222145080566406 0.2835566997528076 6
+[-11.19009786] [-2.92700528]
+0.0009224414825439453 0.3893094062805176 0.008399724960327148 0.028131723403930664 0.42676329612731934
+bev_to_uv time: %s 0.027245283126831055
+0.037523746490478516 0.4547464847564697 6.4373016357421875e-06 0.0853118896484375 1.4066696166992188e-05 5.7220458984375e-06 5.9604644775390625e-06 3.504753112792969e-05 0.5776493549346924
+[INFO] [1716093184.751511]: Inference completed for frame index: 58
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.2686913013458252 0.014134883880615234 0.28282618522644043 6
+[-11.21404647] [9.65336743]
+0.0008661746978759766 0.3886830806732178 0.008732795715332031 0.027747631072998047 0.42602968215942383
+bev_to_uv time: %s 0.023453950881958008
+6.127357482910156e-05 0.45004701614379883 6.198883056640625e-06 0.08622384071350098 1.4543533325195312e-05 5.9604644775390625e-06 5.245208740234375e-06 3.7670135498046875e-05 0.5364017486572266
+[INFO] [1716093185.338503]: Inference completed for frame index: 64
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.26464080810546875 0.014128684997558594 0.27876949310302734 6
+[-10.51956403] [10.220037]
+0.0009629726409912109 0.38466453552246094 0.008297443389892578 0.027431488037109375 0.4213564395904541
+bev_to_uv time: %s 0.02898693084716797
+8.130073547363281e-05 0.4510161876678467 6.198883056640625e-06 0.08511877059936523 1.430511474609375e-05 6.4373016357421875e-06 5.7220458984375e-06 4.601478576660156e-05 0.5362949371337891
+[INFO] [1716093185.942079]: Inference completed for frame index: 69
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.26849818229675293 0.014172077178955078 0.282670259475708 6
+[-10.01459017] [9.78890631]
+0.0008831024169921875 0.3886535167694092 0.008646011352539062 0.027791738510131836 0.42597436904907227
+bev_to_uv time: %s 0.024782657623291016
+6.270408630371094e-05 0.45127034187316895 5.9604644775390625e-06 0.0848081111907959 1.3828277587890625e-05 6.198883056640625e-06 5.245208740234375e-06 3.5762786865234375e-05 0.5362081527709961
+[INFO] [1716093186.529085]: Inference completed for frame index: 74
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.26960206031799316 0.014107942581176758 0.2837100028991699 6
+[-10.80799368] [2.76997609]
+0.0009157657623291016 0.38936734199523926 0.008426904678344727 0.027284622192382812 0.4259946346282959
+bev_to_uv time: %s 0.016022443771362305
+7.486343383789062e-05 0.4427051544189453 6.67572021484375e-06 0.0847175121307373 1.1205673217773438e-05 6.198883056640625e-06 5.4836273193359375e-06 3.170967102050781e-05 0.5275588035583496
+[INFO] [1716093187.097224]: Inference completed for frame index: 80
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.2680666446685791 0.014106988906860352 0.28217363357543945 6
+[-36.0383182] [-178.89372222]
+0.0008566379547119141 0.38663673400878906 0.008642435073852539 0.02854323387145996 0.4246790409088135
+bev_to_uv time: %s 0.01063227653503418
+7.224082946777344e-05 0.436126708984375 5.9604644775390625e-06 0.0881037712097168 1.4543533325195312e-05 6.4373016357421875e-06 6.198883056640625e-06 3.9577484130859375e-05 0.5243754386901855
+[INFO] [1716093187.674324]: Inference completed for frame index: 4
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2651631832122803 0.014098405838012695 0.27926158905029297 6
+[17.32103223] [-13.68292172]
+0.0008692741394042969 0.3855702877044678 0.008574962615966797 0.027654409408569336 0.4226689338684082
+bev_to_uv time: %s 0.029214143753051758
+6.175041198730469e-05 0.45242905616760254 5.9604644775390625e-06 0.09289216995239258 1.33514404296875e-05 6.198883056640625e-06 6.198883056640625e-06 3.361701965332031e-05 0.5454483032226562
+[INFO] [1716093188.271469]: Inference completed for frame index: 9
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2718217372894287 0.014112710952758789 0.2859344482421875 6
+[13.03330537] [-11.04697283]
+0.0008916854858398438 0.3924424648284912 0.008432388305664062 0.02758955955505371 0.42935609817504883
+bev_to_uv time: %s 0.025096654891967773
+6.771087646484375e-05 0.4551050662994385 6.4373016357421875e-06 0.09694528579711914 1.6689300537109375e-05 6.4373016357421875e-06 5.9604644775390625e-06 4.744529724121094e-05 0.5522010326385498
+[INFO] [1716093188.875164]: Inference completed for frame index: 15
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.26827573776245117 0.01409769058227539 0.28237342834472656 6
+[4.45007856] [-3.80408531]
+0.0008635520935058594 0.3887615203857422 0.008388280868530273 0.027118921279907227 0.42513227462768555
+bev_to_uv time: %s 0.02338433265686035
+6.103515625e-05 0.449127197265625 5.9604644775390625e-06 0.0957491397857666 1.239776611328125e-05 5.7220458984375e-06 5.4836273193359375e-06 3.266334533691406e-05 0.5449995994567871
+[INFO] [1716093189.482642]: Inference completed for frame index: 21
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.26514148712158203 0.014142036437988281 0.2792835235595703 6
+[7.17090568] [-6.09723889]
+0.0010437965393066406 0.38646936416625977 0.008651018142700195 0.028199434280395508 0.4243636131286621
+bev_to_uv time: %s 0.02511286735534668
+7.295608520507812e-05 0.45019102096557617 6.9141387939453125e-06 0.09851431846618652 1.3828277587890625e-05 5.7220458984375e-06 5.4836273193359375e-06 3.62396240234375e-05 0.5488464832305908
+[INFO] [1716093190.085385]: Inference completed for frame index: 26
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.26975321769714355 0.014168739318847656 0.2839219570159912 6
+[14.0371932] [-12.21032216]
+0.0008890628814697266 0.3899662494659424 0.008326053619384766 0.02718353271484375 0.4263648986816406
+bev_to_uv time: %s 0.025948762893676758
+6.818771362304688e-05 0.45296216011047363 5.9604644775390625e-06 0.09588313102722168 1.3113021850585938e-05 5.7220458984375e-06 5.9604644775390625e-06 3.814697265625e-05 0.5489823818206787
+[INFO] [1716093190.685638]: Inference completed for frame index: 32
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.26987624168395996 0.01417398452758789 0.28405022621154785 6
+[14.770843] [-13.08449305]
+0.0009567737579345703 0.39072585105895996 0.008454084396362305 0.028454303741455078 0.4285910129547119
+bev_to_uv time: %s 0.020660400390625
+0.00011086463928222656 0.449937105178833 6.4373016357421875e-06 0.09604668617248535 1.4543533325195312e-05 6.198883056640625e-06 5.4836273193359375e-06 3.981590270996094e-05 0.5461671352386475
+[INFO] [1716093191.276016]: Inference completed for frame index: 37
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.26946210861206055 0.014203786849975586 0.28366589546203613 6
+[-657.75335493] [-1350.32626895]
+0.0008296966552734375 0.3875746726989746 0.008535623550415039 0.02773880958557129 0.4246788024902344
+bev_to_uv time: %s 0.008869171142578125
+5.888938903808594e-05 0.4342336654663086 5.7220458984375e-06 0.08441329002380371 1.2159347534179688e-05 5.9604644775390625e-06 5.7220458984375e-06 3.790855407714844e-05 0.5187733173370361
+[INFO] [1716093191.844528]: Inference completed for frame index: 43
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.26961207389831543 0.014096736907958984 0.2837088108062744 6
+[682.95839077] [1566.50277477]
+0.0009090900421142578 0.3866891860961914 0.008281230926513672 0.027838468551635742 0.4237179756164551
+bev_to_uv time: %s 0.026691675186157227
+7.724761962890625e-05 0.4511098861694336 5.9604644775390625e-06 0.08509063720703125 1.2874603271484375e-05 5.245208740234375e-06 5.245208740234375e-06 3.552436828613281e-05 0.5363426208496094
+[INFO] [1716093192.421552]: Inference completed for frame index: 48
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.27002525329589844 0.01418757438659668 0.2842128276824951 6
+[-7.88382833] [-8.20591804]
+0.0009002685546875 0.3906090259552002 0.008515119552612305 0.02803826332092285 0.42806267738342285
+bev_to_uv time: %s 0.03517460823059082
+6.270408630371094e-05 0.4637885093688965 5.9604644775390625e-06 0.08497929573059082 1.2159347534179688e-05 5.9604644775390625e-06 5.0067901611328125e-06 3.600120544433594e-05 0.5488955974578857
+[INFO] [1716093193.033393]: Inference completed for frame index: 53
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.27092432975769043 0.014223337173461914 0.28514766693115234 6
+[-712.17540586] [-1786.09648588]
+0.0008854866027832031 0.38968396186828613 0.008312225341796875 0.02771139144897461 0.4265930652618408
+bev_to_uv time: %s 0.0205838680267334
+7.104873657226562e-05 0.44782400131225586 6.9141387939453125e-06 0.08598852157592773 1.3589859008789062e-05 5.9604644775390625e-06 5.245208740234375e-06 3.6716461181640625e-05 0.533951997756958
+[INFO] [1716093193.619104]: Inference completed for frame index: 59
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.27049851417541504 0.014257669448852539 0.2847561836242676 6
+[-1.5917297] [9.05598788]
+0.0009965896606445312 0.39075231552124023 0.008526086807250977 0.028712987899780273 0.428987979888916
+bev_to_uv time: %s 0.015906572341918945
+7.843971252441406e-05 0.4455132484436035 6.198883056640625e-06 0.0851738452911377 1.621246337890625e-05 5.9604644775390625e-06 6.4373016357421875e-06 4.5299530029296875e-05 0.5308456420898438
+[INFO] [1716093194.202641]: Inference completed for frame index: 64
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.2704949378967285 0.01416635513305664 0.28466129302978516 6
+[0.69448244] [0.56666957]
+0.0008747577667236328 0.39115166664123535 0.008603096008300781 0.026961326599121094 0.42759084701538086
+bev_to_uv time: %s 0.020402908325195312
+6.365776062011719e-05 0.4486234188079834 6.4373016357421875e-06 0.0852055549621582 1.3113021850585938e-05 6.198883056640625e-06 5.245208740234375e-06 3.7670135498046875e-05 0.533961296081543
+[INFO] [1716093194.787132]: Inference completed for frame index: 69
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2660965919494629 0.014222383499145508 0.2803189754486084 6
+[669.98180282] [1805.89864878]
+0.001043558120727539 0.3840672969818115 0.00847935676574707 0.02787470817565918 0.4214649200439453
+bev_to_uv time: %s 0.0212247371673584
+7.176399230957031e-05 0.4433586597442627 6.9141387939453125e-06 0.08518028259277344 1.3589859008789062e-05 6.198883056640625e-06 5.4836273193359375e-06 3.457069396972656e-05 0.5286774635314941
+[INFO] [1716093195.368547]: Inference completed for frame index: 75
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.2716538906097412 0.014649391174316406 0.2863032817840576 6
+[-670.27023246] [-1813.34870969]
+0.0008835792541503906 0.3905515670776367 0.008404016494750977 0.028434276580810547 0.42827343940734863
+bev_to_uv time: %s 0.012813806533813477
+6.937980651855469e-05 0.4417247772216797 6.198883056640625e-06 0.0850679874420166 1.3828277587890625e-05 6.198883056640625e-06 5.7220458984375e-06 3.743171691894531e-05 0.5269315242767334
+[INFO] [1716093195.936683]: Inference completed for frame index: 80
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2656564712524414 0.014263153076171875 0.2799196243286133 6
+[-25.23032452] [-181.6636983]
+0.0011034011840820312 0.3858656883239746 0.00862574577331543 0.027947187423706055 0.4235420227050781
+bev_to_uv time: %s 0.018108129501342773
+7.271766662597656e-05 0.44245219230651855 6.4373016357421875e-06 0.08845067024230957 1.2874603271484375e-05 5.7220458984375e-06 5.7220458984375e-06 3.814697265625e-05 0.5310444831848145
+[INFO] [1716093196.518810]: Inference completed for frame index: 4
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.26985669136047363 0.014215230941772461 0.2840719223022461 6
+[671.15761906] [1801.01468087]
+0.0008821487426757812 0.3892660140991211 0.008325576782226562 0.02778768539428711 0.42626142501831055
+bev_to_uv time: %s 0.02182626724243164
+6.67572021484375e-05 0.4487345218658447 6.4373016357421875e-06 0.09039998054504395 1.2874603271484375e-05 5.9604644775390625e-06 5.4836273193359375e-06 3.6716461181640625e-05 0.5392687320709229
+[INFO] [1716093197.097909]: Inference completed for frame index: 10
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.26966071128845215 0.014218330383300781 0.28387904167175293 6
+[-622.08599548] [-1633.16793148]
+0.0008742809295654297 0.389087438583374 0.008603572845458984 0.028279542922973633 0.42684483528137207
+bev_to_uv time: %s 0.014332056045532227
+7.557868957519531e-05 0.4419212341308594 5.7220458984375e-06 0.08958554267883301 1.8358230590820312e-05 6.67572021484375e-06 6.67572021484375e-06 4.673004150390625e-05 0.5316665172576904
+[INFO] [1716093197.680959]: Inference completed for frame index: 15
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2656288146972656 0.014266252517700195 0.2798950672149658 6
+[635.17367838] [1622.04843129]
+0.0009043216705322266 0.38500118255615234 0.008423089981079102 0.027916431427001953 0.4222450256347656
+bev_to_uv time: %s 0.016684293746948242
+6.961822509765625e-05 0.4395105838775635 6.4373016357421875e-06 0.09099149703979492 1.3113021850585938e-05 5.4836273193359375e-06 5.245208740234375e-06 3.814697265625e-05 0.5306401252746582
+[INFO] [1716093198.275044]: Inference completed for frame index: 20
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.26970458030700684 0.014202356338500977 0.2839069366455078 6
+[-641.03607807] [-1617.09869734]
+0.0008835792541503906 0.3890657424926758 0.00844430923461914 0.027983903884887695 0.426377534866333
+bev_to_uv time: %s 0.018988609313964844
+6.604194641113281e-05 0.44606709480285645 6.9141387939453125e-06 0.09100198745727539 1.3828277587890625e-05 5.7220458984375e-06 5.0067901611328125e-06 3.719329833984375e-05 0.5372037887573242
+[INFO] [1716093198.862834]: Inference completed for frame index: 26
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.26987242698669434 0.014242887496948242 0.2841153144836426 6
+[660.61336939] [1600.24134248]
+0.0008869171142578125 0.389068603515625 0.008494377136230469 0.02825927734375 0.4267091751098633
+bev_to_uv time: %s 0.023369789123535156
+6.699562072753906e-05 0.45070338249206543 6.67572021484375e-06 0.08973884582519531 1.2874603271484375e-05 5.7220458984375e-06 5.7220458984375e-06 3.790855407714844e-05 0.5405781269073486
+[INFO] [1716093199.454798]: Inference completed for frame index: 31
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.26999545097351074 0.014326810836791992 0.28432226181030273 6
+[-653.01343208] [-1607.22859664]
+0.0008823871612548828 0.38866400718688965 0.008345365524291992 0.03262209892272949 0.430513858795166
+bev_to_uv time: %s 0.016588926315307617
+7.319450378417969e-05 0.44776248931884766 6.4373016357421875e-06 0.09126114845275879 1.3113021850585938e-05 6.4373016357421875e-06 5.0067901611328125e-06 3.600120544433594e-05 0.5391638278961182
+[INFO] [1716093200.032434]: Inference completed for frame index: 37
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.26973581314086914 0.014234304428100586 0.2839701175689697 6
+[690.05071743] [1828.68791288]
+0.0008766651153564453 0.3885636329650879 0.008597850799560547 0.029012441635131836 0.4270505905151367
+bev_to_uv time: %s 0.01802825927734375
+7.200241088867188e-05 0.44591641426086426 6.4373016357421875e-06 0.0854804515838623 1.2874603271484375e-05 6.198883056640625e-06 5.245208740234375e-06 3.743171691894531e-05 0.5315370559692383
+[INFO] [1716093200.627731]: Inference completed for frame index: 42
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.26947712898254395 0.014211177825927734 0.2836883068084717 6
+[-21.86316965] [-249.10064506]
+0.0008873939514160156 0.387683629989624 0.008582353591918945 0.028624534606933594 0.4257779121398926
+bev_to_uv time: %s 0.01743793487548828
+7.009506225585938e-05 0.44376397132873535 5.9604644775390625e-06 0.08510494232177734 1.33514404296875e-05 6.198883056640625e-06 5.4836273193359375e-06 3.7670135498046875e-05 0.5290076732635498
+[INFO] [1716093201.207432]: Inference completed for frame index: 48
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.26943087577819824 0.014246463775634766 0.283677339553833 6
+[-690.8422191] [-1574.70869281]
+0.000881195068359375 0.38753223419189453 0.00856161117553711 0.02863168716430664 0.42560672760009766
+bev_to_uv time: %s 0.015580177307128906
+6.818771362304688e-05 0.4417557716369629 6.4373016357421875e-06 0.08541059494018555 1.430511474609375e-05 6.198883056640625e-06 5.0067901611328125e-06 4.00543212890625e-05 0.5273065567016602
+[INFO] [1716093201.777467]: Inference completed for frame index: 53
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.26969432830810547 0.014237403869628906 0.2839317321777344 6
+[-3.30626953] [5.27891276]
+0.0008916854858398438 0.39076662063598633 0.008828163146972656 0.02824544906616211 0.42873191833496094
+bev_to_uv time: %s 0.018059492111206055
+6.365776062011719e-05 0.4474194049835205 6.198883056640625e-06 0.08619165420532227 1.2636184692382812e-05 5.7220458984375e-06 5.7220458984375e-06 3.528594970703125e-05 0.5337402820587158
+[INFO] [1716093202.373886]: Inference completed for frame index: 58
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.26967358589172363 0.014217615127563477 0.2838912010192871 6
+[9.59836816] [11.98299316]
+0.0008809566497802734 0.3900153636932373 0.008563041687011719 0.02717447280883789 0.4266338348388672
+bev_to_uv time: %s 0.01892399787902832
+6.842613220214844e-05 0.4460935592651367 6.4373016357421875e-06 0.08614945411682129 1.3589859008789062e-05 5.4836273193359375e-06 5.4836273193359375e-06 3.504753112792969e-05 0.5323774814605713
+[INFO] [1716093202.944690]: Inference completed for frame index: 64
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2657911777496338 0.014240264892578125 0.2800314426422119 6
+[2.28621213] [-8.48931831]
+0.0008838176727294922 0.3867325782775879 0.008783817291259766 0.0285186767578125 0.42491888999938965
+bev_to_uv time: %s 0.023525238037109375
+7.510185241699219e-05 0.44915342330932617 1.239776611328125e-05 0.08629941940307617 1.4781951904296875e-05 5.7220458984375e-06 5.7220458984375e-06 3.886222839355469e-05 0.5356054306030273
+[INFO] [1716093203.543702]: Inference completed for frame index: 69
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.26584553718566895 0.014225006103515625 0.28007054328918457 6
+[-10.70907261] [9.22223674]
+0.0011174678802490234 0.3868868350982666 0.00866556167602539 0.028104782104492188 0.4247746467590332
+bev_to_uv time: %s 0.021189212799072266
+7.224082946777344e-05 0.4465787410736084 7.152557373046875e-06 0.08613443374633789 1.239776611328125e-05 5.9604644775390625e-06 5.7220458984375e-06 3.600120544433594e-05 0.5328526496887207
+[INFO] [1716093204.115360]: Inference completed for frame index: 74
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2711176872253418 0.014224767684936523 0.2853424549102783 6
+[-660.25564229] [-1823.137616]
+0.0008864402770996094 0.38956594467163086 0.008414030075073242 0.028069496154785156 0.42693591117858887
+bev_to_uv time: %s 0.014429330825805664
+6.866455078125e-05 0.44201087951660156 6.67572021484375e-06 0.08559036254882812 1.621246337890625e-05 6.198883056640625e-06 5.9604644775390625e-06 4.76837158203125e-05 0.5277526378631592
+[INFO] [1716093204.705749]: Inference completed for frame index: 80
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.27100586891174316 0.01424407958984375 0.2852499485015869 6
+[645.03990794] [1631.68501138]
+0.0009138584136962891 0.3906571865081787 0.008833169937133789 0.028082609176635742 0.42848682403564453
+bev_to_uv time: %s 0.015924692153930664
+6.842613220214844e-05 0.4453389644622803 6.4373016357421875e-06 0.08904671669006348 1.3113021850585938e-05 5.4836273193359375e-06 5.9604644775390625e-06 3.600120544433594e-05 0.5345211029052734
+[INFO] [1716093205.279566]: Inference completed for frame index: 4
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2698984146118164 0.014203071594238281 0.2841014862060547 6
+[42.55135675] [167.98077659]
+0.0008711814880371094 0.38843441009521484 0.008512258529663086 0.027525663375854492 0.42534351348876953
+bev_to_uv time: %s 0.01496434211730957
+6.747245788574219e-05 0.4408450126647949 6.198883056640625e-06 0.09137272834777832 1.430511474609375e-05 6.198883056640625e-06 5.245208740234375e-06 4.100799560546875e-05 0.5323581695556641
+[INFO] [1716093205.863244]: Inference completed for frame index: 9
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.26590442657470703 0.014182806015014648 0.2800872325897217 6
+[-639.40702771] [-1619.48500976]
+0.0008883476257324219 0.38486313819885254 0.00833892822265625 0.027914762496948242 0.42200517654418945
+bev_to_uv time: %s 0.01674365997314453
+7.009506225585938e-05 0.4394209384918213 6.67572021484375e-06 0.09064841270446777 1.3828277587890625e-05 6.198883056640625e-06 5.7220458984375e-06 3.647804260253906e-05 0.5302083492279053
+[INFO] [1716093206.457575]: Inference completed for frame index: 15
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.26648545265197754 0.014317989349365234 0.2808034420013428 6
+[1257.25967386] [3255.21636277]
+0.0008840560913085938 0.3858306407928467 0.008633852005004883 0.028361082077026367 0.4237096309661865
+bev_to_uv time: %s 0.017296552658081055
+6.29425048828125e-05 0.44154787063598633 5.9604644775390625e-06 0.09238600730895996 1.33514404296875e-05 5.9604644775390625e-06 5.9604644775390625e-06 3.695487976074219e-05 0.5340650081634521
+[INFO] [1716093207.030315]: Inference completed for frame index: 20
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2704296112060547 0.014217615127563477 0.28464722633361816 6
+[-1276.20975645] [-3239.14712863]
+0.0008857250213623047 0.3892946243286133 0.008346796035766602 0.02810049057006836 0.42662763595581055
+bev_to_uv time: %s 0.018310070037841797
+6.628036499023438e-05 0.44559764862060547 6.9141387939453125e-06 0.09088420867919922 1.3113021850585938e-05 6.198883056640625e-06 6.4373016357421875e-06 3.600120544433594e-05 0.5366168022155762
+[INFO] [1716093207.617284]: Inference completed for frame index: 26
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2715480327606201 0.014381885528564453 0.28592991828918457 6
+[1301.64944746] [3217.34003982]
+0.0008974075317382812 0.39053797721862793 0.008598089218139648 0.02826094627380371 0.42829442024230957
+bev_to_uv time: %s 0.021245718002319336
+6.794929504394531e-05 0.4501800537109375 6.198883056640625e-06 0.0905754566192627 1.430511474609375e-05 6.198883056640625e-06 5.0067901611328125e-06 3.933906555175781e-05 0.5408945083618164
+[INFO] [1716093208.208930]: Inference completed for frame index: 31
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.27046871185302734 0.014261484146118164 0.2847301959991455 6
+[-1313.62680147] [-3207.46993912]
+0.0008895397186279297 0.38925886154174805 0.008414506912231445 0.028223752975463867 0.4267866611480713
+bev_to_uv time: %s 0.011433601379394531
+6.985664367675781e-05 0.4387705326080322 6.4373016357421875e-06 0.08924198150634766 1.5974044799804688e-05 5.7220458984375e-06 6.198883056640625e-06 4.6253204345703125e-05 0.528162956237793
+[INFO] [1716093208.776583]: Inference completed for frame index: 37
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2666804790496826 0.014314413070678711 0.28099489212036133 6
+[1343.06414951] [3435.91650952]
+0.0008618831634521484 0.38574862480163574 0.008474588394165039 0.028059005737304688 0.4231441020965576
+bev_to_uv time: %s 0.019580364227294922
+7.128715515136719e-05 0.4436054229736328 6.198883056640625e-06 0.08622217178344727 1.4543533325195312e-05 6.4373016357421875e-06 6.67572021484375e-06 4.57763671875e-05 0.5299785137176514
+[INFO] [1716093209.370073]: Inference completed for frame index: 42
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.2703404426574707 0.01431727409362793 0.28465771675109863 6
+[-694.23633228] [-1837.87969654]
+0.0008950233459472656 0.388411283493042 0.008749723434448242 0.027865171432495117 0.4259212017059326
+bev_to_uv time: %s 0.02805328369140625
+6.461143493652344e-05 0.454603910446167 6.4373016357421875e-06 0.08546137809753418 1.239776611328125e-05 5.9604644775390625e-06 5.245208740234375e-06 3.719329833984375e-05 0.5401971340179443
+[INFO] [1716093209.960841]: Inference completed for frame index: 47
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2704474925994873 0.014264345169067383 0.2847118377685547 6
+[-686.65660425] [-1565.51690915]
+0.0008673667907714844 0.3889920711517334 0.008590221405029297 0.027220726013183594 0.4256703853607178
+bev_to_uv time: %s 0.026940107345581055
+6.508827209472656e-05 0.45314693450927734 6.4373016357421875e-06 0.08558869361877441 1.1920928955078125e-05 6.198883056640625e-06 5.7220458984375e-06 3.528594970703125e-05 0.5388662815093994
+[INFO] [1716093210.549871]: Inference completed for frame index: 53
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.2709932327270508 0.014264822006225586 0.28525805473327637 6
+[687.53594957] [1579.98760557]
+0.00087738037109375 0.38973093032836914 0.008351564407348633 0.028090953826904297 0.4270508289337158
+bev_to_uv time: %s 0.020677804946899414
+6.270408630371094e-05 0.4484293460845947 6.67572021484375e-06 0.08539533615112305 1.3828277587890625e-05 5.9604644775390625e-06 5.7220458984375e-06 3.838539123535156e-05 0.5339579582214355
+[INFO] [1716093211.136769]: Inference completed for frame index: 58
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2706587314605713 0.014297723770141602 0.2849564552307129 6
+[12.90463769] [6.7040804]
+0.0008842945098876953 0.39124441146850586 0.008449554443359375 0.027797222137451172 0.4283754825592041
+bev_to_uv time: %s 0.017531871795654297
+6.747245788574219e-05 0.4464418888092041 6.198883056640625e-06 0.08586907386779785 1.2874603271484375e-05 6.198883056640625e-06 5.0067901611328125e-06 3.7670135498046875e-05 0.5324463844299316
+[INFO] [1716093211.719910]: Inference completed for frame index: 64
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.27150487899780273 0.014316797256469727 0.28582167625427246 6
+[-7.31215603] [-20.47231147]
+0.00092315673828125 0.392392635345459 0.008526802062988281 0.027606487274169922 0.42944908142089844
+bev_to_uv time: %s 0.019824504852294922
+0.00010585784912109375 0.45012664794921875 6.9141387939453125e-06 0.08600306510925293 1.621246337890625e-05 6.198883056640625e-06 6.198883056640625e-06 4.482269287109375e-05 0.53631591796875
+[INFO] [1716093212.311000]: Inference completed for frame index: 69
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2702775001525879 0.01441812515258789 0.2846956253051758 6
+[-12.99528474] [17.71155505]
+0.0008819103240966797 0.3913698196411133 0.008665800094604492 0.02749037742614746 0.4284079074859619
+bev_to_uv time: %s 0.020956754684448242
+6.866455078125e-05 0.4499068260192871 6.198883056640625e-06 0.08597278594970703 1.71661376953125e-05 6.9141387939453125e-06 5.7220458984375e-06 4.696846008300781e-05 0.5360312461853027
+[INFO] [1716093212.898995]: Inference completed for frame index: 74
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.26627588272094727 0.014270305633544922 0.2805461883544922 6
+[-649.54656968] [-1832.35985274]
+0.0008833408355712891 0.3848531246185303 0.008578777313232422 0.027006149291992188 0.42132139205932617
+bev_to_uv time: %s 0.014164924621582031
+6.4849853515625e-05 0.43599843978881836 6.198883056640625e-06 0.08544254302978516 1.33514404296875e-05 6.4373016357421875e-06 5.9604644775390625e-06 3.695487976074219e-05 0.5215747356414795
+[INFO] [1716093213.471760]: Inference completed for frame index: 80
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2663586139678955 0.014257669448852539 0.28061628341674805 6
+[1305.29555023] [3454.82262738]
+0.000946044921875 0.38613057136535645 0.008517742156982422 0.027871131896972656 0.4234654903411865
+bev_to_uv time: %s 0.016147851943969727
+8.153915405273438e-05 0.44056129455566406 6.9141387939453125e-06 0.08954429626464844 1.0728836059570312e-05 6.198883056640625e-06 5.7220458984375e-06 3.123283386230469e-05 0.5302479267120361
+[INFO] [1716093214.030428]: Inference completed for frame index: 4
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.27174878120422363 0.014278411865234375 0.286027193069458 6
+[-602.48855119] [-1463.7042348]
+0.0008962154388427734 0.3908867835998535 0.008780717849731445 0.02850198745727539 0.4290657043457031
+bev_to_uv time: %s 0.017986536026000977
+6.270408630371094e-05 0.44768571853637695 6.67572021484375e-06 0.09167885780334473 1.33514404296875e-05 5.7220458984375e-06 5.7220458984375e-06 3.790855407714844e-05 0.539496660232544
+[INFO] [1716093214.621025]: Inference completed for frame index: 9
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.27157044410705566 0.014258623123168945 0.2858290672302246 6
+[-681.95838446] [-1787.46578635]
+0.0008759498596191406 0.39043474197387695 0.008465051651000977 0.02730417251586914 0.4270799160003662
+bev_to_uv time: %s 0.010458230972290039
+6.175041198730469e-05 0.4381129741668701 7.867813110351562e-06 0.08995795249938965 1.2159347534179688e-05 5.9604644775390625e-06 5.4836273193359375e-06 3.4809112548828125e-05 0.5281989574432373
+[INFO] [1716093215.211872]: Inference completed for frame index: 15
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.27209043502807617 0.014320135116577148 0.2864105701446533 6
+[1896.66670158] [4874.70137253]
+0.0009214878082275391 0.39108753204345703 0.00850057601928711 0.028388261795043945 0.4288978576660156
+bev_to_uv time: %s 0.013020992279052734
+8.082389831542969e-05 0.4426107406616211 6.67572021484375e-06 0.0930783748626709 1.5020370483398438e-05 6.67572021484375e-06 6.4373016357421875e-06 3.9577484130859375e-05 0.5358443260192871
+[INFO] [1716093215.788230]: Inference completed for frame index: 20
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.26659369468688965 0.014283418655395508 0.28087711334228516 6
+[-602.62552698] [-1649.67324917]
+0.0008819103240966797 0.3853421211242676 0.008528947830200195 0.02707672119140625 0.4218297004699707
+bev_to_uv time: %s 0.018702983856201172
+6.866455078125e-05 0.4410686492919922 5.7220458984375e-06 0.0937204360961914 1.3113021850585938e-05 5.7220458984375e-06 5.7220458984375e-06 3.719329833984375e-05 0.5349252223968506
+[INFO] [1716093216.387015]: Inference completed for frame index: 25
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.27438926696777344 0.014212846755981445 0.2886021137237549 6
+[23.07834134] [193.10863804]
+0.0008709430694580078 0.39280223846435547 0.008418798446655273 0.028072118759155273 0.430164098739624
+bev_to_uv time: %s 0.010814905166625977
+7.390975952148438e-05 0.4418344497680664 6.9141387939453125e-06 0.08525943756103516 1.6450881958007812e-05 5.9604644775390625e-06 5.7220458984375e-06 3.814697265625e-05 0.5272409915924072
+[INFO] [1716093220.951341]: Inference completed for frame index: 66
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.26610589027404785 0.014252662658691406 0.28035855293273926 6
+[-10.62642374] [10.58851532]
+0.0008766651153564453 0.3970925807952881 0.008528947830200195 0.027922868728637695 0.4344210624694824
+bev_to_uv time: %s 0.023386716842651367
+6.079673767089844e-05 0.4583547115325928 5.9604644775390625e-06 0.08549189567565918 1.239776611328125e-05 5.7220458984375e-06 5.7220458984375e-06 3.8623809814453125e-05 0.543975830078125
+[INFO] [1716093221.547085]: Inference completed for frame index: 71
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.26962757110595703 0.01426076889038086 0.2838883399963379 6
+[-678.58456942] [-1799.2344759]
+0.0008649826049804688 0.38860034942626953 0.008471250534057617 0.02720928192138672 0.42514586448669434
+bev_to_uv time: %s 0.01956462860107422
+6.794929504394531e-05 0.445371150970459 6.4373016357421875e-06 0.0856320858001709 1.33514404296875e-05 5.7220458984375e-06 5.7220458984375e-06 3.600120544433594e-05 0.5311384201049805
+[INFO] [1716093222.128883]: Inference completed for frame index: 76
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.27341365814208984 0.014317035675048828 0.28773069381713867 6
+[-46.07396472] [-179.63215362]
+0.001001596450805664 0.39289212226867676 0.008515119552612305 0.028592348098754883 0.4310011863708496
+bev_to_uv time: %s 0.009207963943481445
+8.058547973632812e-05 0.44120311737060547 5.9604644775390625e-06 0.0889730453491211 1.5974044799804688e-05 6.67572021484375e-06 6.9141387939453125e-06 4.315376281738281e-05 0.5303354263305664
+[INFO] [1716093222.701007]: Inference completed for frame index: 0
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.27025461196899414 0.014330863952636719 0.28458547592163086 6
+[75.38636778] [158.29567809]
+0.0008895397186279297 0.3897249698638916 0.008995532989501953 0.02827596664428711 0.4278860092163086
+bev_to_uv time: %s 0.012308835983276367
+6.341934204101562e-05 0.44077301025390625 6.4373016357421875e-06 0.08774280548095703 1.3589859008789062e-05 5.245208740234375e-06 5.7220458984375e-06 3.910064697265625e-05 0.5286493301391602
+[INFO] [1716093223.281177]: Inference completed for frame index: 5
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2701570987701416 0.014242887496948242 0.28439998626708984 6
+[2.33107431] [-5.21706075]
+0.0008828639984130859 0.3925135135650635 0.008433103561401367 0.0279843807220459 0.42981386184692383
+bev_to_uv time: %s 0.018116235733032227
+6.67572021484375e-05 0.4485783576965332 6.198883056640625e-06 0.0909566879272461 1.2874603271484375e-05 5.7220458984375e-06 4.76837158203125e-06 3.4332275390625e-05 0.539665699005127
+[INFO] [1716093223.871785]: Inference completed for frame index: 11
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.2665276527404785 0.014272928237915039 0.28080058097839355 6
+[-702.1033569] [-1770.91804112]
+0.0008900165557861328 0.385800838470459 0.008610248565673828 0.028602123260498047 0.423903226852417
+bev_to_uv time: %s 0.016604185104370117
+7.009506225585938e-05 0.4410707950592041 6.198883056640625e-06 0.09133076667785645 1.52587890625e-05 5.7220458984375e-06 5.4836273193359375e-06 4.029273986816406e-05 0.5325446128845215
+[INFO] [1716093224.455667]: Inference completed for frame index: 15
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.28381824493408203 0.014219045639038086 0.2980372905731201 6
+[1328.03231115] [3400.30080901]
+0.001405954360961914 0.4024662971496582 0.008280754089355469 0.02743387222290039 0.439586877822876
+bev_to_uv time: %s 0.012552738189697266
+7.486343383789062e-05 0.45293188095092773 6.67572021484375e-06 0.09054374694824219 1.3828277587890625e-05 5.7220458984375e-06 5.4836273193359375e-06 3.9577484130859375e-05 0.5436217784881592
+[INFO] [1716093233.663033]: Inference completed for frame index: 17
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.272554874420166 0.014287948608398438 0.28684282302856445 6
+[-1248.69945366] [-3262.50827183]
+0.0008842945098876953 0.39170360565185547 0.008438825607299805 0.02762150764465332 0.4286482334136963
+bev_to_uv time: %s 0.011425256729125977
+6.175041198730469e-05 0.4407999515533447 7.867813110351562e-06 0.0908513069152832 1.049041748046875e-05 6.198883056640625e-06 5.245208740234375e-06 3.314018249511719e-05 0.531775951385498
+[INFO] [1716093234.637824]: Inference completed for frame index: 25
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.26933860778808594 0.014453649520874023 0.28379225730895996 6
+[1904.27497444] [4867.01328899]
+0.0008955001831054688 0.38854241371154785 0.008299112319946289 0.02793145179748535 0.42566847801208496
+bev_to_uv time: %s 0.0204923152923584
+7.414817810058594e-05 0.4468977451324463 6.4373016357421875e-06 0.09101414680480957 1.3589859008789062e-05 5.4836273193359375e-06 5.9604644775390625e-06 3.647804260253906e-05 0.5380539894104004
+[INFO] [1716093235.216719]: Inference completed for frame index: 31
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.27043795585632324 0.014270782470703125 0.28470873832702637 6
+[-1288.30220258] [-3229.13188212]
+0.0009210109710693359 0.3893749713897705 0.008513689041137695 0.027803897857666016 0.42661356925964355
+bev_to_uv time: %s 0.018137693405151367
+6.556510925292969e-05 0.44533491134643555 7.3909759521484375e-06 0.09253931045532227 1.1682510375976562e-05 5.7220458984375e-06 5.9604644775390625e-06 3.3855438232421875e-05 0.5380043983459473
+[INFO] [1716093235.817422]: Inference completed for frame index: 34
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.27292299270629883 0.014157533645629883 0.2870805263519287 6
+[638.83127612] [1829.80073193]
+0.001146078109741211 0.3908991813659668 0.008462667465209961 0.03524184226989746 0.43574976921081543
+bev_to_uv time: %s 0.013632774353027344
+0.00015020370483398438 0.45049190521240234 6.67572021484375e-06 0.0849294662475586 1.33514404296875e-05 5.9604644775390625e-06 5.245208740234375e-06 3.552436828613281e-05 0.5356383323669434
+[INFO] [1716093249.601186]: Inference completed for frame index: 79
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.270221471786499 0.014162778854370117 0.28438425064086914 6
+[675.85379014] [1582.29191937]
+0.0010020732879638672 0.38939642906188965 0.00895071029663086 0.02751302719116211 0.4268622398376465
+bev_to_uv time: %s 0.016542434692382812
+9.369850158691406e-05 0.44423651695251465 5.9604644775390625e-06 0.09006786346435547 1.2636184692382812e-05 5.245208740234375e-06 5.7220458984375e-06 3.62396240234375e-05 0.5344638824462891
+[INFO] [1716093251.794800]: Inference completed for frame index: 17
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2697439193725586 0.014247417449951172 0.28399133682250977 6
+[-1323.15136098] [-3404.45457761]
+0.0009059906005859375 0.3885324001312256 0.008323907852172852 0.028096675872802734 0.4258589744567871
+bev_to_uv time: %s 0.014438152313232422
+6.794929504394531e-05 0.4409501552581787 6.4373016357421875e-06 0.09128594398498535 1.430511474609375e-05 6.4373016357421875e-06 5.245208740234375e-06 4.00543212890625e-05 0.5323765277862549
+[INFO] [1716093252.390523]: Inference completed for frame index: 23
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.2701385021209717 0.014275789260864258 0.28441429138183594 6
+[655.45965034] [1604.81879974]
+0.000888824462890625 0.3892934322357178 0.008745908737182617 0.029558658599853516 0.42848682403564453
+bev_to_uv time: %s 0.020161867141723633
+6.389617919921875e-05 0.4491865634918213 5.7220458984375e-06 0.09180092811584473 1.2874603271484375e-05 5.7220458984375e-06 5.4836273193359375e-06 3.528594970703125e-05 0.54111647605896
+[INFO] [1716093252.983805]: Inference completed for frame index: 28
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2698798179626465 0.014297008514404297 0.2841768264770508 6
+[-1948.64280308] [-4829.79691326]
+0.0009038448333740234 0.3887345790863037 0.008481740951538086 0.028218507766723633 0.42633867263793945
+bev_to_uv time: %s 0.019762754440307617
+7.867813110351562e-05 0.4467313289642334 6.4373016357421875e-06 0.09147882461547852 1.4781951904296875e-05 6.67572021484375e-06 6.198883056640625e-06 4.1961669921875e-05 0.5383648872375488
+[INFO] [1716093253.562332]: Inference completed for frame index: 34
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2695939540863037 0.014263153076171875 0.2838571071624756 6
+[1979.75388734] [4802.37092345]
+0.0008809566497802734 0.38878870010375977 0.008687496185302734 0.02857065200805664 0.4269278049468994
+bev_to_uv time: %s 0.015140056610107422
+6.413459777832031e-05 0.442671537399292 5.9604644775390625e-06 0.0906374454498291 1.52587890625e-05 6.67572021484375e-06 6.67572021484375e-06 4.029273986816406e-05 0.5334479808807373
+[INFO] [1716093254.159323]: Inference completed for frame index: 39
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2705957889556885 0.014258861541748047 0.2848546504974365 6
+[-692.82814988] [-1582.75845477]
+0.0009596347808837891 0.3895394802093506 0.008592844009399414 0.02750706672668457 0.42659902572631836
+bev_to_uv time: %s 0.013521194458007812
+6.723403930664062e-05 0.44095516204833984 6.198883056640625e-06 0.08597707748413086 1.3113021850585938e-05 5.7220458984375e-06 5.245208740234375e-06 4.38690185546875e-05 0.5270736217498779
+[INFO] [1716093254.737330]: Inference completed for frame index: 45
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.27084922790527344 0.014217853546142578 0.285067081451416 6
+[708.82460871] [1800.81993739]
+0.0009148120880126953 0.38932347297668457 0.008600234985351562 0.027965545654296875 0.4268040657043457
+bev_to_uv time: %s 0.02356886863708496
+8.893013000488281e-05 0.45105957984924316 6.4373016357421875e-06 0.08574533462524414 1.430511474609375e-05 6.198883056640625e-06 5.7220458984375e-06 4.00543212890625e-05 0.5369665622711182
+[INFO] [1716093255.327567]: Inference completed for frame index: 50
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.27047085762023926 0.014237642288208008 0.28470849990844727 6
+[-8.56385796] [-6.44692086]
+0.0009410381317138672 0.39125823974609375 0.008790254592895508 0.028444766998291016 0.42943429946899414
+bev_to_uv time: %s 0.027324199676513672
+7.128715515136719e-05 0.45736074447631836 6.198883056640625e-06 0.08617234230041504 1.3113021850585938e-05 5.7220458984375e-06 5.245208740234375e-06 3.743171691894531e-05 0.5436720848083496
+[INFO] [1716093255.912628]: Inference completed for frame index: 55
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.26973938941955566 0.01422119140625 0.28396058082580566 6
+[-11.33337407] [4.47435987]
+0.0008928775787353516 0.3902781009674072 0.008594751358032227 0.027750492095947266 0.42751622200012207
+bev_to_uv time: %s 0.023699283599853516
+6.890296936035156e-05 0.45188307762145996 6.198883056640625e-06 0.08613181114196777 1.3589859008789062e-05 5.9604644775390625e-06 5.7220458984375e-06 3.600120544433594e-05 0.5381512641906738
+[INFO] [1716093256.502355]: Inference completed for frame index: 61
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2656526565551758 0.014208793640136719 0.2798614501953125 6
+[-664.47257021] [-1596.21932491]
+0.0009837150573730469 0.38413476943969727 0.008573770523071289 0.028278589248657227 0.42197084426879883
+bev_to_uv time: %s 0.021268606185913086
+6.318092346191406e-05 0.4543771743774414 6.67572021484375e-06 0.08624601364135742 1.71661376953125e-05 5.9604644775390625e-06 6.67572021484375e-06 4.3392181396484375e-05 0.5407662391662598
+[INFO] [1716093257.096062]: Inference completed for frame index: 66
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.26590657234191895 0.014267921447753906 0.28017449378967285 6
+[-33.6552351] [-182.49282874]
+0.0008869171142578125 0.3846583366394043 0.008662223815917969 0.027811288833618164 0.42201876640319824
+bev_to_uv time: %s 0.02258920669555664
+6.937980651855469e-05 0.4451589584350586 6.198883056640625e-06 0.08554506301879883 1.1920928955078125e-05 5.7220458984375e-06 6.4373016357421875e-06 3.647804260253906e-05 0.5308401584625244
+[INFO] [1716093257.677742]: Inference completed for frame index: 72
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2660253047943115 0.014188766479492188 0.2802140712738037 6
+[666.42518815] [1807.19117525]
+0.0009014606475830078 0.3848288059234619 0.008488655090332031 0.028447866439819336 0.4226667881011963
+bev_to_uv time: %s 0.016496658325195312
+6.699562072753906e-05 0.439746618270874 5.9604644775390625e-06 0.08521151542663574 1.33514404296875e-05 6.67572021484375e-06 5.9604644775390625e-06 3.6716461181640625e-05 0.5250937938690186
+[INFO] [1716093258.266242]: Inference completed for frame index: 77
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2714202404022217 0.014249563217163086 0.28566980361938477 6
+[-701.92225911] [-1997.43913817]
+0.0008740425109863281 0.3910791873931885 0.008500337600708008 0.02799510955810547 0.4284486770629883
+bev_to_uv time: %s 0.012203216552734375
+7.534027099609375e-05 0.4414973258972168 6.67572021484375e-06 0.0881650447845459 1.2874603271484375e-05 5.9604644775390625e-06 5.9604644775390625e-06 3.647804260253906e-05 0.5298056602478027
+[INFO] [1716093258.847502]: Inference completed for frame index: 0
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.265824556350708 0.014264106750488281 0.2800886631011963 6
+[689.7961679] [1794.46863454]
+0.001004934310913086 0.3850522041320801 0.008619308471679688 0.027022361755371094 0.42169880867004395
+bev_to_uv time: %s 0.012886285781860352
+0.00012302398681640625 0.43529677391052246 6.67572021484375e-06 0.09123635292053223 1.1205673217773438e-05 5.7220458984375e-06 5.7220458984375e-06 3.170967102050781e-05 0.5267171859741211
+[INFO] [1716093260.239237]: Inference completed for frame index: 14
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.26974940299987793 0.01421356201171875 0.2839629650115967 6
+[3.6902929] [-3.15271717]
+0.0008909702301025391 0.3916788101196289 0.008448600769042969 0.02822136878967285 0.42923974990844727
+bev_to_uv time: %s 0.015062808990478516
+6.937980651855469e-05 0.44494175910949707 6.4373016357421875e-06 0.09372854232788086 1.3828277587890625e-05 6.198883056640625e-06 5.4836273193359375e-06 3.7670135498046875e-05 0.5388092994689941
+[INFO] [1716093260.809646]: Inference completed for frame index: 19
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2665090560913086 0.014299154281616211 0.2808082103729248 6
+[-644.70920783] [-1613.98109318]
+0.0008957386016845703 0.38522887229919434 0.008629322052001953 0.027515888214111328 0.4222698211669922
+bev_to_uv time: %s 0.017621755599975586
+6.29425048828125e-05 0.44042181968688965 6.198883056640625e-06 0.09230995178222656 1.239776611328125e-05 5.4836273193359375e-06 5.245208740234375e-06 3.719329833984375e-05 0.5328612327575684
+[INFO] [1716093261.405277]: Inference completed for frame index: 24
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.27216243743896484 0.014251947402954102 0.28641438484191895 6
+[662.52869256] [1598.69901456]
+0.0008928775787353516 0.391071081161499 0.008522748947143555 0.028119564056396484 0.4286062717437744
+bev_to_uv time: %s 0.02207493782043457
+7.081031799316406e-05 0.45153188705444336 6.198883056640625e-06 0.09049677848815918 1.3828277587890625e-05 6.67572021484375e-06 5.245208740234375e-06 3.790855407714844e-05 0.5421693325042725
+[INFO] [1716093262.002590]: Inference completed for frame index: 30
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.266815185546875 0.014326095581054688 0.2811412811279297 6
+[14.49835017] [-12.83166787]
+0.0008885860443115234 0.38822412490844727 0.008635759353637695 0.028124332427978516 0.425872802734375
+bev_to_uv time: %s 0.022749662399291992
+6.747245788574219e-05 0.44916677474975586 6.198883056640625e-06 0.09590888023376465 1.3589859008789062e-05 5.4836273193359375e-06 5.9604644775390625e-06 3.886222839355469e-05 0.5452132225036621
+[INFO] [1716093262.600322]: Inference completed for frame index: 35
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.26566338539123535 0.01424407958984375 0.2799074649810791 6
+[36.31587726] [224.47889131]
+0.0008666515350341797 0.38427019119262695 0.008540153503417969 0.028293848037719727 0.42197084426879883
+bev_to_uv time: %s 0.02420330047607422
+7.343292236328125e-05 0.4470677375793457 6.67572021484375e-06 0.08567333221435547 1.8835067749023438e-05 6.4373016357421875e-06 7.3909759521484375e-06 4.291534423828125e-05 0.5328967571258545
+[INFO] [1716093263.199240]: Inference completed for frame index: 41
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2702963352203369 0.014323711395263672 0.2846200466156006 6
+[-2.86371374] [-9.39530754]
+0.00087738037109375 0.391465425491333 0.008433103561401367 0.027796030044555664 0.4285719394683838
+bev_to_uv time: %s 0.025810956954956055
+6.389617919921875e-05 0.45500636100769043 6.198883056640625e-06 0.08623719215393066 1.239776611328125e-05 6.198883056640625e-06 5.245208740234375e-06 3.504753112792969e-05 0.541372537612915
+[INFO] [1716093263.792597]: Inference completed for frame index: 46
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.27234745025634766 0.014356136322021484 0.28670358657836914 6
+[-720.82074905] [-1807.40687156]
+0.0009365081787109375 0.39148759841918945 0.008437156677246094 0.027287721633911133 0.4281489849090576
+bev_to_uv time: %s 0.02155470848083496
+6.4849853515625e-05 0.45035386085510254 6.4373016357421875e-06 0.08566927909851074 1.2874603271484375e-05 5.7220458984375e-06 5.4836273193359375e-06 3.4809112548828125e-05 0.5361533164978027
+[INFO] [1716093264.379742]: Inference completed for frame index: 52
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2706031799316406 0.014301061630249023 0.28490424156188965 6
+[702.67014229] [1793.29094951]
+0.0009810924530029297 0.3897700309753418 0.009250164031982422 0.02827739715576172 0.42827868461608887
+bev_to_uv time: %s 0.022076129913330078
+6.413459777832031e-05 0.45104360580444336 6.9141387939453125e-06 0.08596038818359375 1.4781951904296875e-05 5.9604644775390625e-06 5.7220458984375e-06 3.9577484130859375e-05 0.5371410846710205
+[INFO] [1716093264.970400]: Inference completed for frame index: 57
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.2702600955963135 0.014340639114379883 0.28460073471069336 6
+[-11.23200237] [8.36133988]
+0.0008862018585205078 0.3911263942718506 0.008654356002807617 0.028022289276123047 0.42868924140930176
+bev_to_uv time: %s 0.02440929412841797
+6.651878356933594e-05 0.4537935256958008 7.152557373046875e-06 0.08625626564025879 1.239776611328125e-05 5.9604644775390625e-06 5.4836273193359375e-06 3.62396240234375e-05 0.5401835441589355
+[INFO] [1716093265.562657]: Inference completed for frame index: 63
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2717015743255615 0.014283418655395508 0.28598499298095703 6
+[-10.34435323] [9.92985634]
+0.0009105205535888672 0.3933291435241699 0.008530139923095703 0.028371095657348633 0.4311408996582031
+bev_to_uv time: %s 0.02490973472595215
+7.82012939453125e-05 0.45680856704711914 7.867813110351562e-06 0.08588719367980957 1.4066696166992188e-05 5.9604644775390625e-06 5.245208740234375e-06 4.076957702636719e-05 0.5428478717803955
+[INFO] [1716093266.140297]: Inference completed for frame index: 68
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.2704355716705322 0.014410257339477539 0.28484582901000977 6
+[-10.32413674] [10.33818931]
+0.0008928775787353516 0.3918001651763916 0.008625268936157227 0.027249574661254883 0.42856788635253906
+bev_to_uv time: %s 0.02560138702392578
+6.961822509765625e-05 0.4547121524810791 5.4836273193359375e-06 0.08585381507873535 1.2159347534179688e-05 6.198883056640625e-06 5.7220458984375e-06 3.457069396972656e-05 0.5406997203826904
+[INFO] [1716093266.744691]: Inference completed for frame index: 73
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.26641130447387695 0.01432180404663086 0.2807331085205078 6
+[-24.30011927] [16.63366742]
+0.0009064674377441406 0.3871457576751709 0.008514881134033203 0.027843475341796875 0.4244105815887451
+bev_to_uv time: %s 0.016521692276000977
+7.319450378417969e-05 0.44160985946655273 6.67572021484375e-06 0.08541727066040039 1.52587890625e-05 5.7220458984375e-06 6.67572021484375e-06 4.291534423828125e-05 0.5271775722503662
+[INFO] [1716093267.325271]: Inference completed for frame index: 79
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.2666161060333252 0.014407634735107422 0.2810237407684326 6
+[-27.85159763] [-188.82131261]
+0.0008528232574462891 0.3866429328918457 0.00876474380493164 0.02796792984008789 0.4242284297943115
+bev_to_uv time: %s 0.018114328384399414
+6.437301635742188e-05 0.44314098358154297 5.9604644775390625e-06 0.08931136131286621 1.3113021850585938e-05 6.198883056640625e-06 5.4836273193359375e-06 3.4809112548828125e-05 0.5325822830200195
+[INFO] [1716093267.900321]: Inference completed for frame index: 3
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2704198360443115 0.014282464981079102 0.2847023010253906 6
+[-1213.46822969] [-3104.68365412]
+0.0008831024169921875 0.3896350860595703 0.008590936660766602 0.028139591217041016 0.4272487163543701
+bev_to_uv time: %s 0.021116971969604492
+7.152557373046875e-05 0.44890379905700684 5.9604644775390625e-06 0.09041690826416016 1.33514404296875e-05 5.7220458984375e-06 5.4836273193359375e-06 3.647804260253906e-05 0.539459228515625
+[INFO] [1716093268.491075]: Inference completed for frame index: 9
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2667088508605957 0.014291048049926758 0.28099989891052246 6
+[1292.28471909] [3258.17286933]
+0.000881195068359375 0.38594698905944824 0.00854039192199707 0.028046607971191406 0.4234151840209961
+bev_to_uv time: %s 0.014132022857666016
+7.081031799316406e-05 0.46328306198120117 5.9604644775390625e-06 0.0911264419555664 1.3589859008789062e-05 5.4836273193359375e-06 5.9604644775390625e-06 3.838539123535156e-05 0.5545496940612793
+[INFO] [1716093269.097901]: Inference completed for frame index: 14
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.27082204818725586 0.014410257339477539 0.2852323055267334 6
+[1206.87053368] [3080.23273799]
+0.0008871555328369141 0.3897831439971924 0.008508682250976562 0.027585506439208984 0.42676448822021484
+bev_to_uv time: %s 0.01435232162475586
+7.081031799316406e-05 0.4416618347167969 6.198883056640625e-06 0.09102845191955566 1.3113021850585938e-05 5.7220458984375e-06 5.4836273193359375e-06 3.647804260253906e-05 0.5328280925750732
+[INFO] [1716093269.681823]: Inference completed for frame index: 20
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.27050113677978516 0.014388799667358398 0.28488993644714355 6
+[-3145.36615524] [-8137.20964436]
+0.0016307830810546875 0.3895549774169922 0.008411169052124023 0.02865743637084961 0.4282543659210205
+bev_to_uv time: %s 0.01743173599243164
+0.00010037422180175781 0.446333646774292 6.4373016357421875e-06 0.09142708778381348 1.5497207641601562e-05 6.198883056640625e-06 5.9604644775390625e-06 3.7670135498046875e-05 0.5379328727722168
+[INFO] [1716093270.284497]: Inference completed for frame index: 25
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.26687026023864746 0.014316558837890625 0.2811868190765381 6
+[3152.97442811] [8129.52156083]
+0.0009865760803222656 0.3862285614013672 0.008683204650878906 0.027019262313842773 0.42291760444641113
+bev_to_uv time: %s 0.025665760040283203
+6.842613220214844e-05 0.449190616607666 6.198883056640625e-06 0.09207940101623535 1.4543533325195312e-05 5.245208740234375e-06 5.9604644775390625e-06 3.981590270996094e-05 0.5414102077484131
+[INFO] [1716093270.877077]: Inference completed for frame index: 31
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.271193265914917 0.014461755752563477 0.28565502166748047 6
+[-1222.11675187] [-3285.60172644]
+0.0009031295776367188 0.39064645767211914 0.00858759880065918 0.027993202209472656 0.4281303882598877
+bev_to_uv time: %s 0.017105817794799805
+7.271766662597656e-05 0.44593143463134766 7.62939453125e-06 0.09195113182067871 1.8835067749023438e-05 6.9141387939453125e-06 6.9141387939453125e-06 5.030632019042969e-05 0.5380458831787109
+[INFO] [1716093271.458855]: Inference completed for frame index: 36
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2663908004760742 0.014276981353759766 0.280667781829834 6
+[-645.84234531] [-1356.93267125]
+0.0009543895721435547 0.38562750816345215 0.00867772102355957 0.028439760208129883 0.42369937896728516
+bev_to_uv time: %s 0.021706342697143555
+6.532669067382812e-05 0.446195125579834 6.198883056640625e-06 0.08667111396789551 1.33514404296875e-05 5.245208740234375e-06 6.198883056640625e-06 3.8623809814453125e-05 0.533001184463501
+[INFO] [1716093272.043563]: Inference completed for frame index: 41
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.2711186408996582 0.014340400695800781 0.285459041595459 6
+[-730.55220954] [-2062.35858786]
+0.0008885860443115234 0.3899354934692383 0.008613109588623047 0.028273582458496094 0.42771077156066895
+bev_to_uv time: %s 0.019704818725585938
+7.081031799316406e-05 0.447951078414917 5.9604644775390625e-06 0.08533143997192383 1.3589859008789062e-05 5.7220458984375e-06 5.9604644775390625e-06 3.981590270996094e-05 0.5334243774414062
+[INFO] [1716093272.616010]: Inference completed for frame index: 47
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.27210044860839844 0.014293670654296875 0.2863941192626953 6
+[-26.58441677] [30.47282499]
+0.0009024143218994141 0.39290285110473633 0.008498668670654297 0.02872443199157715 0.4310283660888672
+bev_to_uv time: %s 0.023324251174926758
+7.2479248046875e-05 0.4550039768218994 6.4373016357421875e-06 0.08532977104187012 1.33514404296875e-05 6.4373016357421875e-06 5.245208740234375e-06 3.743171691894531e-05 0.5404751300811768
+[INFO] [1716093273.220972]: Inference completed for frame index: 52
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.27270960807800293 0.014365673065185547 0.2870752811431885 6
+[1408.35669862] [3387.39447713]
+0.0008895397186279297 0.39169955253601074 0.008786439895629883 0.027548551559448242 0.4289240837097168
+bev_to_uv time: %s 0.015243053436279297
+6.67572021484375e-05 0.444782018661499 5.9604644775390625e-06 0.08608031272888184 1.2636184692382812e-05 5.7220458984375e-06 5.4836273193359375e-06 3.6716461181640625e-05 0.5309956073760986
+[INFO] [1716093273.791087]: Inference completed for frame index: 58
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2668919563293457 0.014322996139526367 0.28121495246887207 6
+[-698.76795194] [-1571.62626569]
+0.0009565353393554688 0.3858063220977783 0.008466005325317383 0.02730560302734375 0.4225344657897949
+bev_to_uv time: %s 0.01851201057434082
+9.942054748535156e-05 0.4417378902435303 6.67572021484375e-06 0.08594751358032227 1.2874603271484375e-05 5.7220458984375e-06 5.245208740234375e-06 3.314018249511719e-05 0.527848482131958
+[INFO] [1716093274.383974]: Inference completed for frame index: 63
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.2670578956604004 0.014327764511108398 0.2813856601715088 6
+[0.88764914] [1.56851646]
+0.0009038448333740234 0.38886356353759766 0.008510112762451172 0.028615951538085938 0.4268934726715088
+bev_to_uv time: %s 0.020422935485839844
+8.225440979003906e-05 0.44795656204223633 6.198883056640625e-06 0.08581233024597168 1.3828277587890625e-05 5.7220458984375e-06 6.4373016357421875e-06 3.886222839355469e-05 0.5339221954345703
+[INFO] [1716093274.959879]: Inference completed for frame index: 68
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2707397937774658 0.014420032501220703 0.2851598262786865 6
+[-2.65093152] [7.78169871]
+0.0008914470672607422 0.392291784286499 0.008466720581054688 0.02791142463684082 0.4295613765716553
+bev_to_uv time: %s 0.01647186279296875
+6.818771362304688e-05 0.44661474227905273 5.9604644775390625e-06 0.08508157730102539 1.2636184692382812e-05 5.9604644775390625e-06 5.7220458984375e-06 3.62396240234375e-05 0.5318310260772705
+[INFO] [1716093275.544387]: Inference completed for frame index: 74
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.27321743965148926 0.014284610748291016 0.2875020503997803 6
+[-11.30483453] [-1.07788763]
+0.0009148120880126953 0.3945658206939697 0.008632898330688477 0.028050899505615234 0.43216443061828613
+bev_to_uv time: %s 0.01309347152709961
+9.942054748535156e-05 0.4460785388946533 6.198883056640625e-06 0.08574557304382324 1.2636184692382812e-05 5.9604644775390625e-06 5.9604644775390625e-06 3.504753112792969e-05 0.531989336013794
+[INFO] [1716093276.129724]: Inference completed for frame index: 79
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2711007595062256 0.014371871948242188 0.2854726314544678 6
+[-3.55147835] [-205.45498002]
+0.0008635520935058594 0.39135193824768066 0.008713006973266602 0.028262853622436523 0.42919135093688965
+bev_to_uv time: %s 0.008877754211425781
+6.532669067382812e-05 0.43880367279052734 6.198883056640625e-06 0.08871698379516602 1.3113021850585938e-05 5.9604644775390625e-06 5.245208740234375e-06 3.6716461181640625e-05 0.5276532173156738
+[INFO] [1716093276.720614]: Inference completed for frame index: 3
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.26718640327453613 0.014281749725341797 0.28146815299987793 6
+[-1185.61663206] [-2915.86234152]
+0.0008847713470458984 0.3867511749267578 0.008644342422485352 0.02766132354736328 0.42394161224365234
+bev_to_uv time: %s 0.02484917640686035
+6.985664367675781e-05 0.4493751525878906 5.9604644775390625e-06 0.09036898612976074 1.2636184692382812e-05 5.4836273193359375e-06 6.198883056640625e-06 3.814697265625e-05 0.5398824214935303
+[INFO] [1716093277.300640]: Inference completed for frame index: 9
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.271359920501709 0.01431417465209961 0.2856740951538086 6
+[2505.75294877] [6362.85652345]
+0.0009844303131103516 0.39046359062194824 0.008561372756958008 0.02852916717529297 0.42853856086730957
+bev_to_uv time: %s 0.0144195556640625
+6.437301635742188e-05 0.44357991218566895 6.4373016357421875e-06 0.09146237373352051 1.33514404296875e-05 5.7220458984375e-06 5.0067901611328125e-06 3.7670135498046875e-05 0.5351748466491699
+[INFO] [1716093277.901280]: Inference completed for frame index: 14
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.26710081100463867 0.014428377151489258 0.28152918815612793 6
+[-85.41418541] [-177.94013135]
+0.0008919239044189453 0.3866994380950928 0.008477210998535156 0.027491331100463867 0.42355990409851074
+bev_to_uv time: %s 0.0166778564453125
+6.937980651855469e-05 0.44084787368774414 5.9604644775390625e-06 0.09125638008117676 1.239776611328125e-05 5.4836273193359375e-06 5.9604644775390625e-06 3.552436828613281e-05 0.5322389602661133
+[INFO] [1716093278.486149]: Inference completed for frame index: 20
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.26719117164611816 0.014250516891479492 0.28144168853759766 6
+[-4352.23668892] [-11217.44238235]
+0.000881195068359375 0.3864123821258545 0.008366107940673828 0.02812051773071289 0.4237802028656006
+bev_to_uv time: %s 0.01911020278930664
+6.29425048828125e-05 0.44362783432006836 7.152557373046875e-06 0.09160304069519043 1.33514404296875e-05 5.7220458984375e-06 5.9604644775390625e-06 3.528594970703125e-05 0.5353612899780273
+[INFO] [1716093279.060433]: Inference completed for frame index: 25
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.2715120315551758 0.014293670654296875 0.28580570220947266 6
+[3807.8948478] [9735.90865892]
+0.00089263916015625 0.3913097381591797 0.008661508560180664 0.028224945068359375 0.429088830947876
+bev_to_uv time: %s 0.023999929428100586
+6.29425048828125e-05 0.4536447525024414 6.198883056640625e-06 0.09042668342590332 1.4066696166992188e-05 5.9604644775390625e-06 5.4836273193359375e-06 3.790855407714844e-05 0.5442039966583252
+[INFO] [1716093279.656067]: Inference completed for frame index: 30
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.26729607582092285 0.014324426651000977 0.28162050247192383 6
+[-1884.64544444] [-4884.30074099]
+0.0008816719055175781 0.3864314556121826 0.008352279663085938 0.027693986892700195 0.42335939407348633
+bev_to_uv time: %s 0.020618915557861328
+6.890296936035156e-05 0.44454145431518555 6.198883056640625e-06 0.09171414375305176 1.3113021850585938e-05 6.198883056640625e-06 5.0067901611328125e-06 3.719329833984375e-05 0.5363922119140625
+[INFO] [1716093280.243756]: Inference completed for frame index: 36
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.2723534107208252 0.014248132705688477 0.28660154342651367 6
+[576.27440656] [1928.66905519]
+0.000881195068359375 0.39134764671325684 0.008598089218139648 0.027959346771240234 0.4287862777709961
+bev_to_uv time: %s 0.015007734298706055
+7.867813110351562e-05 0.44466066360473633 6.4373016357421875e-06 0.08666300773620605 1.4066696166992188e-05 6.198883056640625e-06 6.4373016357421875e-06 4.553794860839844e-05 0.5314810276031494
+[INFO] [1716093280.816087]: Inference completed for frame index: 41
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.267592191696167 0.014299392700195312 0.2818915843963623 6
+[642.97863157] [1347.5373637]
+0.000888824462890625 0.3865799903869629 0.008775472640991211 0.027319669723510742 0.42356395721435547
+bev_to_uv time: %s 0.027344942092895508
+6.604194641113281e-05 0.45156216621398926 6.4373016357421875e-06 0.08612442016601562 1.239776611328125e-05 5.7220458984375e-06 5.9604644775390625e-06 3.7670135498046875e-05 0.5378208160400391
+[INFO] [1716093281.417255]: Inference completed for frame index: 46
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.27237868309020996 0.01430368423461914 0.2866823673248291 6
+[-23.72070302] [39.86813253]
+0.0009472370147705078 0.393080472946167 0.008517742156982422 0.028386592864990234 0.43093204498291016
+bev_to_uv time: %s 0.025115013122558594
+7.581710815429688e-05 0.4567890167236328 6.198883056640625e-06 0.08547329902648926 1.33514404296875e-05 6.198883056640625e-06 5.9604644775390625e-06 3.886222839355469e-05 0.5424087047576904
+[INFO] [1716093282.015033]: Inference completed for frame index: 52
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2676279544830322 0.014410972595214844 0.28203892707824707 6
+[729.25455906] [1762.81812452]
+0.0008907318115234375 0.3865370750427246 0.008806228637695312 0.028292417526245117 0.4245264530181885
+bev_to_uv time: %s 0.02476024627685547
+6.413459777832031e-05 0.4498312473297119 6.4373016357421875e-06 0.08604741096496582 1.3828277587890625e-05 6.198883056640625e-06 5.245208740234375e-06 3.743171691894531e-05 0.5360119342803955
+[INFO] [1716093282.602329]: Inference completed for frame index: 57
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2711935043334961 0.014339923858642578 0.28553342819213867 6
+[-1401.43809422] [-3364.9172152]
+0.0008869171142578125 0.39005184173583984 0.008377552032470703 0.028214216232299805 0.42753052711486816
+bev_to_uv time: %s 0.016915321350097656
+6.818771362304688e-05 0.44501209259033203 6.4373016357421875e-06 0.0856637954711914 1.2636184692382812e-05 6.198883056640625e-06 5.245208740234375e-06 3.695487976074219e-05 0.5308115482330322
+[INFO] [1716093283.184134]: Inference completed for frame index: 63
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.26730799674987793 0.014344215393066406 0.28165221214294434 6
+[699.65560108] [1573.19478215]
+0.0009152889251708984 0.3863105773925781 0.00859379768371582 0.02840900421142578 0.4242286682128906
+bev_to_uv time: %s 0.01964116096496582
+7.319450378417969e-05 0.4445483684539795 5.9604644775390625e-06 0.08552408218383789 1.4066696166992188e-05 5.4836273193359375e-06 5.0067901611328125e-06 4.744529724121094e-05 0.5302236080169678
+[INFO] [1716093283.767272]: Inference completed for frame index: 68
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.27154064178466797 0.014438390731811523 0.2859790325164795 6
+[-11.21178588] [8.76967285]
+0.0008764266967773438 0.39311838150024414 0.008648872375488281 0.028209209442138672 0.43085289001464844
+bev_to_uv time: %s 0.013536930084228516
+6.151199340820312e-05 0.4449148178100586 6.198883056640625e-06 0.0861978530883789 1.2636184692382812e-05 5.9604644775390625e-06 5.0067901611328125e-06 3.6716461181640625e-05 0.531240701675415
+[INFO] [1716093284.340615]: Inference completed for frame index: 73
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2676668167114258 0.014294862747192383 0.28196167945861816 6
+[-0.98069779] [-11.41607694]
+0.0009188652038574219 0.3892052173614502 0.008514404296875 0.0275876522064209 0.4262261390686035
+bev_to_uv time: %s 0.011188268661499023
+8.225440979003906e-05 0.43813061714172363 7.152557373046875e-06 0.08608460426330566 1.2874603271484375e-05 5.7220458984375e-06 5.245208740234375e-06 3.62396240234375e-05 0.524364709854126
+[INFO] [1716093284.928289]: Inference completed for frame index: 79
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.2721860408782959 0.014296293258666992 0.2864823341369629 6
+[7.75335618] [-204.3770924]
+0.0008928775787353516 0.39215517044067383 0.008554935455322266 0.02828836441040039 0.42989134788513184
+bev_to_uv time: %s 0.019756555557250977
+7.843971252441406e-05 0.4506359100341797 6.4373016357421875e-06 0.08963704109191895 1.6450881958007812e-05 6.198883056640625e-06 6.4373016357421875e-06 4.482269287109375e-05 0.5404317378997803
+[INFO] [1716093285.500276]: Inference completed for frame index: 3
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2717709541320801 0.01436471939086914 0.2861356735229492 6
+[631.89457015] [1833.32330714]
+0.0008766651153564453 0.39102983474731445 0.008650064468383789 0.02729654312133789 0.4278531074523926
+bev_to_uv time: %s 0.018800735473632812
+6.437301635742188e-05 0.4471879005432129 5.9604644775390625e-06 0.09071946144104004 1.3113021850585938e-05 5.7220458984375e-06 5.7220458984375e-06 3.719329833984375e-05 0.5380394458770752
+[INFO] [1716093286.101995]: Inference completed for frame index: 8
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.27155423164367676 0.014331340789794922 0.2858855724334717 6
+[1877.40985698] [4734.98819634]
+0.0008790493011474609 0.3908200263977051 0.008352279663085938 0.027968168258666992 0.42801952362060547
+bev_to_uv time: %s 0.00812673568725586
+6.794929504394531e-05 0.4366950988769531 6.4373016357421875e-06 0.0908200740814209 1.33514404296875e-05 5.4836273193359375e-06 5.7220458984375e-06 3.838539123535156e-05 0.5276525020599365
+[INFO] [1716093286.668671]: Inference completed for frame index: 14
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.26732373237609863 0.014338493347167969 0.2816622257232666 6
+[-2502.06265587] [-6366.00924063]
+0.0008952617645263672 0.38724827766418457 0.008849859237670898 0.0287930965423584 0.42578649520874023
+bev_to_uv time: %s 0.01566481590270996
+6.628036499023438e-05 0.44199109077453613 6.4373016357421875e-06 0.09204339981079102 1.2636184692382812e-05 6.4373016357421875e-06 6.198883056640625e-06 4.315376281738281e-05 0.5341756343841553
+[INFO] [1716093287.266307]: Inference completed for frame index: 19
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2719120979309082 0.014376163482666016 0.2862882614135742 6
+[-4355.92698182] [-11214.28966517]
+0.0008568763732910156 0.39133763313293457 0.008432388305664062 0.027282238006591797 0.42790913581848145
+bev_to_uv time: %s 0.016562938690185547
+5.5789947509765625e-05 0.4450857639312744 5.9604644775390625e-06 0.09191441535949707 1.1682510375976562e-05 5.9604644775390625e-06 5.245208740234375e-06 3.743171691894531e-05 0.5371222496032715
+[INFO] [1716093287.842127]: Inference completed for frame index: 25
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.273822546005249 0.014343500137329102 0.2881660461425781 6
+[8160.13153672] [20953.35104126]
+0.0008876323699951172 0.3936011791229248 0.008807659149169922 0.028670787811279297 0.43196725845336914
+bev_to_uv time: %s 0.01876974105834961
+6.532669067382812e-05 0.45131516456604004 5.9604644775390625e-06 0.09075713157653809 1.3589859008789062e-05 5.9604644775390625e-06 5.9604644775390625e-06 3.814697265625e-05 0.5422072410583496
+[INFO] [1716093288.460999]: Inference completed for frame index: 30
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.2726879119873047 0.014400005340576172 0.28708791732788086 6
+[-5692.54029224] [-14620.20939991]
+0.0009143352508544922 0.39253711700439453 0.008463621139526367 0.02737116813659668 0.42928624153137207
+bev_to_uv time: %s 0.01746535301208496
+7.152557373046875e-05 0.44733667373657227 6.67572021484375e-06 0.09251809120178223 1.621246337890625e-05 5.9604644775390625e-06 6.198883056640625e-06 4.172325134277344e-05 0.5400030612945557
+[INFO] [1716093289.040479]: Inference completed for frame index: 36
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.27260470390319824 0.014345169067382812 0.28694987297058105 6
+[2460.919851] [6812.96979618]
+0.000858306884765625 0.3924434185028076 0.008595943450927734 0.02793097496032715 0.4298286437988281
+bev_to_uv time: %s 0.020961761474609375
+7.104873657226562e-05 0.4516310691833496 6.198883056640625e-06 0.08632040023803711 1.4066696166992188e-05 6.198883056640625e-06 5.9604644775390625e-06 3.9577484130859375e-05 0.5380945205688477
+[INFO] [1716093289.633934]: Inference completed for frame index: 41
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.26811909675598145 0.014387130737304688 0.28250622749328613 6
+[66.704225] [-581.13169149]
+0.0008790493011474609 0.3872702121734619 0.00848841667175293 0.027945280075073242 0.42458295822143555
+bev_to_uv time: %s 0.02724003791809082
+7.200241088867188e-05 0.45239710807800293 5.9604644775390625e-06 0.08555126190185547 1.239776611328125e-05 6.198883056640625e-06 5.4836273193359375e-06 3.790855407714844e-05 0.538088321685791
+[INFO] [1716093290.235859]: Inference completed for frame index: 46
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.26761555671691895 0.014458894729614258 0.2820744514465332 6
+[-666.69933459] [-1307.66923117]
+0.0008847713470458984 0.38696908950805664 0.008517742156982422 0.027564287185668945 0.4239358901977539
+bev_to_uv time: %s 0.03126668930053711
+7.05718994140625e-05 0.4558725357055664 6.4373016357421875e-06 0.08617782592773438 1.4066696166992188e-05 5.4836273193359375e-06 5.7220458984375e-06 3.838539123535156e-05 0.5421910285949707
+[INFO] [1716093290.832260]: Inference completed for frame index: 52
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.27324891090393066 0.014382123947143555 0.2876310348510742 6
+[1432.07740164] [3347.52634459]
+0.0008795261383056641 0.392437219619751 0.008587121963500977 0.027853965759277344 0.42975783348083496
+bev_to_uv time: %s 0.011295080184936523
+5.984306335449219e-05 0.44166111946105957 6.198883056640625e-06 0.08660626411437988 1.3113021850585938e-05 5.9604644775390625e-06 5.0067901611328125e-06 3.790855407714844e-05 0.528395414352417
+[INFO] [1716093291.403129]: Inference completed for frame index: 58
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2683544158935547 0.01442575454711914 0.28278017044067383 6
+[-2809.79479284] [-6752.31169233]
+0.0009701251983642578 0.3881075382232666 0.008526086807250977 0.028123855590820312 0.42572760581970215
+bev_to_uv time: %s 0.022778987884521484
+6.914138793945312e-05 0.44905781745910645 5.7220458984375e-06 0.08615851402282715 1.239776611328125e-05 6.4373016357421875e-06 5.0067901611328125e-06 3.600120544433594e-05 0.535351037979126
+[INFO] [1716093291.977741]: Inference completed for frame index: 63
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2721681594848633 0.014337301254272461 0.28650546073913574 6
+[2101.0936953] [4938.11199735]
+0.0008821487426757812 0.39117932319641113 0.008361339569091797 0.02796483039855957 0.4283876419067383
+bev_to_uv time: %s 0.01816415786743164
+6.580352783203125e-05 0.4471547603607178 5.9604644775390625e-06 0.08582401275634766 1.33514404296875e-05 5.9604644775390625e-06 5.4836273193359375e-06 3.647804260253906e-05 0.5331118106842041
+[INFO] [1716093292.575083]: Inference completed for frame index: 68
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2681770324707031 0.014361143112182617 0.28253817558288574 6
+[-702.30653259] [-1565.41308344]
+0.0008838176727294922 0.3875386714935303 0.008568763732910156 0.02738046646118164 0.42437171936035156
+bev_to_uv time: %s 0.02248549461364746
+7.081031799316406e-05 0.4473896026611328 6.198883056640625e-06 0.08599615097045898 1.2874603271484375e-05 5.4836273193359375e-06 5.4836273193359375e-06 3.814697265625e-05 0.533524751663208
+[INFO] [1716093293.171962]: Inference completed for frame index: 74
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.271991491317749 0.014383792877197266 0.2863752841949463 6
+[1.67023372] [-19.19777565]
+0.0008387565612792969 0.3933730125427246 0.008552312850952148 0.027632713317871094 0.43039679527282715
+bev_to_uv time: %s 0.010393381118774414
+5.3882598876953125e-05 0.44130945205688477 6.4373016357421875e-06 0.08497977256774902 1.3113021850585938e-05 5.9604644775390625e-06 5.9604644775390625e-06 3.457069396972656e-05 0.5264091491699219
+[INFO] [1716093293.725430]: Inference completed for frame index: 79
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2680544853210449 0.014371156692504883 0.2824256420135498 6
+[8.73405397] [-192.96101546]
+0.0008590221405029297 0.38857245445251465 0.00849461555480957 0.027849435806274414 0.42577552795410156
+bev_to_uv time: %s 0.017368078231811523
+6.532669067382812e-05 0.44394779205322266 6.198883056640625e-06 0.09032034873962402 1.2636184692382812e-05 6.4373016357421875e-06 5.7220458984375e-06 3.886222839355469e-05 0.5344033241271973
+[INFO] [1716093294.313451]: Inference completed for frame index: 3
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.27234625816345215 0.014387369155883789 0.28673362731933594 6
+[-1193.36998824] [-2711.48524912]
+0.0008950233459472656 0.3923470973968506 0.008489847183227539 0.02774977684020996 0.42948174476623535
+bev_to_uv time: %s 0.02416253089904785
+7.128715515136719e-05 0.45416998863220215 5.245208740234375e-06 0.09049701690673828 1.3113021850585938e-05 5.9604644775390625e-06 5.4836273193359375e-06 3.600120544433594e-05 0.5448040962219238
+[INFO] [1716093294.921636]: Inference completed for frame index: 9
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2722461223602295 0.014358997344970703 0.2866051197052002 6
+[3063.02648904] [7650.85053785]
+0.0008945465087890625 0.39219021797180176 0.008540868759155273 0.029064178466796875 0.43068981170654297
+bev_to_uv time: %s 0.00968170166015625
+6.461143493652344e-05 0.44092297554016113 6.198883056640625e-06 0.0910639762878418 1.3828277587890625e-05 6.198883056640625e-06 5.4836273193359375e-06 3.933906555175781e-05 0.5321226119995117
+[INFO] [1716093295.505764]: Inference completed for frame index: 14
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.26851558685302734 0.014402389526367188 0.28291797637939453 6
+[-1962.82404239] [-4912.92832768]
+0.0008885860443115234 0.388455867767334 0.008514165878295898 0.027422428131103516 0.4252810478210449
+bev_to_uv time: %s 0.01658010482788086
+7.081031799316406e-05 0.442410945892334 5.9604644775390625e-06 0.09226179122924805 1.2874603271484375e-05 5.9604644775390625e-06 6.4373016357421875e-06 3.552436828613281e-05 0.5348103046417236
+[INFO] [1716093296.092139]: Inference completed for frame index: 20
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.26850247383117676 0.014351367950439453 0.2828538417816162 6
+[-4270.51279641] [-11036.34953383]
+0.0009100437164306641 0.38858962059020996 0.008548736572265625 0.028949975967407227 0.4269983768463135
+bev_to_uv time: %s 0.01899886131286621
+7.081031799316406e-05 0.446732759475708 6.4373016357421875e-06 0.09401345252990723 1.239776611328125e-05 6.198883056640625e-06 5.245208740234375e-06 3.743171691894531e-05 0.5408847332000732
+[INFO] [1716093296.697932]: Inference completed for frame index: 25
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2723064422607422 0.014408349990844727 0.2867147922515869 6
+[7508.90140992] [19343.811226]
+0.0008871555328369141 0.39238810539245605 0.00851297378540039 0.027321338653564453 0.4291095733642578
+bev_to_uv time: %s 0.018131256103515625
+6.794929504394531e-05 0.4477849006652832 5.9604644775390625e-06 0.09026837348937988 1.33514404296875e-05 5.7220458984375e-06 5.7220458984375e-06 3.62396240234375e-05 0.5381882190704346
+[INFO] [1716093297.287686]: Inference completed for frame index: 31
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2736165523529053 0.014372110366821289 0.28798866271972656 6
+[-8845.51472034] [-22749.73096074]
+0.0008473396301269531 0.3935377597808838 0.008555412292480469 0.02698993682861328 0.4299304485321045
+bev_to_uv time: %s 0.012873172760009766
+5.459785461425781e-05 0.4434702396392822 7.152557373046875e-06 0.09061098098754883 1.1444091796875e-05 5.7220458984375e-06 5.4836273193359375e-06 3.314018249511719e-05 0.5341987609863281
+[INFO] [1716093297.863991]: Inference completed for frame index: 36
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.2727806568145752 0.014442682266235352 0.28722333908081055 6
+[8153.46014324] [21433.17919609]
+0.0008540153503417969 0.39284634590148926 0.00873255729675293 0.028374671936035156 0.43080759048461914
+bev_to_uv time: %s 0.02248835563659668
+6.437301635742188e-05 0.45412373542785645 6.4373016357421875e-06 0.08562111854553223 1.2636184692382812e-05 5.7220458984375e-06 5.245208740234375e-06 3.719329833984375e-05 0.5398764610290527
+[INFO] [1716093298.455453]: Inference completed for frame index: 41
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2720506191253662 0.01433706283569336 0.28638768196105957 6
+[-3191.47206054] [-8875.32838404]
+0.0008676052093505859 0.3914041519165039 0.008565425872802734 0.0281064510345459 0.4289436340332031
+bev_to_uv time: %s 0.02952742576599121
+6.198883056640625e-05 0.4590182304382324 5.9604644775390625e-06 0.08607959747314453 1.3828277587890625e-05 5.7220458984375e-06 5.9604644775390625e-06 3.552436828613281e-05 0.5452268123626709
+[INFO] [1716093299.039488]: Inference completed for frame index: 47
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.2684950828552246 0.014458179473876953 0.28295326232910156 6
+[63.85287495] [754.68935669]
+0.0009853839874267578 0.3882613182067871 0.00849771499633789 0.027852296829223633 0.4255967140197754
+bev_to_uv time: %s 0.02881479263305664
+8.58306884765625e-05 0.45513105392456055 5.9604644775390625e-06 0.08628296852111816 1.4066696166992188e-05 5.7220458984375e-06 5.7220458984375e-06 3.6716461181640625e-05 0.5415680408477783
+[INFO] [1716093299.636918]: Inference completed for frame index: 52
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2684493064880371 0.014467716217041016 0.2829170227050781 6
+[2098.77673623] [4655.19557576]
+0.0008831024169921875 0.38857531547546387 0.008481502532958984 0.02809000015258789 0.42602992057800293
+bev_to_uv time: %s 0.024969100952148438
+6.771087646484375e-05 0.45154523849487305 6.198883056640625e-06 0.08670926094055176 1.3113021850585938e-05 5.7220458984375e-06 5.7220458984375e-06 3.528594970703125e-05 0.5383882522583008
+[INFO] [1716093300.226449]: Inference completed for frame index: 58
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.26865100860595703 0.014397144317626953 0.283048152923584 6
+[-4241.87219448] [-10099.83803692]
+0.0008723735809326172 0.38809752464294434 0.008607625961303711 0.028787612915039062 0.4263651371002197
+bev_to_uv time: %s 0.021315574645996094
+6.365776062011719e-05 0.44828104972839355 6.198883056640625e-06 0.08684921264648438 1.4543533325195312e-05 6.4373016357421875e-06 6.4373016357421875e-06 4.124641418457031e-05 0.5352687835693359
+[INFO] [1716093300.826606]: Inference completed for frame index: 63
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.26826953887939453 0.014508724212646484 0.282778263092041 6
+[2802.48263681] [6731.83938086]
+0.0008840560913085938 0.387866735458374 0.008727073669433594 0.02765369415283203 0.42513155937194824
+bev_to_uv time: %s 0.024955034255981445
+7.05718994140625e-05 0.450695276260376 6.4373016357421875e-06 0.08629035949707031 1.3113021850585938e-05 6.198883056640625e-06 6.4373016357421875e-06 3.814697265625e-05 0.5371265411376953
+[INFO] [1716093301.404746]: Inference completed for frame index: 69
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.27460575103759766 0.014474153518676758 0.2890799045562744 6
+[-694.99437657] [-1544.94077197]
+0.0008978843688964844 0.39382004737854004 0.008367061614990234 0.027080059051513672 0.43016505241394043
+bev_to_uv time: %s 0.019906044006347656
+6.461143493652344e-05 0.45079731941223145 6.67572021484375e-06 0.08621406555175781 1.1205673217773438e-05 5.245208740234375e-06 5.245208740234375e-06 3.266334533691406e-05 0.5371370315551758
+[INFO] [1716093301.993742]: Inference completed for frame index: 74
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.27267980575561523 0.01451730728149414 0.2871971130371094 6
+[703.97676632] [1546.21530779]
+0.0009038448333740234 0.39214420318603516 0.008736848831176758 0.0276186466217041 0.42940354347229004
+bev_to_uv time: %s 0.008964061737060547
+7.081031799316406e-05 0.43895411491394043 6.4373016357421875e-06 0.08587002754211426 1.3113021850585938e-05 5.7220458984375e-06 5.245208740234375e-06 3.910064697265625e-05 0.5249645709991455
+[INFO] [1716093302.583035]: Inference completed for frame index: 79
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.27288317680358887 0.014409780502319336 0.2872929573059082 6
+[1303.62531651] [3474.02040302]
+0.0008461475372314453 0.3931567668914795 0.008615255355834961 0.027907848358154297 0.4305260181427002
+bev_to_uv time: %s 0.015832185745239258
+6.771087646484375e-05 0.44706225395202637 5.7220458984375e-06 0.0882725715637207 1.3113021850585938e-05 6.198883056640625e-06 5.245208740234375e-06 3.814697265625e-05 0.5354709625244141
+[INFO] [1716093303.169390]: Inference completed for frame index: 4
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.27306270599365234 0.014382600784301758 0.2874453067779541 6
+[-2498.66553847] [-6166.3078765]
+0.0009224414825439453 0.3925290107727051 0.008565664291381836 0.028837203979492188 0.43085432052612305
+bev_to_uv time: %s 0.02561187744140625
+8.296966552734375e-05 0.45708489418029785 6.67572021484375e-06 0.0896458625793457 1.2636184692382812e-05 5.9604644775390625e-06 5.7220458984375e-06 3.814697265625e-05 0.5468828678131104
+[INFO] [1716093303.763067]: Inference completed for frame index: 9
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.2733950614929199 0.014407873153686523 0.28780293464660645 6
+[491.26663134] [940.567208]
+0.0009074211120605469 0.3934779167175293 0.008843183517456055 0.027747631072998047 0.43097615242004395
+bev_to_uv time: %s 0.012687206268310547
+7.295608520507812e-05 0.44419336318969727 6.198883056640625e-06 0.09001541137695312 1.3113021850585938e-05 6.198883056640625e-06 5.0067901611328125e-06 3.6716461181640625e-05 0.5343489646911621
+[INFO] [1716093304.360772]: Inference completed for frame index: 15
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2687692642211914 0.014490604400634766 0.28325986862182617 6
+[-1260.72068549] [-3142.01028656]
+0.0009286403656005859 0.3890409469604492 0.00852203369140625 0.027254819869995117 0.42574644088745117
+bev_to_uv time: %s 0.018707275390625
+7.319450378417969e-05 0.4451584815979004 6.4373016357421875e-06 0.09202456474304199 1.3828277587890625e-05 6.4373016357421875e-06 5.245208740234375e-06 3.7670135498046875e-05 0.5373258590698242
+[INFO] [1716093304.939365]: Inference completed for frame index: 20
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.2684926986694336 0.014471769332885742 0.28296446800231934 6
+[686.61428594] [1673.78119905]
+0.0009124279022216797 0.3890652656555176 0.009075403213500977 0.02929973602294922 0.42835283279418945
+bev_to_uv time: %s 0.020923614501953125
+7.939338684082031e-05 0.4499979019165039 6.67572021484375e-06 0.09507417678833008 1.5735626220703125e-05 6.198883056640625e-06 6.67572021484375e-06 4.1484832763671875e-05 0.5452282428741455
+[INFO] [1716093305.539027]: Inference completed for frame index: 26
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2684156894683838 0.014429807662963867 0.28284549713134766 6
+[8785.11116637] [22582.95835463]
+0.0009615421295166016 0.38836216926574707 0.008446693420410156 0.028229713439941406 0.42600011825561523
+bev_to_uv time: %s 0.025364398956298828
+9.369850158691406e-05 0.45205140113830566 6.4373016357421875e-06 0.09294676780700684 1.33514404296875e-05 5.4836273193359375e-06 5.4836273193359375e-06 3.695487976074219e-05 0.5451595783233643
+[INFO] [1716093306.150560]: Inference completed for frame index: 31
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.26838088035583496 0.01448822021484375 0.2828691005706787 6
+[-8822.52821139] [-22551.28116512]
+0.0008959770202636719 0.38851261138916016 0.008756160736083984 0.0277097225189209 0.4258744716644287
+bev_to_uv time: %s 0.015220403671264648
+7.653236389160156e-05 0.44177818298339844 6.4373016357421875e-06 0.09022355079650879 1.3589859008789062e-05 6.198883056640625e-06 5.7220458984375e-06 3.5762786865234375e-05 0.5321459770202637
+[INFO] [1716093306.734477]: Inference completed for frame index: 37
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2729320526123047 0.014406919479370117 0.2873389720916748 6
+[3293.3806888] [8009.84086257]
+0.0009033679962158203 0.3928534984588623 0.008547067642211914 0.02823638916015625 0.4305403232574463
+bev_to_uv time: %s 0.014360189437866211
+6.794929504394531e-05 0.4454669952392578 6.67572021484375e-06 0.09161233901977539 1.3589859008789062e-05 5.7220458984375e-06 5.4836273193359375e-06 4.124641418457031e-05 0.5372200012207031
+[INFO] [1716093307.324741]: Inference completed for frame index: 39
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.27283263206481934 0.01429128646850586 0.2871239185333252 6
+[-1915.90101239] [-4047.68156676]
+0.0011951923370361328 0.3921241760253906 0.00850224494934082 0.02808523178100586 0.42990684509277344
+bev_to_uv time: %s 0.029963254928588867
+8.749961853027344e-05 0.46079087257385254 6.198883056640625e-06 0.08541536331176758 1.8596649169921875e-05 6.9141387939453125e-06 6.4373016357421875e-06 4.696846008300781e-05 0.5463788509368896
+[INFO] [1716093317.704070]: Inference completed for frame index: 52
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2711513042449951 0.014249563217163086 0.2854008674621582 6
+[665.40168411] [1008.12876784]
+0.0008726119995117188 0.3894479274749756 0.008925676345825195 0.02831745147705078 0.4275636672973633
+bev_to_uv time: %s 0.020226001739501953
+6.508827209472656e-05 0.44832801818847656 5.9604644775390625e-06 0.08550643920898438 1.2159347534179688e-05 6.198883056640625e-06 6.4373016357421875e-06 3.600120544433594e-05 0.5339663028717041
+[INFO] [1716093318.289427]: Inference completed for frame index: 57
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.2715752124786377 0.01427459716796875 0.28584980964660645 6
+[-4971.12675354] [-11862.65616144]
+0.000885009765625 0.3900439739227295 0.008467435836791992 0.026981353759765625 0.4263777732849121
+bev_to_uv time: %s 0.016857147216796875
+6.699562072753906e-05 0.4438800811767578 6.67572021484375e-06 0.08538413047790527 1.0967254638671875e-05 5.245208740234375e-06 5.7220458984375e-06 3.3855438232421875e-05 0.5293936729431152
+[INFO] [1716093318.882388]: Inference completed for frame index: 63
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.271129846572876 0.014289379119873047 0.285419225692749 6
+[6342.96588979] [15037.95003427]
+0.0009417533874511719 0.38991355895996094 0.008556127548217773 0.028448104858398438 0.4278595447540283
+bev_to_uv time: %s 0.015276670455932617
+8.702278137207031e-05 0.4438023567199707 6.9141387939453125e-06 0.0858147144317627 1.4066696166992188e-05 6.198883056640625e-06 5.7220458984375e-06 3.814697265625e-05 0.5297751426696777
+[INFO] [1716093319.466327]: Inference completed for frame index: 68
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.2671236991882324 0.014329671859741211 0.28145337104797363 6
+[-2112.30548118] [-4929.3423245]
+0.0008876323699951172 0.38577985763549805 0.008626699447631836 0.027629613876342773 0.4229238033294678
+bev_to_uv time: %s 0.02034759521484375
+6.222724914550781e-05 0.44382309913635254 5.9604644775390625e-06 0.08537626266479492 1.239776611328125e-05 5.7220458984375e-06 5.245208740234375e-06 3.838539123535156e-05 0.5293292999267578
+[INFO] [1716093320.046634]: Inference completed for frame index: 73
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2723264694213867 0.014304876327514648 0.28663134574890137 6
+[715.1885522] [1537.44563494]
+0.0008878707885742188 0.39130496978759766 0.00851750373840332 0.028003692626953125 0.4287140369415283
+bev_to_uv time: %s 0.010514259338378906
+6.747245788574219e-05 0.4398462772369385 6.9141387939453125e-06 0.08513283729553223 1.2159347534179688e-05 5.9604644775390625e-06 5.245208740234375e-06 3.6716461181640625e-05 0.525113582611084
+[INFO] [1716093320.623578]: Inference completed for frame index: 79
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.27169370651245117 0.014425277709960938 0.2861189842224121 6
+[-695.24271234] [-1739.17632325]
+0.0008771419525146484 0.39223670959472656 0.008543729782104492 0.028020858764648438 0.42967844009399414
+bev_to_uv time: %s 0.008376121520996094
+7.843971252441406e-05 0.43906188011169434 6.4373016357421875e-06 0.08955621719360352 1.4066696166992188e-05 5.9604644775390625e-06 5.4836273193359375e-06 3.910064697265625e-05 0.5287675857543945
+[INFO] [1716093321.194333]: Inference completed for frame index: 3
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2716042995452881 0.014405965805053711 0.2860102653503418 6
+[623.16051617] [2026.2843226]
+0.000888824462890625 0.39145755767822266 0.008888959884643555 0.028038501739501953 0.4292738437652588
+bev_to_uv time: %s 0.014293670654296875
+7.367134094238281e-05 0.4442455768585205 6.198883056640625e-06 0.08939266204833984 1.3113021850585938e-05 5.7220458984375e-06 5.245208740234375e-06 3.504753112792969e-05 0.5337772369384766
+[INFO] [1716093321.782222]: Inference completed for frame index: 8
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.27155399322509766 0.014348745346069336 0.285902738571167 6
+[-589.84039725] [-1864.6697134]
+0.0008919239044189453 0.39120912551879883 0.00838327407836914 0.028299331665039062 0.428783655166626
+bev_to_uv time: %s 0.011957645416259766
+6.222724914550781e-05 0.44127702713012695 5.9604644775390625e-06 0.09122037887573242 1.239776611328125e-05 6.198883056640625e-06 5.9604644775390625e-06 3.7670135498046875e-05 0.5326278209686279
+[INFO] [1716093322.353948]: Inference completed for frame index: 13
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2716386318206787 0.014304876327514648 0.28594350814819336 6
+[-2544.11682877] [-6334.66283438]
+0.0008981227874755859 0.39102625846862793 0.008419036865234375 0.028529644012451172 0.42887306213378906
+bev_to_uv time: %s 0.014330387115478516
+7.152557373046875e-05 0.44383668899536133 5.9604644775390625e-06 0.0905754566192627 1.3113021850585938e-05 6.198883056640625e-06 6.4373016357421875e-06 3.814697265625e-05 0.5345535278320312
+[INFO] [1716093322.952789]: Inference completed for frame index: 19
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.2727041244506836 0.014333724975585938 0.28703784942626953 6
+[1857.35344804] [4752.02814745]
+0.0009112358093261719 0.39223504066467285 0.008659124374389648 0.027451038360595703 0.4292564392089844
+bev_to_uv time: %s 0.014528036117553711
+7.295608520507812e-05 0.4444413185119629 6.4373016357421875e-06 0.09191346168518066 1.4066696166992188e-05 5.9604644775390625e-06 5.7220458984375e-06 3.647804260253906e-05 0.5364964008331299
+[INFO] [1716093323.541211]: Inference completed for frame index: 24
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.26775026321411133 0.014348030090332031 0.28209829330444336 6
+[2.91549992] [-2.54732981]
+0.0009140968322753906 0.39014720916748047 0.00863504409790039 0.02826857566833496 0.4279649257659912
+bev_to_uv time: %s 0.023520231246948242
+7.653236389160156e-05 0.4521827697753906 6.198883056640625e-06 0.09396100044250488 1.2874603271484375e-05 5.9604644775390625e-06 5.4836273193359375e-06 3.457069396972656e-05 0.5462853908538818
+[INFO] [1716093324.139446]: Inference completed for frame index: 29
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.26786065101623535 0.014344215393066406 0.28220486640930176 6
+[656.29205808] [1603.69675512]
+0.0009844303131103516 0.3872995376586914 0.008779525756835938 0.028290987014770508 0.4253544807434082
+bev_to_uv time: %s 0.022068500518798828
+7.009506225585938e-05 0.4479715824127197 6.198883056640625e-06 0.09337115287780762 1.3589859008789062e-05 5.4836273193359375e-06 5.7220458984375e-06 3.7670135498046875e-05 0.5414814949035645
+[INFO] [1716093324.732078]: Inference completed for frame index: 35
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2713809013366699 0.014355182647705078 0.285736083984375 6
+[25.0117933] [236.15881104]
+0.0009565353393554688 0.39087820053100586 0.008548259735107422 0.028372764587402344 0.4287557601928711
+bev_to_uv time: %s 0.012083053588867188
+6.961822509765625e-05 0.4416790008544922 5.7220458984375e-06 0.08703064918518066 1.2636184692382812e-05 5.4836273193359375e-06 5.9604644775390625e-06 3.838539123535156e-05 0.5288474559783936
+[INFO] [1716093325.312691]: Inference completed for frame index: 40
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2720012664794922 0.014425039291381836 0.286426305770874 6
+[27.19408153] [-804.45883465]
+0.0009210109710693359 0.39100098609924316 0.00890207290649414 0.0285794734954834 0.42940354347229004
+bev_to_uv time: %s 0.021253108978271484
+8.368492126464844e-05 0.45130276679992676 6.9141387939453125e-06 0.08569884300231934 1.3113021850585938e-05 6.198883056640625e-06 5.245208740234375e-06 3.6716461181640625e-05 0.5371534824371338
+[INFO] [1716093325.902025]: Inference completed for frame index: 46
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.26734161376953125 0.014377832412719727 0.281719446182251 6
+[-88.56739466] [332.03104643]
+0.0009517669677734375 0.3862950801849365 0.008698225021362305 0.028053760528564453 0.4239988327026367
+bev_to_uv time: %s 0.029525279998779297
+6.031990051269531e-05 0.45421862602233887 9.298324584960938e-06 0.08546733856201172 1.239776611328125e-05 5.7220458984375e-06 5.9604644775390625e-06 3.7670135498046875e-05 0.5398173332214355
+[INFO] [1716093326.492685]: Inference completed for frame index: 48
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.2802865505218506 0.014365196228027344 0.29465174674987793 6
+[97.24953743] [407.39632315]
+0.0008864402770996094 0.40006065368652344 0.008488655090332031 0.027206897735595703 0.4366426467895508
+bev_to_uv time: %s 0.010727643966674805
+6.413459777832031e-05 0.44829654693603516 8.106231689453125e-06 0.08826828002929688 1.0967254638671875e-05 5.7220458984375e-06 5.7220458984375e-06 3.24249267578125e-05 0.5366919040679932
+[INFO] [1716093330.471457]: Inference completed for frame index: 5
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2710862159729004 0.014377593994140625 0.285463809967041 6
+[595.77125128] [1642.71900278]
+0.0009243488311767578 0.39067530632019043 0.008328676223754883 0.028040409088134766 0.42796874046325684
+bev_to_uv time: %s 0.013883352279663086
+9.107589721679688e-05 0.4425797462463379 6.4373016357421875e-06 0.08867144584655762 1.430511474609375e-05 5.4836273193359375e-06 5.9604644775390625e-06 4.124641418457031e-05 0.5314157009124756
+[INFO] [1716093331.044694]: Inference completed for frame index: 10
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.27065539360046387 0.014389753341674805 0.28504514694213867 6
+[-179.89098771] [-860.44747286]
+0.0008828639984130859 0.3902723789215088 0.008751869201660156 0.028235912322998047 0.4281430244445801
+bev_to_uv time: %s 0.00972437858581543
+6.532669067382812e-05 0.4384117126464844 5.7220458984375e-06 0.08925986289978027 1.6689300537109375e-05 6.198883056640625e-06 5.7220458984375e-06 4.220008850097656e-05 0.5278134346008301
+[INFO] [1716093331.611991]: Inference completed for frame index: 15
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.27142834663391113 0.014341354370117188 0.2857697010040283 6
+[-486.81655278] [-944.37129331]
+0.0008866786956787109 0.3906261920928955 0.008534431457519531 0.027050495147705078 0.42709779739379883
+bev_to_uv time: %s 0.012284517288208008
+6.842613220214844e-05 0.4399726390838623 6.198883056640625e-06 0.08889269828796387 1.0728836059570312e-05 5.4836273193359375e-06 5.245208740234375e-06 3.24249267578125e-05 0.5289938449859619
+[INFO] [1716093332.216179]: Inference completed for frame index: 21
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.27257370948791504 0.014339208602905273 0.2869129180908203 6
+[682.16420738] [1677.58528436]
+0.0009999275207519531 0.39242029190063477 0.008566856384277344 0.028558015823364258 0.4305450916290283
+bev_to_uv time: %s 0.02132415771484375
+6.890296936035156e-05 0.45255422592163086 6.9141387939453125e-06 0.09204554557800293 1.3828277587890625e-05 6.198883056640625e-06 5.7220458984375e-06 3.7670135498046875e-05 0.5447390079498291
+[INFO] [1716093332.801245]: Inference completed for frame index: 26
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2675788402557373 0.01446080207824707 0.2820396423339844 6
+[8098.49688043] [20909.17715558]
+0.0008914470672607422 0.3869633674621582 0.008758306503295898 0.028133392333984375 0.4247465133666992
+bev_to_uv time: %s 0.025608301162719727
+6.270408630371094e-05 0.45098280906677246 6.9141387939453125e-06 0.09118008613586426 1.2874603271484375e-05 5.9604644775390625e-06 5.4836273193359375e-06 3.719329833984375e-05 0.5422940254211426
+[INFO] [1716093333.406734]: Inference completed for frame index: 31
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.27147912979125977 0.014445066452026367 0.28592419624328613 6
+[-17607.63937776] [-45134.23951975]
+0.0008938312530517578 0.39083337783813477 0.008499622344970703 0.028007030487060547 0.4282338619232178
+bev_to_uv time: %s 0.012840747833251953
+6.937980651855469e-05 0.44172120094299316 6.67572021484375e-06 0.09152746200561523 1.3589859008789062e-05 6.198883056640625e-06 5.4836273193359375e-06 3.552436828613281e-05 0.5333855152130127
+[INFO] [1716093333.980968]: Inference completed for frame index: 37
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2720627784729004 0.014403820037841797 0.2864665985107422 6
+[10165.5923609] [25987.19767464]
+0.0008594989776611328 0.39124631881713867 0.008778572082519531 0.027392864227294922 0.42827725410461426
+bev_to_uv time: %s 0.0209500789642334
+6.4849853515625e-05 0.45004796981811523 6.198883056640625e-06 0.08557391166687012 1.4066696166992188e-05 5.7220458984375e-06 5.245208740234375e-06 3.814697265625e-05 0.5357561111450195
+[INFO] [1716093334.580266]: Inference completed for frame index: 42
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.2713167667388916 0.014436483383178711 0.2857532501220703 6
+[-1431.63154417] [-3103.8854631]
+0.0008764266967773438 0.3902723789215088 0.008816719055175781 0.027836322784423828 0.42780184745788574
+bev_to_uv time: %s 0.02673506736755371
+6.842613220214844e-05 0.45517611503601074 6.198883056640625e-06 0.08639335632324219 1.3589859008789062e-05 5.7220458984375e-06 5.7220458984375e-06 3.647804260253906e-05 0.5417056083679199
+[INFO] [1716093335.172968]: Inference completed for frame index: 48
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.27156567573547363 0.014360904693603516 0.28592658042907715 6
+[-598.08920959] [-1897.54795557]
+0.0008604526519775391 0.3906974792480469 0.008564949035644531 0.027934789657592773 0.4280576705932617
+bev_to_uv time: %s 0.02773880958557129
+6.794929504394531e-05 0.45656776428222656 7.3909759521484375e-06 0.08572673797607422 1.3589859008789062e-05 6.198883056640625e-06 5.9604644775390625e-06 3.504753112792969e-05 0.5424306392669678
+[INFO] [1716093335.755354]: Inference completed for frame index: 53
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.26755380630493164 0.014307975769042969 0.2818617820739746 6
+[2785.43334048] [6220.71248491]
+0.0008862018585205078 0.38640379905700684 0.008474349975585938 0.028317928314208984 0.42408227920532227
+bev_to_uv time: %s 0.025218725204467773
+6.437301635742188e-05 0.4499683380126953 5.9604644775390625e-06 0.08661055564880371 1.2874603271484375e-05 5.9604644775390625e-06 5.4836273193359375e-06 3.600120544433594e-05 0.5367095470428467
+[INFO] [1716093336.343395]: Inference completed for frame index: 58
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.27228450775146484 0.014345407485961914 0.28662991523742676 6
+[-2085.87209854] [-4648.49149536]
+0.0009267330169677734 0.3910839557647705 0.008654594421386719 0.027566194534301758 0.42823147773742676
+bev_to_uv time: %s 0.01746392250061035
+9.250640869140625e-05 0.4463472366333008 5.4836273193359375e-06 0.08585882186889648 1.3113021850585938e-05 5.9604644775390625e-06 5.4836273193359375e-06 3.457069396972656e-05 0.5323631763458252
+[INFO] [1716093336.939054]: Inference completed for frame index: 64
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.2729020118713379 0.014326333999633789 0.2872283458709717 6
+[2789.57799912] [6725.13530046]
+0.0008978843688964844 0.3919970989227295 0.008729696273803711 0.028128385543823242 0.42975306510925293
+bev_to_uv time: %s 0.014573097229003906
+7.891654968261719e-05 0.4450192451477051 6.198883056640625e-06 0.0858609676361084 1.2636184692382812e-05 5.9604644775390625e-06 5.245208740234375e-06 3.62396240234375e-05 0.5310254096984863
+[INFO] [1716093337.522905]: Inference completed for frame index: 69
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.27190303802490234 0.01435089111328125 0.2862539291381836 6
+[-3497.47701338] [-8276.78015283]
+0.0008807182312011719 0.3911576271057129 0.008659601211547852 0.029104948043823242 0.42980289459228516
+bev_to_uv time: %s 0.01572394371032715
+6.890296936035156e-05 0.44606757164001465 5.7220458984375e-06 0.08516764640808105 1.3113021850585938e-05 6.198883056640625e-06 5.4836273193359375e-06 3.814697265625e-05 0.5313727855682373
+[INFO] [1716093338.105222]: Inference completed for frame index: 74
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2733123302459717 0.014395713806152344 0.287708044052124 6
+[45.44780688] [-287.41908076]
+0.0008792877197265625 0.39255595207214355 0.008552789688110352 0.028260231018066406 0.4302482604980469
+bev_to_uv time: %s 0.008253097534179688
+6.651878356933594e-05 0.4390747547149658 6.9141387939453125e-06 0.08547806739807129 1.2874603271484375e-05 5.7220458984375e-06 5.7220458984375e-06 3.552436828613281e-05 0.5246860980987549
+[INFO] [1716093338.680858]: Inference completed for frame index: 80
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.26756930351257324 0.014409780502319336 0.2819790840148926 6
+[1953.1718862] [5306.38025576]
+0.0008494853973388672 0.38756823539733887 0.008639335632324219 0.028324365615844727 0.4253814220428467
+bev_to_uv time: %s 0.016042470932006836
+6.508827209472656e-05 0.4423525333404541 7.3909759521484375e-06 0.0901339054107666 1.3113021850585938e-05 5.9604644775390625e-06 5.4836273193359375e-06 3.647804260253906e-05 0.5326199531555176
+[INFO] [1716093339.278324]: Inference completed for frame index: 4
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.26764822006225586 0.014458894729614258 0.2821071147918701 6
+[-707.85406524] [-1831.30140024]
+0.0008897781372070312 0.3876824378967285 0.008922576904296875 0.028135061264038086 0.4256298542022705
+bev_to_uv time: %s 0.022510766983032227
+6.937980651855469e-05 0.44869399070739746 5.9604644775390625e-06 0.09081435203552246 1.3113021850585938e-05 6.198883056640625e-06 5.4836273193359375e-06 3.719329833984375e-05 0.5396456718444824
+[INFO] [1716093339.868849]: Inference completed for frame index: 10
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.26856541633605957 0.014391183853149414 0.282956600189209 6
+[2467.25523776] [6008.13153507]
+0.0008914470672607422 0.3885078430175781 0.008536815643310547 0.02829265594482422 0.42622876167297363
+bev_to_uv time: %s 0.01511240005493164
+6.985664367675781e-05 0.44194817543029785 5.9604644775390625e-06 0.09234356880187988 1.4781951904296875e-05 6.198883056640625e-06 5.245208740234375e-06 3.7670135498046875e-05 0.5344314575195312
+[INFO] [1716093340.454894]: Inference completed for frame index: 14
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.28224658966064453 0.01438593864440918 0.2966325283050537 6
+[-3038.01469574] [-7414.69172682]
+0.0008497238159179688 0.4011373519897461 0.008616209030151367 0.027688026428222656 0.4382913112640381
+bev_to_uv time: %s 0.0035524368286132812
+6.842613220214844e-05 0.442551851272583 5.9604644775390625e-06 0.08673286437988281 1.2636184692382812e-05 5.9604644775390625e-06 6.4373016357421875e-06 3.743171691894531e-05 0.5294215679168701
+[INFO] [1716093343.223850]: Inference completed for frame index: 40
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.270723819732666 0.01425933837890625 0.28498315811157227 6
+[-717.83994318] [-1818.91726581]
+0.0008387565612792969 0.3896315097808838 0.00853586196899414 0.028043746948242188 0.4270498752593994
+bev_to_uv time: %s 0.021221399307250977
+5.435943603515625e-05 0.4488809108734131 6.67572021484375e-06 0.08594250679016113 1.1205673217773438e-05 5.4836273193359375e-06 5.0067901611328125e-06 3.457069396972656e-05 0.5349407196044922
+[INFO] [1716093343.809150]: Inference completed for frame index: 45
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.27390432357788086 0.014348745346069336 0.2882530689239502 6
+[1401.65275859] [3383.57839216]
+0.0012176036834716797 0.3934180736541748 0.0084991455078125 0.027243375778198242 0.4303781986236572
+bev_to_uv time: %s 0.016260623931884766
+0.00010085105895996094 0.447376012802124 6.198883056640625e-06 0.08565878868103027 1.239776611328125e-05 5.9604644775390625e-06 5.9604644775390625e-06 3.743171691894531e-05 0.5332036018371582
+[INFO] [1716093344.385499]: Inference completed for frame index: 50
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.26783204078674316 0.014313936233520508 0.28214597702026367 6
+[-717.38846667] [-1807.26685825]
+0.0008835792541503906 0.38674187660217285 0.008907079696655273 0.028457164764404297 0.4249897003173828
+bev_to_uv time: %s 0.021712541580200195
+6.651878356933594e-05 0.44725656509399414 6.198883056640625e-06 0.08563995361328125 1.2636184692382812e-05 6.198883056640625e-06 5.7220458984375e-06 3.743171691894531e-05 0.5330312252044678
+[INFO] [1716093344.981463]: Inference completed for frame index: 55
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.27327680587768555 0.014432668685913086 0.28770947456359863 6
+[-703.6115479] [-1779.64956502]
+0.0009126663208007812 0.3921663761138916 0.008655309677124023 0.02796459197998047 0.4296989440917969
+bev_to_uv time: %s 0.023532629013061523
+5.698204040527344e-05 0.4538452625274658 6.4373016357421875e-06 0.0858604907989502 1.2159347534179688e-05 5.7220458984375e-06 5.7220458984375e-06 3.4809112548828125e-05 0.5398275852203369
+[INFO] [1716093345.559968]: Inference completed for frame index: 59
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2667860984802246 0.014312982559204102 0.2810990810394287 6
+[-1400.13007532] [-3143.24583862]
+0.0008769035339355469 0.3860797882080078 0.008536577224731445 0.028350114822387695 0.4238433837890625
+bev_to_uv time: %s 0.019518136978149414
+7.271766662597656e-05 0.4441182613372803 6.9141387939453125e-06 0.0858917236328125 1.52587890625e-05 6.67572021484375e-06 5.9604644775390625e-06 4.458427429199219e-05 0.5301620960235596
+[INFO] [1716093346.947603]: Inference completed for frame index: 73
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.270510196685791 0.014243125915527344 0.28475332260131836 6
+[1404.45141595] [3098.04092425]
+0.0008478164672851562 0.390413761138916 0.008488893508911133 0.027348756790161133 0.42709922790527344
+bev_to_uv time: %s 0.013392448425292969
+6.270408630371094e-05 0.44118452072143555 5.7220458984375e-06 0.08943557739257812 1.1920928955078125e-05 5.4836273193359375e-06 5.0067901611328125e-06 3.337860107421875e-05 0.5307443141937256
+[INFO] [1716093348.953848]: Inference completed for frame index: 10
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2675175666809082 0.014302968978881836 0.28182053565979004 6
+[527.96307752] [970.85392738]
+0.0010907649993896484 0.3870713710784912 0.008345842361450195 0.028428077697753906 0.42493605613708496
+bev_to_uv time: %s 0.015394210815429688
+8.487701416015625e-05 0.44119858741760254 7.152557373046875e-06 0.09111666679382324 1.8835067749023438e-05 6.4373016357421875e-06 6.198883056640625e-06 4.9114227294921875e-05 0.5324878692626953
+[INFO] [1716093349.528819]: Inference completed for frame index: 15
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.26767611503601074 0.014351367950439453 0.2820274829864502 6
+[-1080.82969778] [-2281.5628137]
+0.0008800029754638672 0.38733911514282227 0.008737325668334961 0.02801370620727539 0.4249701499938965
+bev_to_uv time: %s 0.015027284622192383
+6.246566772460938e-05 0.44053125381469727 5.9604644775390625e-06 0.09125423431396484 1.1920928955078125e-05 5.7220458984375e-06 5.4836273193359375e-06 3.743171691894531e-05 0.531914472579956
+[INFO] [1716093350.123799]: Inference completed for frame index: 20
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2677628993988037 0.014288902282714844 0.28205180168151855 6
+[1942.88489287] [4819.59557092]
+0.0009009838104248047 0.3871595859527588 0.008535623550415039 0.02782440185546875 0.4244205951690674
+bev_to_uv time: %s 0.019569873809814453
+5.459785461425781e-05 0.44461631774902344 6.198883056640625e-06 0.0916585922241211 1.1444091796875e-05 5.4836273193359375e-06 5.7220458984375e-06 3.314018249511719e-05 0.5363914966583252
+[INFO] [1716093350.710658]: Inference completed for frame index: 26
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.2729337215423584 0.014373064041137695 0.2873067855834961 6
+[7416.33267305] [19231.59187122]
+0.0009098052978515625 0.39269232749938965 0.008425712585449219 0.02856755256652832 0.43059539794921875
+bev_to_uv time: %s 0.019342899322509766
+7.62939453125e-05 0.45070743560791016 6.9141387939453125e-06 0.09147834777832031 1.811981201171875e-05 6.67572021484375e-06 5.9604644775390625e-06 4.3392181396484375e-05 0.5423431396484375
+[INFO] [1716093351.307754]: Inference completed for frame index: 31
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2718513011932373 0.014388561248779297 0.2862398624420166 6
+[-25706.13625819] [-66043.41667533]
+0.0008776187896728516 0.39153242111206055 0.009258747100830078 0.027920246124267578 0.42958903312683105
+bev_to_uv time: %s 0.010536670684814453
+6.29425048828125e-05 0.44063687324523926 5.7220458984375e-06 0.09161496162414551 1.2159347534179688e-05 5.7220458984375e-06 5.4836273193359375e-06 3.4809112548828125e-05 0.5323786735534668
+[INFO] [1716093351.890839]: Inference completed for frame index: 37
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2727997303009033 0.014363288879394531 0.28716301918029785 6
+[27773.23173866] [71121.43719439]
+0.0008597373962402344 0.3922007083892822 0.008463621139526367 0.027214765548706055 0.4287388324737549
+bev_to_uv time: %s 0.018619775772094727
+6.818771362304688e-05 0.4481949806213379 6.4373016357421875e-06 0.08618330955505371 1.2874603271484375e-05 6.198883056640625e-06 5.4836273193359375e-06 3.552436828613281e-05 0.534512996673584
+[INFO] [1716093352.476349]: Inference completed for frame index: 42
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2733128070831299 0.01433706283569336 0.28764986991882324 6
+[-13357.06442144] [-34862.52605868]
+0.0008797645568847656 0.39243125915527344 0.008677959442138672 0.02848052978515625 0.4304695129394531
+bev_to_uv time: %s 0.024570465087890625
+6.723403930664062e-05 0.4557826519012451 6.9141387939453125e-06 0.08549070358276367 1.3589859008789062e-05 5.7220458984375e-06 5.245208740234375e-06 3.719329833984375e-05 0.5414092540740967
+[INFO] [1716093353.057135]: Inference completed for frame index: 47
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.26772332191467285 0.014364480972290039 0.2820878028869629 6
+[1275.57104816] [4827.64681728]
+0.0008897781372070312 0.38703322410583496 0.008704662322998047 0.028064966201782227 0.42469263076782227
+bev_to_uv time: %s 0.030281543731689453
+6.198883056640625e-05 0.45562243461608887 5.9604644775390625e-06 0.08625411987304688 1.2159347534179688e-05 5.4836273193359375e-06 5.0067901611328125e-06 3.528594970703125e-05 0.5420024394989014
+[INFO] [1716093353.662417]: Inference completed for frame index: 52
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.27198123931884766 0.014303207397460938 0.2862844467163086 6
+[4701.33435287] [10268.39405166]
+0.0008976459503173828 0.39118266105651855 0.008524417877197266 0.02803349494934082 0.428638219833374
+bev_to_uv time: %s 0.024544954299926758
+8.869171142578125e-05 0.4539463520050049 7.152557373046875e-06 0.08592963218688965 1.3828277587890625e-05 5.7220458984375e-06 6.198883056640625e-06 3.838539123535156e-05 0.5400359630584717
+[INFO] [1716093354.255158]: Inference completed for frame index: 58
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.26801180839538574 0.014388799667358398 0.28240060806274414 6
+[-7756.56009402] [-18083.36864635]
+0.0008852481842041016 0.38693737983703613 0.00867152214050293 0.028186321258544922 0.4246804714202881
+bev_to_uv time: %s 0.020534038543701172
+6.532669067382812e-05 0.44583749771118164 6.198883056640625e-06 0.0867302417755127 1.3589859008789062e-05 5.9604644775390625e-06 5.9604644775390625e-06 3.7670135498046875e-05 0.5327024459838867
+[INFO] [1716093354.839322]: Inference completed for frame index: 63
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.27279043197631836 0.014438629150390625 0.287229061126709 6
+[7760.70475266] [18587.7914619]
+0.0008752346038818359 0.3919973373413086 0.008862972259521484 0.02819347381591797 0.4299290180206299
+bev_to_uv time: %s 0.021840333938598633
+6.0558319091796875e-05 0.4523284435272217 6.198883056640625e-06 0.08538651466369629 1.2636184692382812e-05 6.198883056640625e-06 5.9604644775390625e-06 3.504753112792969e-05 0.5378415584564209
+[INFO] [1716093355.416009]: Inference completed for frame index: 69
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.27270054817199707 0.01445317268371582 0.2871537208557129 6
+[-6287.0550125] [-15001.91545329]
+0.0010173320770263672 0.3923764228820801 0.008534431457519531 0.02824854850769043 0.4301767349243164
+bev_to_uv time: %s 0.015106678009033203
+7.724761962890625e-05 0.44600605964660645 6.9141387939453125e-06 0.08604884147644043 1.33514404296875e-05 5.7220458984375e-06 5.4836273193359375e-06 3.7670135498046875e-05 0.5322012901306152
+[INFO] [1716093356.000376]: Inference completed for frame index: 74
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2747762203216553 0.014438867568969727 0.289215087890625 6
+[4212.66556558] [9814.22578778]
+0.0008699893951416016 0.3942122459411621 0.008570194244384766 0.028278589248657227 0.4319310188293457
+bev_to_uv time: %s 0.008886098861694336
+6.580352783203125e-05 0.4413595199584961 5.7220458984375e-06 0.0861973762512207 2.288818359375e-05 8.344650268554688e-06 8.821487426757812e-06 6.079673767089844e-05 0.5277292728424072
+[INFO] [1716093356.592076]: Inference completed for frame index: 79
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.27360105514526367 0.014475107192993164 0.28807616233825684 6
+[-1410.43126454] [-3276.62195819]
+0.0008697509765625 0.3940446376800537 0.008660078048706055 0.028078794479370117 0.4316532611846924
+bev_to_uv time: %s 0.01352071762084961
+6.175041198730469e-05 0.4460287094116211 6.198883056640625e-06 0.08873176574707031 1.239776611328125e-05 5.4836273193359375e-06 5.0067901611328125e-06 3.600120544433594e-05 0.5348873138427734
+[INFO] [1716093357.178276]: Inference completed for frame index: 3
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.272003173828125 0.014392614364624023 0.286395788192749 6
+[-1803.42282613] [-4427.13155324]
+0.0008907318115234375 0.39218902587890625 0.008438825607299805 0.02866387367248535 0.43018245697021484
+bev_to_uv time: %s 0.025551319122314453
+7.033348083496094e-05 0.45636940002441406 6.198883056640625e-06 0.09135699272155762 1.3113021850585938e-05 6.198883056640625e-06 5.9604644775390625e-06 3.838539123535156e-05 0.5478665828704834
+[INFO] [1716093357.777704]: Inference completed for frame index: 9
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.2683706283569336 0.014415740966796875 0.28278636932373047 6
+[4965.92077623] [12174.43941157]
+0.0008897781372070312 0.38849377632141113 0.008430957794189453 0.027951717376708984 0.4257662296295166
+bev_to_uv time: %s 0.012706756591796875
+6.842613220214844e-05 0.4390072822570801 5.9604644775390625e-06 0.09203290939331055 1.4066696166992188e-05 5.9604644775390625e-06 6.198883056640625e-06 3.981590270996094e-05 0.5311806201934814
+[INFO] [1716093358.360899]: Inference completed for frame index: 14
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.2724306583404541 0.01435089111328125 0.28678154945373535 6
+[-3548.08493554] [-8289.69434877]
+0.0008668899536132812 0.3925597667694092 0.008810997009277344 0.028545141220092773 0.4307827949523926
+bev_to_uv time: %s 0.008303642272949219
+6.031990051269531e-05 0.43961334228515625 5.7220458984375e-06 0.09087800979614258 1.3589859008789062e-05 5.9604644775390625e-06 5.245208740234375e-06 3.8623809814453125e-05 0.530620813369751
+[INFO] [1716093358.918459]: Inference completed for frame index: 20
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.2723884582519531 0.01439356803894043 0.28678202629089355 6
+[-3189.68309863] [-8754.78672013]
+0.0008893013000488281 0.3921940326690674 0.008485078811645508 0.028000354766845703 0.4295687675476074
+bev_to_uv time: %s 0.017385482788085938
+6.890296936035156e-05 0.44751691818237305 6.198883056640625e-06 0.09275317192077637 1.3828277587890625e-05 5.7220458984375e-06 5.9604644775390625e-06 3.790855407714844e-05 0.5404086112976074
+[INFO] [1716093359.534589]: Inference completed for frame index: 25
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2729787826538086 0.01442408561706543 0.287402868270874 6
+[12430.64433312] [31989.70057509]
+0.0008978843688964844 0.3928649425506592 0.008647680282592773 0.02930450439453125 0.4317150115966797
+bev_to_uv time: %s 0.018207550048828125
+6.461143493652344e-05 0.45059800148010254 5.9604644775390625e-06 0.09089541435241699 1.4066696166992188e-05 5.7220458984375e-06 5.7220458984375e-06 4.4345855712890625e-05 0.5416338443756104
+[INFO] [1716093360.117349]: Inference completed for frame index: 30
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.2727975845336914 0.014353513717651367 0.2871510982513428 6
+[-17005.64625706] [-43703.082002]
+0.0009362697601318359 0.3926575183868408 0.008392095565795898 0.028227806091308594 0.43021368980407715
+bev_to_uv time: %s 0.01907825469970703
+8.702278137207031e-05 0.4499549865722656 6.67572021484375e-06 0.09221911430358887 1.3113021850585938e-05 5.9604644775390625e-06 5.9604644775390625e-06 3.457069396972656e-05 0.5423274040222168
+[INFO] [1716093360.728746]: Inference completed for frame index: 36
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.27284979820251465 0.014389753341674805 0.28723955154418945 6
+[16998.97486358] [44182.91015683]
+0.00084686279296875 0.3925771713256836 0.008584737777709961 0.028417110443115234 0.43042588233947754
+bev_to_uv time: %s 0.01792144775390625
+6.747245788574219e-05 0.44907307624816895 6.198883056640625e-06 0.0866994857788086 1.2874603271484375e-05 6.4373016357421875e-06 5.7220458984375e-06 3.695487976074219e-05 0.5359082221984863
+[INFO] [1716093361.291543]: Inference completed for frame index: 41
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.2684364318847656 0.014397859573364258 0.2828342914581299 6
+[-8126.26606171] [-22237.63803075]
+0.0008771419525146484 0.38794612884521484 0.008549928665161133 0.027997970581054688 0.4253711700439453
+bev_to_uv time: %s 0.021201133728027344
+6.532669067382812e-05 0.44710326194763184 5.9604644775390625e-06 0.08592963218688965 1.3113021850585938e-05 6.4373016357421875e-06 5.4836273193359375e-06 3.7670135498046875e-05 0.5331668853759766
+[INFO] [1716093361.888190]: Inference completed for frame index: 46
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.2716541290283203 0.014402151107788086 0.2860562801361084 6
+[1248.37696663] [5632.10565194]
+0.0008711814880371094 0.39107608795166016 0.008735418319702148 0.02742791175842285 0.42811059951782227
+bev_to_uv time: %s 0.015063047409057617
+6.031990051269531e-05 0.4437136650085449 5.9604644775390625e-06 0.08546614646911621 1.1920928955078125e-05 5.9604644775390625e-06 5.0067901611328125e-06 3.647804260253906e-05 0.5293054580688477
+[INFO] [1716093362.444266]: Inference completed for frame index: 52
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.27175068855285645 0.014341592788696289 0.28609228134155273 6
+[-610.16936405] [-3819.51804945]
+0.0008714199066162109 0.3912951946258545 0.008492469787597656 0.028375864028930664 0.429034948348999
+bev_to_uv time: %s 0.023289203643798828
+6.794929504394531e-05 0.4528923034667969 5.7220458984375e-06 0.08608627319335938 1.3113021850585938e-05 6.4373016357421875e-06 5.4836273193359375e-06 3.790855407714844e-05 0.5391151905059814
+[INFO] [1716093363.046968]: Inference completed for frame index: 57
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.27251195907592773 0.014345884323120117 0.28685784339904785 6
+[-676.69474321] [-1001.52780286]
+0.0008828639984130859 0.39160680770874023 0.008572101593017578 0.02850055694580078 0.4295623302459717
+bev_to_uv time: %s 0.015217304229736328
+6.4849853515625e-05 0.445375919342041 6.198883056640625e-06 0.0866389274597168 1.430511474609375e-05 6.67572021484375e-06 5.4836273193359375e-06 4.0531158447265625e-05 0.5321528911590576
+[INFO] [1716093363.630761]: Inference completed for frame index: 62
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.27443909645080566 0.014468908309936523 0.2889080047607422 6
+[6354.25894889] [15031.34906929]
+0.0008742809295654297 0.3939015865325928 0.008663415908813477 0.027880430221557617 0.4313197135925293
+bev_to_uv time: %s 0.014366388320922852
+6.818771362304688e-05 0.4462699890136719 5.9604644775390625e-06 0.08562397956848145 1.2874603271484375e-05 5.9604644775390625e-06 5.245208740234375e-06 3.695487976074219e-05 0.5320291519165039
+[INFO] [1716093364.214655]: Inference completed for frame index: 68
+1
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2681910991668701 0.01442718505859375 0.28261828422546387 6
+[-7743.09596511] [-18181.19587288]
+0.0009014606475830078 0.3876991271972656 0.008587360382080078 0.028162717819213867 0.4253506660461426
+bev_to_uv time: %s 0.01964426040649414
+6.937980651855469e-05 0.44553661346435547 5.9604644775390625e-06 0.08682131767272949 1.5497207641601562e-05 6.198883056640625e-06 5.7220458984375e-06 4.482269287109375e-05 0.5325055122375488
+[INFO] [1716093364.810313]: Inference completed for frame index: 73
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.26813364028930664 0.014429330825805664 0.2825629711151123 6
+[1389.05389993] [3150.0689142]
+0.0008704662322998047 0.3876931667327881 0.00851750373840332 0.028769969940185547 0.42585110664367676
+bev_to_uv time: %s 0.01584625244140625
+6.67572021484375e-05 0.4424703121185303 6.4373016357421875e-06 0.0861978530883789 2.4318695068359375e-05 7.62939453125e-06 6.67572021484375e-06 6.961822509765625e-05 0.5288496017456055
+[INFO] [1716093365.391357]: Inference completed for frame index: 78
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.26839756965637207 0.014404058456420898 0.28280162811279297 6
+[-1399.35508914] [-3283.44503378]
+0.0009763240814208984 0.3892679214477539 0.008780479431152344 0.028280258178710938 0.4273049831390381
+bev_to_uv time: %s 0.01671314239501953
+7.43865966796875e-05 0.4448435306549072 5.9604644775390625e-06 0.08961772918701172 1.5020370483398438e-05 5.9604644775390625e-06 5.4836273193359375e-06 3.719329833984375e-05 0.5346052646636963
+[INFO] [1716093365.978534]: Inference completed for frame index: 3
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+3
+0.27320361137390137 0.01440572738647461 0.287609338760376 6
+[2033.59178071] [5302.90628079]
+0.0008769035339355469 0.39310646057128906 0.008669376373291016 0.028167724609375 0.4308204650878906
+bev_to_uv time: %s 0.019190073013305664
+7.176399230957031e-05 0.45064449310302734 6.4373016357421875e-06 0.091552734375 1.7404556274414062e-05 7.152557373046875e-06 6.198883056640625e-06 4.029273986816406e-05 0.5423464775085449
+[INFO] [1716093366.565642]: Inference completed for frame index: 8
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+4
+0.268221378326416 0.01457977294921875 0.28280115127563477 6
+[-1213.00091343] [-3890.954036]
+0.0008916854858398438 0.38799428939819336 0.008694887161254883 0.028595685958862305 0.4261765480041504
+bev_to_uv time: %s 0.015654325485229492
+6.175041198730469e-05 0.4425363540649414 6.67572021484375e-06 0.09251141548156738 1.4781951904296875e-05 6.9141387939453125e-06 6.198883056640625e-06 4.0531158447265625e-05 0.5351846218109131
+[INFO] [1716093367.154190]: Inference completed for frame index: 13
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+5
+0.2679104804992676 0.014444112777709961 0.28235459327697754 6
+[-1954.27643152] [-4469.99312098]
+0.0008897781372070312 0.38811159133911133 0.008850812911987305 0.02785468101501465 0.4257068634033203
+bev_to_uv time: %s 0.015756607055664062
+6.914138793945312e-05 0.4420206546783447 5.7220458984375e-06 0.09169340133666992 1.2874603271484375e-05 5.7220458984375e-06 6.198883056640625e-06 3.695487976074219e-05 0.5338506698608398
+[INFO] [1716093367.739398]: Inference completed for frame index: 19
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+6
+0.27138328552246094 0.014424800872802734 0.28580808639526367 6
+[4401.47027681] [11086.69098182]
+0.0008680820465087891 0.3915398120880127 0.008439302444458008 0.028433799743652344 0.42928099632263184
+bev_to_uv time: %s 0.010474443435668945
+7.033348083496094e-05 0.4403038024902344 6.4373016357421875e-06 0.09020352363586426 1.2874603271484375e-05 6.4373016357421875e-06 5.9604644775390625e-06 3.8623809814453125e-05 0.5306479930877686
+[INFO] [1716093368.321635]: Inference completed for frame index: 24
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+7
+0.2729156017303467 0.014441967010498047 0.2873575687408447 6
+[-1854.43794812] [-4754.57547726]
+0.0010423660278320312 0.392711877822876 0.008627176284790039 0.027945756912231445 0.4303271770477295
+bev_to_uv time: %s 0.017543554306030273
+8.320808410644531e-05 0.4485909938812256 6.67572021484375e-06 0.09067368507385254 1.6927719116210938e-05 6.9141387939453125e-06 6.4373016357421875e-06 4.887580871582031e-05 0.5394337177276611
+[INFO] [1716093368.913433]: Inference completed for frame index: 29
+2
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+0
+0.2723546028137207 0.014464378356933594 0.2868189811706543 6
+[653.37655815] [1606.24408493]
+0.0008854866027832031 0.3923521041870117 0.008717536926269531 0.027548789978027344 0.4295039176940918
+bev_to_uv time: %s 0.01752018928527832
+6.937980651855469e-05 0.44765472412109375 6.4373016357421875e-06 0.09180378913879395 1.71661376953125e-05 6.67572021484375e-06 5.9604644775390625e-06 4.482269287109375e-05 0.5396089553833008
+[INFO] [1716093369.506100]: Inference completed for frame index: 35
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+1
+0.27242445945739746 0.014434337615966797 0.28685879707336426 6
+[-3694.30675382] [-9018.38848194]
+0.0009448528289794922 0.3926563262939453 0.008515119552612305 0.030013084411621094 0.4321293830871582
+bev_to_uv time: %s 0.012087821960449219
+6.890296936035156e-05 0.44495630264282227 6.198883056640625e-06 0.08619070053100586 1.2874603271484375e-05 6.4373016357421875e-06 5.9604644775390625e-06 3.504753112792969e-05 0.5312824249267578
+[INFO] [1716093370.088754]: Inference completed for frame index: 40
+0
+_forward_single_frame_inference
+5 torch.Size([1, 6, 3, 928, 1600])
+2
+0.2730228900909424 0.014429807662963867 0.28745269775390625 6
+[3753.22245798] [9217.13361688]
+0.0009129047393798828 0.39246630668640137 0.008518695831298828 0.029203414916992188 0.43110132217407227
+bev_to_uv time: %s 0.009922504425048828
+8.058547973632812e-05 0.4416964054107666 6.198883056640625e-06 0.08622026443481445 1.9073486328125e-05 7.62939453125e-06 7.152557373046875e-06 4.863739013671875e-05 0.5280859470367432
+[INFO] [1716093370.670092]: Inference completed for frame index: 44
+
+stop uniad_e2e images
+
+stop uniad_e2e images
