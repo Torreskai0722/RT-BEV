@@ -1,0 +1,8 @@
+prefix=/home/mobilitylab/catkin_ws/install
+
+Name: video_stream_opencv
+Description: Description of video_stream_opencv
+Version: 1.1.5
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

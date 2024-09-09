@@ -1,0 +1,2 @@
+catkin_simple:object_msgs:rtbev_message_filters:sensor_fusion:video_stream_opencv:vision_msgs:vision_opencv/cv_bridge:vision_opencv/image_geometry:vision_opencv/opencv_tests:vision_opencv/vision_opencv
+-DCMAKE_BUILD_TYPE=Release -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCATKIN_DEVEL_PREFIX=/home/mobilitylab/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mobilitylab/catkin_ws/install -G Unix Makefiles

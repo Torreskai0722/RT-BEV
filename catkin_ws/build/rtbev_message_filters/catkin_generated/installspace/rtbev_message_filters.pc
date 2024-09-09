@@ -1,0 +1,8 @@
+prefix=/home/mobilitylab/catkin_ws/install
+
+Name: rtbev_message_filters
+Description: Description of rtbev_message_filters
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
