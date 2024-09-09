@@ -1,5 +1,5 @@
-# Installation
-> Modified from bevformer and mmdetection3d.
+# Installation (for non-docker user)
+> Modified from UniAD and mmdetection3d.
 
 **a. Env: Create a conda virtual environment and activate it.**
 ```shell
