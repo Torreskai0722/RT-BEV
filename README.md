@@ -1,4 +1,4 @@
-# RT-BEV: Real-Time Bird's Eye View Perception for Autonomous Vehicles
+# RT-BEV: Real-Time BEV Perception for AVs
 
 ## Overview
 
