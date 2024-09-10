@@ -109,19 +109,3 @@ If you use this work, please cite it using the following reference:
   year={2024}
 }
 ```
-
----
-
-### Additional Documentation:
-- [Installation Guide](./doc/INSTALL.md)
-- [Dataset Preparation Guide](./doc/DATA_PREP.md)
-- [Running RT-BEV](./doc/RUN.md)
-
----
-
-### Figures and Illustrations
-
-Ensure that the following images are placed in the `doc/figures/` directory:
-1. `e2e_bev_pipeline.png`: End-to-end BEV perception pipeline.
-2. `system_design.png`: RT-BEV system design.
-3. `installation_dataset_prep.png`: Illustration of the installation and dataset preparation process.
