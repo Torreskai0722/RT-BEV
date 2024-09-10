@@ -10,30 +10,30 @@ The **nuScenes V1.0 mini dataset** is a smaller version of the full dataset, use
 
 #### **Download nuScenes V1.0 mini**
 ```shell
-cd RT-BEV
+cd
 mkdir -p nuscenes-mini
 # Download nuScenes V1.0 mini dataset directly to (or soft link to) RT-BEV/nuscenes-mini/
 ```
 
 #### **Prepare UniAD data info**
 
-*Option 1: Use off-the-shelf data infos (recommended):*
+*Option 1: Generate data infos yourself (for v1.0 mini dataset):*
 ```shell
-cd RT-BEV/nuscenes-mini
+cd nuscenes-mini
+./tools/uniad_create_data.sh # change the path accordingly
+# This will generate nuscenes_infos_temporal_{train,val}.pkl for mini dataset
+```
+
+*Option 2: Use off-the-shelf data infos (for full v1.0 dataset):*
+```shell
+cd nuscenes-mini
 wget https://github.com/OpenDriveLab/UniAD/releases/download/v1.0/nuscenes_infos_temporal_train.pkl  # train_infos (mini version)
 wget https://github.com/OpenDriveLab/UniAD/releases/download/v1.0/nuscenes_infos_temporal_val.pkl  # val_infos (mini version)
 ```
 
-*Option 2: Generate data infos yourself:*
-```shell
-cd RT-BEV/nuscenes-mini
-./tools/uniad_create_data.sh --mini
-# This will generate nuscenes_infos_temporal_{train,val}.pkl for mini dataset
-```
-
 #### **Prepare Motion Anchors**
 ```shell
-cd RT-BEV/nuscenes-mini
+cd nuscenes-mini
 wget https://github.com/OpenDriveLab/UniAD/releases/download/v1.0/motion_anchor_infos_mode6.pkl
 ```
 
@@ -68,7 +68,7 @@ cd nuscenes-full
 
 #### **Prepare Motion Anchors**
 ```shell
-cd RT-BEV/nuscenes-full
+cd nuscenes-full
 wget https://github.com/OpenDriveLab/UniAD/releases/download/v1.0/motion_anchor_infos_mode6.pkl
 ```
 
