@@ -45,15 +45,15 @@ The RT-BEV system is implemented in **Python** using **PyTorch** for deep learni
 
 To set up the environment, prepare datasets, and run the system, please refer to the following guides:
 
-- [Installation Guide](./doc/INSTALL.md)
-- [Dataset Preparation Guide](./doc/DATA_PREP.md)
-- [Running RT-BEV](./doc/RUN.md)
+- [Installation Guide](./doc/install.md)
+- [Dataset Preparation Guide](./doc/dataset.md)
+- [Running RT-BEV](./doc/run.md)
 
 The **nuScenes V1.0 mini** dataset is already included in the Docker container, so no additional setup is required for initial testing.
 
 ### Installation Overview
 
-Follow the steps in the [Installation Guide](./doc/INSTALL.md) to install the required dependencies. This guide walks you through setting up the environment using either a Docker container or a non-Docker approach.
+Follow the steps in the [Installation Guide](./doc/install.md) to install the required dependencies. This guide walks you through setting up the environment using either a Docker container or a non-Docker approach.
 
 ## Usage Instructions
 
@@ -87,7 +87,7 @@ Follow the steps in the [Installation Guide](./doc/INSTALL.md) to install the re
    rosrun video_stream_opencv ros_publish_multi_cameras.py
    ```
 
-For more detailed instructions, refer to the [Running RT-BEV](./doc/RUN.md) guide.
+For more detailed instructions, refer to the [Running RT-BEV](./doc/run.md) guide.
 
 ## Results
 
