@@ -55,10 +55,6 @@ The **nuScenes V1.0 mini** dataset is already included in the Docker container, 
 
 Follow the steps in the [Installation Guide](./doc/INSTALL.md) to install the required dependencies. This guide walks you through setting up the environment using either a Docker container or a non-Docker approach.
 
-A brief visualization of the installation and dataset preparation process:
-
-![Installation and Dataset Preparation](./doc/figures/installation_dataset_prep.png)
-
 ## Usage Instructions
 
 ### For Docker Users:
