@@ -1,12 +1,10 @@
 XSOCK=/tmp/.X11-unix
 XAUTH=$HOME/.Xauthority
-XIMAGE=/home/hydrapc/Documents/share
 
 VOLUMES="--volume=$XSOCK:$XSOCK:rw
-         --volume=$XAUTH:$XAUTH:rw
-         --volume=$XIMAGE:/home/mobilitylab:rw"
+         --volume=$XAUTH:$XAUTH:rw"
 
-IMAGE=liangkailiu/rt-bev-uniad:v0.3
+IMAGE=liangkailiu/rt-bev-uniad:v1.1
 
 echo "Launching $IMAGE"
 
