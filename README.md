@@ -10,7 +10,6 @@ RT-BEV enhances real-time performance by co-optimizing message communication and
 - **ROI-Aware Perception**: Dynamically adapts ROIs based on traffic environments and driving contexts, focusing computational power on the most critical areas.
 - **ROI-Aware Communication & Synchronization**: Advanced camera synchronization ensures real-time multi-camera input processing.
 - **Real-time BEV Perception**: Achieves low-latency BEV generation while maintaining high accuracy.
-- **Seamless ROS Integration**: Synchronizes multi-camera input, publishes image data, and interfaces with real-time applications.
 
 ### End-to-End BEV Perception Pipeline
 
@@ -49,7 +48,7 @@ To set up the environment, prepare datasets, and run the system, please refer to
 - [Dataset Preparation Guide](./doc/dataset.md)
 - [Running RT-BEV](./doc/run.md)
 
-The **nuScenes V1.0 mini** dataset is already included in the Docker container, so no additional setup is required for initial testing.
+The **nuScenes v1.0 mini** dataset is already included in the Docker container, so no additional setup is required for initial testing.
 
 ### Installation Overview
 
