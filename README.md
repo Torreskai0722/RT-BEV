@@ -8,7 +8,7 @@ RT-BEV enhances real-time performance by co-optimizing message communication and
 
 ### Key Features:
 - **ROI-Aware Perception**: Dynamically adapts ROIs based on traffic environments and driving contexts, focusing computational power on the most critical areas.
-- **Efficient Communication & Synchronization**: Advanced camera synchronization ensures real-time multi-camera input processing.
+- **ROI-Aware Communication & Synchronization**: Advanced camera synchronization ensures real-time multi-camera input processing.
 - **Real-time BEV Perception**: Achieves low-latency BEV generation while maintaining high accuracy.
 - **Seamless ROS Integration**: Synchronizes multi-camera input, publishes image data, and interfaces with real-time applications.
 
