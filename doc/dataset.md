@@ -45,7 +45,6 @@ Download the **nuScenes V1.0 full dataset**, CAN bus, and map(v1.3) extensions f
 
 #### **Download nuScenes, CAN bus, and Map extensions**
 ```shell
-cd RT-BEV
 mkdir -p nuscenes-full
 # Download nuScenes V1.0 full dataset directly to (or soft link to) RT-BEV/nuscenes-full/
 # Download CAN_bus and Map(v1.3) extensions directly to (or soft link to) RT-BEV/nuscenes-full/
@@ -55,14 +54,14 @@ mkdir -p nuscenes-full
 
 *Option 1: Use off-the-shelf data infos (recommended):*
 ```shell
-cd RT-BEV/nuscenes-full
+cd nuscenes-full
 wget https://github.com/OpenDriveLab/UniAD/releases/download/v1.0/nuscenes_infos_temporal_train.pkl  # train_infos
 wget https://github.com/OpenDriveLab/UniAD/releases/download/v1.0/nuscenes_infos_temporal_val.pkl  # val_infos
 ```
 
 *Option 2: Generate data infos yourself:*
 ```shell
-cd RT-BEV/nuscenes-full
+cd nuscenes-full
 ./tools/uniad_create_data.sh
 # This will generate nuscenes_infos_temporal_{train,val}.pkl
 ```
@@ -79,7 +78,7 @@ wget https://github.com/OpenDriveLab/UniAD/releases/download/v1.0/motion_anchor_
 
 Please ensure that the directory structure is as follows:
 
-#### For **nuScenes V1.0 mini**, the structure should be directly under `RT-BEV`:
+#### For **nuScenes V1.0 mini**, the structure should look like this:
 
 ```
 RT-BEV
@@ -89,15 +88,15 @@ RT-BEV
 ├── ckpts/
 │   ├── bevformer_r101_dcn_24ep.pth
 │   ├── uniad_base_track_map.pth
-├── nuscenes-mini/
-│   ├── samples/
-│   ├── sweeps/
-│   ├── nuscenes_infos_temporal_train.pkl
-│   ├── nuscenes_infos_temporal_val.pkl
-│   ├── motion_anchor_infos_mode6.pkl
+nuscenes-mini/
+├── samples/
+├── sweeps/
+├── nuscenes_infos_temporal_train.pkl
+├── nuscenes_infos_temporal_val.pkl
+├── motion_anchor_infos_mode6.pkl
 ```
 
-#### For **nuScenes V1.0 full**, the structure should be directly under `RT-BEV`:
+#### For **nuScenes V1.0 full**, the structure should look like this:
 
 ```
 RT-BEV
@@ -107,12 +106,12 @@ RT-BEV
 ├── ckpts/
 │   ├── bevformer_r101_dcn_24ep.pth
 │   ├── uniad_base_track_map.pth
-├── nuscenes-full/
-│   ├── can_bus/
-│   ├── maps/
-│   ├── samples/
-│   ├── sweeps/
-│   ├── nuscenes_infos_temporal_train.pkl
-│   ├── nuscenes_infos_temporal_val.pkl
-│   ├── motion_anchor_infos_mode6.pkl
+nuscenes-full/
+├── can_bus/
+├── maps/
+├── samples/
+├── sweeps/
+├── nuscenes_infos_temporal_train.pkl
+├── nuscenes_infos_temporal_val.pkl
+├── motion_anchor_infos_mode6.pkl
 ```
