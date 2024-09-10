@@ -2,13 +2,15 @@
 
 ## Overview
 
-**RT-BEV** is an advanced system designed to provide real-time, vision-centric **Bird's Eye View (BEV)** perception for autonomous vehicles (AVs). By leveraging multiple cameras and deep learning models, RT-BEV constructs a 360-degree view of the environment, improving situational awareness, navigation, and decision-making for AVs.
+**RT-BEV** is an innovative framework designed to provide real-time, vision-centric **Bird's Eye View (BEV)** perception for autonomous vehicles (AVs). BEV perception is essential for improving situational awareness, navigation, and decision-making by offering a 360-degree view of the environment using multi-camera systems. RT-BEV addresses the challenges of computational overhead in real-time BEV perception through a dynamically optimized pipeline that focuses on critical areas of interest.
+
+RT-BEV enhances real-time performance by co-optimizing message communication and detection. It utilizes dynamic Regions of Interest (ROIs) tailored to the driving environment, reducing unnecessary processing and improving accuracy, while minimizing overall end-to-end (e2e) latency.
 
 ### Key Features:
-- **Real-time BEV perception** using a multi-camera setup.
-- Enhanced situational awareness with 360-degree vision.
-- Integration with ROS for seamless camera synchronization and data publishing.
-- Pre-trained models for fast and efficient inference.
+- **ROI-Aware Perception**: Dynamically adapts ROIs based on traffic environments and driving contexts, focusing computational power on the most critical areas.
+- **Efficient Communication & Synchronization**: Advanced camera synchronization ensures real-time multi-camera input processing.
+- **Real-time BEV Perception**: Achieves low-latency BEV generation while maintaining high accuracy.
+- **Seamless ROS Integration**: Synchronizes multi-camera input, publishes image data, and interfaces with real-time applications.
 
 ### End-to-End BEV Perception Pipeline
 
@@ -18,38 +20,40 @@ The following figure illustrates the end-to-end BEV perception pipeline used in 
 
 ## System Design
 
-The system is designed with a modular architecture, allowing efficient data processing, real-time synchronization, and seamless integration with autonomous vehicle systems. The core modules of RT-BEV include:
+RT-BEV’s modular design optimizes real-time data processing and synchronization to meet the challenges of autonomous driving. The core components include:
 
-1. **Camera Synchronization**: A multi-camera synchronization node ensures that all camera feeds are aligned before processing.
-2. **Inference Engine**: The BEV inference module processes the synchronized images to generate a bird's eye view.
-3. **Data Publishing**: The camera images are published via ROS to allow real-time processing by other modules.
+1. **Camera Synchronizer**: Synchronizes input from multiple cameras using an ROI-aware policy, reducing synchronization delays and focusing processing on important areas of the scene.
+2. **ROIs Generator**: Dynamically generates context-aware ROIs based on the driving environment, minimizing the computational load by focusing only on the most important regions.
+3. **Feature Split & Merge**: Processes ROIs with high accuracy while using temporal locality for non-critical regions, merging the processed feature maps for complete scene understanding.
+4. **Time Predictor**: Forecasts processing time for ROIs and adjusts priorities in real time based on time-to-collision (TTC) predictions, ensuring critical areas are prioritized.
+5. **Coordinator**: Manages synchronization strategies, keyframe frequency, and computational resources, balancing real-time performance and detection accuracy.
 
 The design architecture is shown in the following figure:
 
 ![System Design](./doc/figures/RT-BEV-Design.png)
 
-The system leverages state-of-the-art BEV perception algorithms to transform camera images into accurate overhead views, capturing critical details for navigation and obstacle avoidance.
+By focusing computational resources on dynamic ROIs, RT-BEV significantly reduces latency while maintaining high accuracy in BEV perception, critical for real-time decision-making in autonomous driving scenarios.
 
 ## Implementation
 
-The RT-BEV system is implemented using **Python** with **PyTorch** as the deep learning framework and **ROS** for real-time data processing and synchronization. Key components include:
+The RT-BEV system is implemented in **Python** using **PyTorch** for deep learning and **ROS** for real-time data processing and synchronization. Key implementation components include:
 
-- **Torch Inference**: PyTorch models are used to process the images and generate BEV outputs.
-- **ROS Integration**: ROS nodes manage camera synchronization, image publishing, and BEV processing.
+- **Torch Inference**: PyTorch models process multi-camera images to generate BEV representations.
+- **ROS Integration**: ROS nodes manage real-time camera synchronization, image publishing, and BEV processing to provide seamless communication across modules.
 
 ## Installation and Setup
 
-To set up the environment, prepare the datasets, and run the system, please refer to the following guides:
+To set up the environment, prepare datasets, and run the system, please refer to the following guides:
 
 - [Installation Guide](./doc/INSTALL.md)
 - [Dataset Preparation Guide](./doc/DATA_PREP.md)
 - [Running RT-BEV](./doc/RUN.md)
 
-The **nuScenes V1.0 mini** dataset is already included in the Docker container, so no additional setup is required for testing.
+The **nuScenes V1.0 mini** dataset is already included in the Docker container, so no additional setup is required for initial testing.
 
 ### Installation Overview
 
-Follow the steps in the [Installation Guide](./doc/INSTALL.md) to install all necessary dependencies. The guide will walk you through the environment setup using either a Docker container or a non-Docker approach.
+Follow the steps in the [Installation Guide](./doc/INSTALL.md) to install the required dependencies. This guide walks you through setting up the environment using either a Docker container or a non-Docker approach.
 
 A brief visualization of the installation and dataset preparation process:
 
@@ -87,25 +91,25 @@ A brief visualization of the installation and dataset preparation process:
    rosrun video_stream_opencv ros_publish_multi_cameras.py
    ```
 
-For a more detailed explanation, refer to the [Running RT-BEV](./doc/RUN.md) guide.
+For more detailed instructions, refer to the [Running RT-BEV](./doc/RUN.md) guide.
 
 ## Results
 
-RT-BEV has been evaluated on the **nuScenes V1.0** dataset, achieving real-time performance and high accuracy in generating BEV representations. Key results include:
+RT-BEV has been evaluated on the **nuScenes V1.0** dataset, achieving the following:
 
-- **Accurate BEV representations** with minimal latency.
-- **Efficient multi-camera synchronization** ensuring smooth image processing.
-- Robust handling of complex driving scenarios with multiple dynamic and static objects.
+- **Accurate BEV representations** with reduced computational latency.
+- **Efficient multi-camera synchronization**, ensuring smooth and real-time image processing.
+- Robust handling of complex driving scenarios, even in dense environments with multiple dynamic and static objects.
 
 ## Citation
 
-If you use this work, please cite it using the following reference:
+If you use this work, please cite it as follows:
 
 ```
-@article{RT-BEV2024,
-  title={RT-BEV: Enhancing Real-Time BEV Perception for Autonomous Vehicles},
-  author={Liangkai Liu and others},
-  journal={IEEE Real-Time Systems Symposium (RTSS)},
-  year={2024}
+@inproceedings{liu2024bev,
+  title = {RT-BEV: Enhancing Real-Time BEV Perception for Autonomous Vehicles},
+  author = {Liu, Liangkai and Lee, Jinkyu and Shin, Kang G.},
+  booktitle = {45th IEEE Real-Time Systems Symposium},
+  year = {2024.}
 }
 ```
