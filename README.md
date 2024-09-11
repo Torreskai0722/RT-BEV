@@ -70,6 +70,7 @@ Follow the steps in the [Installation Guide](./doc/install.md) to install the re
 
 3. **Step 3**: In Terminal 2, run the RT-BEV inference node:
    ```bash
+   conda activate uniad
    cd UniAD
    ./tool/test_inference.sh
    ```
