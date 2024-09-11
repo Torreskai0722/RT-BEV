@@ -185,6 +185,7 @@ class UniADTrack(MVXTwoStageDetector):
     def add_padding_and_round_up(self, s, data_padding=100, devisible_size=32):
         return ((s + data_padding + devisible_size - 1) // devisible_size) * devisible_size
     
+    ## RT-BEV Dynamic ROIs with Sequential Processing and Features Split and Merge
     def images_rois_spli_merge(self, imgs):
         # Define or calculate crop dimensions
         roi_name = ['CAM_FRONT', 'CAM_FRONT_RIGHT', 'CAM_FRONT_LEFT',
@@ -251,6 +252,7 @@ class UniADTrack(MVXTwoStageDetector):
         
         return imgs_feats, cam_num
     
+    ## RT-BEV Unified ROIs with Batch Processing and Features Split and Merge
     def images_rois_spli_merge_unified(self, imgs):
         # Define or calculate crop dimensions
         roi_name = ['CAM_FRONT', 'CAM_FRONT_RIGHT', 'CAM_FRONT_LEFT',
@@ -330,6 +332,7 @@ class UniADTrack(MVXTwoStageDetector):
         
         return imgs_feats, cam_num
     
+     ## RT-BEV Static ROIs with Batch Processing and Features Split and Merge 
     def images_rois_spli_merge_static(self, imgs):
         B, N, C, H, W = imgs.size()
         
@@ -379,7 +382,9 @@ class UniADTrack(MVXTwoStageDetector):
         t1 = time.time()
         print(self.counter)
 
+        ## Determines whether use ROI processing
         self.ROI = True
+        ## Determines whether the ROI is static
         self.STATIC = False
 
         cam_num = 6
@@ -976,6 +981,7 @@ class UniADTrack(MVXTwoStageDetector):
         else:
             return float('inf')  # No collision
     
+    ## Convert 3D Detection from BEV to UV and generate ROIs
     def bev_to_uv_coor(self, bboxes, labels, scores, img_metas):
         sample_idx = img_metas[0]["sample_idx"]
         sample = self.nusc.get('sample', sample_idx)
@@ -1076,6 +1082,7 @@ class UniADTrack(MVXTwoStageDetector):
                 self.camera_bboxes[cam] = [0, 0, 0, 0]
                 # print("No valid bounding boxes found for camera {}".format(cam))
 
+            # # Virtualize the ROIs
             # Draw a rectangle with the corrected and converted coordinates
             # for uv_box_int in box_list:
             #     cv2.rectangle(image, (uv_box_int[0], uv_box_int[1]), (uv_box_int[2], uv_box_int[3]), (0, 0, 255), 2)
