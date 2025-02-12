@@ -68,7 +68,7 @@ The **nuScenes v1.0 mini** dataset is already included in the Docker container, 
    ```bash
    conda activate uniad
    cd UniAD
-   ./tool/test_inference.sh
+   ./tool/uniad_inference.sh
    ```
 
 4. **Step 4**: In Terminal 3, run the multi-camera synchronization node:
