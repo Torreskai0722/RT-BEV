@@ -38,7 +38,7 @@ In the second terminal, navigate to the UniAD directory and start the **RT-BEV i
 
 ```bash
 cd UniAD
-./tool/test_inference.sh
+./tool/uniad_inference.sh
 ```
 
 This command runs the RT-BEV inference using pre-trained models, processing the input camera data.
